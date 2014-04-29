@@ -1,10 +1,25 @@
-/*doc
- * ---
- * title: Azendoo default
- * name: index
- * category: index
- * ---
- *
- * Azendoo Style guides
- *
- */
+.background-blue {
+  background-color: #1e8bc6; }
+
+.background-white {
+  background-color: white; }
+
+.background-midgrey {
+  background-color: #434343; }
+
+.background-green {
+  background-color: #27ad8d; }
+
+.background-red {
+  background-color: #ad1a26; }
+
+.background-grey {
+  background-color: #666666; }
+
+.azendoo-mark {
+  width: 80px;
+  height: 80px; }
+
+.azendoo-typelockup {
+  width: 169px;
+  height: 32px; }

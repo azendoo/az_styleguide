@@ -1,7 +1,12 @@
+          </div>
+
+          <ul class="col-xs-3 nav az-doc-sidenav">
+          <% @blocks.each do |b| %>
+            <li><a href="#<%= b[:name] %>"><%= b[:title] %></a></li>
+          <% end %>
+          </ul>
+        </div>
       </section>
-      <footer>
-        <p>&copy; Azendoo - http://azendoo.com</p>
-      </footer>
     </div>
   </body>
 </html>
