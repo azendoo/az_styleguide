@@ -1,7 +1,12 @@
+guard 'sass', :input => 'sass', :output => 'build'
+
 guard "hologram", config_path: "hologram.yml" do
-  watch(%r{build/.*css})
+  watch('build/azendoo.css')
+  watch('build/documentation.css')
   watch(%r{doc_assets/.+})
   watch('hologram.yml')
 end
 
-guard 'sass', :input => 'sass', :output => 'build'
+guard 'livereload' do
+  watch(%r{docs/.+\.(html|png|css)})
+end

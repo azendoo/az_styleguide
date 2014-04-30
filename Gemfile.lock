@@ -8,6 +8,10 @@ GEM
       nio4r (>= 0.5.0)
     coderay (1.1.0)
     diff-lcs (1.2.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.0.3)
     ffi (1.9.3)
     formatador (0.2.4)
     guard (2.6.0)
@@ -19,6 +23,10 @@ GEM
     guard-hologram (1.0.0)
       guard (~> 2.0)
       hologram
+    guard-livereload (2.1.2)
+      em-websocket (~> 0.5)
+      guard (~> 2.0)
+      multi_json (~> 1.8)
     guard-sass (1.4.0)
       guard (>= 1.1.0)
       sass (>= 3.1)
@@ -26,6 +34,7 @@ GEM
       pygments.rb (~> 0.4.2)
       redcarpet (~> 2.2.2)
       rspec (~> 2.14.1)
+    http_parser.rb (0.6.0)
     listen (2.7.3)
       celluloid (>= 0.15.2)
       celluloid-io (>= 0.15.0)
@@ -33,6 +42,7 @@ GEM
       rb-inotify (>= 0.9)
     lumberjack (1.0.5)
     method_source (0.8.2)
+    multi_json (1.9.3)
     nio4r (1.0.0)
     posix-spawn (0.3.8)
     pry (0.9.12.6)
@@ -42,6 +52,9 @@ GEM
     pygments.rb (0.4.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
+    rack-livereload (0.3.15)
+      rack
     rb-fsevent (0.9.4)
     rb-inotify (0.9.4)
       ffi (>= 0.5.0)
@@ -65,6 +78,9 @@ PLATFORMS
 
 DEPENDENCIES
   guard-hologram
+  guard-livereload
   guard-sass
   hologram
+  rack
+  rack-livereload
   sass

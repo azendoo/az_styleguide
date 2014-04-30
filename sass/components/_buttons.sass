@@ -1,0 +1,81 @@
+//doc
+  ---
+  title: Buttons
+  name: buttons
+  category: Components
+  ---
+
+  We are using two types of buttons :
+  <ul>
+    <li>The type defaults of Bootstrap : to direct actions</li>
+    <li>Flat button for secondaries action on a page or navigation between them</li>
+  </ul>
+
+  Button styles can be applied to any element. Typically you'll want to
+  use either a `<button>` or an `<a>` element:
+
+
+
+  ```html_example
+  <button class="btn btn-default">Default</button>
+  <a class="btn btn-primary" href="http://azendoo.com">
+    Primary
+  </a>
+  ```
+
+  Buttons                                                            | Modifier Class
+  ----------------------------------------------------------------- | -----------------
+  <button class="btn btn-default">Default</button>            | `btn btn-default`
+  <button class="btn btn-primary">Primary</button>            | `btn btn-primary`
+  <button class="btn btn-danger">Danger</button>              | `btn btn-danger`
+  <button class="btn btn-flat btn-default">Default</button>   | `btn btn-default btn-flat `
+  <button class="btn btn-flat btn-primary">Primary</button>   | `btn btn-primary btn-flat `
+  <button class="btn btn-flat btn-danger">Danger</button>     | `btn btn-danger btn-flat `
+
+.btn
+  border-bottom-width: 0
+  -webkit-font-smoothing: antialiased
+
+.btn.btn-default
+  background-color: $color-white
+  box-shadow: 0 3px 0 darken($color-white, 20%)
+
+.btn.btn-danger
+  background-color: $color-red
+  box-shadow: 0 3px 0 darken($color-red, 5%)
+  font-weight: 600
+
+.btn.btn-primary
+  color: $color-white
+  background-color: $color-lightBlue
+  box-shadow: 0 3px 0 darken($color-lightBlue, 5%)
+  font-weight: 600
+
+.btn.btn-flat
+  background-color: transparent
+  background-image: none
+  box-shadow: none
+  text-shadow: none
+  line-height: inherit
+  border: 1px solid transparent
+
+  &.btn-default
+    border-color: $color-midGrey
+    color: $color-midGrey
+
+  &.btn-danger
+    border-color: $color-red
+    color: $color-red
+
+  &.btn-primary
+    border-color: $color-lightBlue
+    color: $color-lightBlue
+    &:hover
+      color: $color-lightBlue
+      background-color: $color-white
+
+  &.btn-white
+    border-color: $color-white
+    color: $color-white
+    &:hover
+      color: $color-darkGrey
