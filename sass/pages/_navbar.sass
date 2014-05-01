@@ -1,0 +1,75 @@
+//doc
+  ---
+  title: Navbar
+  name: navbar
+  category: Pages
+  ---
+
+  The page header navbar display tabs to navigate within a page
+
+  ```html_example
+    <div class="page-header-navigation">
+      <ul>
+        <li class="active"><a href="javascript:void(0)">Section 1</a></li>
+        <li><a href="javascript:void(0)">
+          <i class="fa fa-pencil"></i>
+          Section 2</a></li>
+        <li><a href="javascript:void(0)">Section 3</a></li>
+        <li><a href="javascript:void(0)">Section 4</a></li>
+      </ul>
+    </div>
+  ```
+
+  ```html_example
+    <div class="page-header-navigation page-header-navigation-small">
+      <ul>
+        <li class="active"><a href="javascript:void(0)">Section 1</a></li>
+        <li><a href="javascript:void(0)">Section 2
+          <i class="fa fa-pencil"></i>
+          </a></li>
+        <li><a href="javascript:void(0)">Section 3</a></li>
+        <li><a href="javascript:void(0)">Section 4</a></li>
+      </ul>
+    </div>
+  ```
+
+.page-header-navigation
+  background-color: $color-darkGrey
+
+  &.page-header-navigation-small
+    ul > li, > ul li.dropdown
+      border-bottom: 4px solid transparent
+      margin: 0 15px
+      &:hover, &.active
+        border-bottom: 4px solid $color-lightBlue
+      > a
+        font-size: $basefont
+        padding: 0 5px
+        line-height: 30px
+
+  > ul
+    display: table
+    margin: 0 auto
+    padding: 0
+
+    > li, > ul li.dropdown
+      display: inline-block
+      border-bottom: 5px solid transparent
+      margin: 0 10px
+      &:hover, &.active
+        border-bottom: 5px solid $color-lightBlue
+      > a
+        font-size: $basefont + 2
+        color: $color-white
+        padding: 3px 24px
+        line-height: 40px
+        text-decoration: none
+        display: block
+        .caret
+          border-top-color: $color-white
+          margin-top: $basefont
+          margin-left: 5px
+          &.caret-bs3
+            margin-top: 0px
+        i
+          margin: 0 5px

@@ -30,17 +30,17 @@
 
 .btn.btn-default {
   background-color: white;
-  box-shadow: 0 3px 0 #cccccc; }
+  box-shadow: 0 2px 0 #cccccc; }
 
 .btn.btn-danger {
   background-color: #ad1a26;
-  box-shadow: 0 3px 0 #971721;
+  box-shadow: 0 2px 0 #971721;
   font-weight: 600; }
 
 .btn.btn-primary {
   color: white;
   background-color: #1e8bc6;
-  box-shadow: 0 3px 0 #1b7bb0;
+  box-shadow: 0 2px 0 #1b7bb0;
   font-weight: 600; }
 
 .btn.btn-flat {
@@ -66,7 +66,7 @@
     border-color: white;
     color: white; }
     .btn.btn-flat.btn-white:hover {
-      color: #333333; }
+      color: white; }
 
 a {
   color: #1e8bc6;
@@ -84,3 +84,92 @@ a.link-help {
   border-bottom: 1px dashed #878888; }
   a.link-help:hover {
     text-decoration: none; }
+
+h1 {
+  font-weight: 300;
+  font-size: 28px;
+  margin: 5px 0 15px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  h1 small, h1 .small {
+    color: #878888;
+    font-weight: 300; }
+
+.page-header {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: relative; }
+  .page-header.page-header-line {
+    padding-left: 20px;
+    font-size: 24px;
+    line-height: 56px;
+    color: white;
+    background-color: #878888; }
+    .page-header.page-header-line > i {
+      margin-right: 10px;
+      font-size: 24px; }
+    .page-header.page-header-line h1 {
+      margin: 0;
+      display: inline-block; }
+    .page-header.page-header-line small, .page-header.page-header-line .small {
+      color: white; }
+
+.page-header-content {
+  background-color: #333333;
+  text-align: center;
+  color: white;
+  padding: 20px; }
+
+ul.page-header-actions {
+  float: right;
+  margin: 0; }
+  ul.page-header-actions > li {
+    display: inline-block; }
+    ul.page-header-actions > li > a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      min-width: 50px;
+      text-align: center; }
+      ul.page-header-actions > li > a:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
+      ul.page-header-actions > li > a i {
+        padding: 0 10px; }
+
+.page-header-navigation {
+  background-color: #333333; }
+  .page-header-navigation.page-header-navigation-small ul > li, .page-header-navigation.page-header-navigation-small > ul li.dropdown {
+    border-bottom: 4px solid transparent;
+    margin: 0 15px; }
+    .page-header-navigation.page-header-navigation-small ul > li:hover, .page-header-navigation.page-header-navigation-small ul > li.active, .page-header-navigation.page-header-navigation-small > ul li.dropdown:hover, .page-header-navigation.page-header-navigation-small > ul li.dropdown.active {
+      border-bottom: 4px solid #1e8bc6; }
+    .page-header-navigation.page-header-navigation-small ul > li > a, .page-header-navigation.page-header-navigation-small > ul li.dropdown > a {
+      font-size: 14px;
+      padding: 0 5px;
+      line-height: 30px; }
+  .page-header-navigation > ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0; }
+    .page-header-navigation > ul > li, .page-header-navigation > ul > ul li.dropdown {
+      display: inline-block;
+      border-bottom: 5px solid transparent;
+      margin: 0 10px; }
+      .page-header-navigation > ul > li:hover, .page-header-navigation > ul > li.active, .page-header-navigation > ul > ul li.dropdown:hover, .page-header-navigation > ul > ul li.dropdown.active {
+        border-bottom: 5px solid #1e8bc6; }
+      .page-header-navigation > ul > li > a, .page-header-navigation > ul > ul li.dropdown > a {
+        font-size: 16px;
+        color: white;
+        padding: 3px 24px;
+        line-height: 40px;
+        text-decoration: none;
+        display: block; }
+        .page-header-navigation > ul > li > a .caret, .page-header-navigation > ul > ul li.dropdown > a .caret {
+          border-top-color: white;
+          margin-top: 14px;
+          margin-left: 5px; }
+          .page-header-navigation > ul > li > a .caret.caret-bs3, .page-header-navigation > ul > ul li.dropdown > a .caret.caret-bs3 {
+            margin-top: 0px; }
+        .page-header-navigation > ul > li > a i, .page-header-navigation > ul > ul li.dropdown > a i {
+          margin: 0 5px; }

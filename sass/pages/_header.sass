@@ -1,0 +1,85 @@
+//doc
+  ---
+  title: Header
+  name: header
+  category: Pages
+  ---
+
+  There is two types of page header :
+  - simple one with a big title and an optional subtitle
+  - another one with a background color, icon and right controls
+
+  ```html_example
+    <div class="page-header">
+      <h1>Example page header <small>Subtext for header</small></h1>
+    </div>
+  ```
+
+  ```html_example
+    <div class="page-header page-header-line">
+      <i class="fa fa-th-list"></i>
+      <h1>Example page header <small>Subtext for header</small></h1>
+
+      <ul class="page-header-actions">
+        <li>
+          <a href="javascript:void(0)"><i class="fa fa-bullhorn"></i></a>
+        </li>
+        <li>
+          <a href="javascript:void(0)"><i class="fa fa-pencil"></i></a>
+        </li>
+      </ul>
+    </div>
+  ```
+
+h1
+  font-weight: 300
+  font-size: $basefont * 2
+  margin: 5px 0 15px 0
+  +font-smoothing
+
+  small, .small
+    color: $color-lightGrey
+    font-weight: 300
+
+.page-header
+  padding: 0
+  margin: 0
+  border: 0
+  position: relative
+
+  &.page-header-line
+    padding-left: 20px
+    font-size: $basefont + 10
+    line-height: $basefont * 4
+    color: $color-white
+    background-color: $color-lightGrey
+    > i
+      margin-right: 10px
+      font-size: $basefont * 2 - 4
+    h1
+      margin: 0
+      display: inline-block
+    small, .small
+      color: $color-white
+
+.page-header-content
+  background-color: $color-darkGrey
+  text-align: center
+  color: $color-white
+  padding: 20px
+
+ul.page-header-actions
+  float: right
+  margin: 0
+  > li
+    display: inline-block
+    > a
+      color: $color-white
+      text-decoration: none
+      display: inline-block
+      min-width: 50px
+      text-align: center
+      &:hover
+        background-color: rgba(255,255,255,.2)
+      i
+        padding: 0 10px
