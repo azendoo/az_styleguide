@@ -36,6 +36,8 @@ GEM
     guard-sass (1.4.0)
       guard (>= 1.1.0)
       sass (>= 3.1)
+    guard-shell (0.6.1)
+      guard (>= 1.1.0)
     hologram (1.0.1)
       pygments.rb (~> 0.4.2)
       redcarpet (~> 2.2.2)
@@ -87,6 +89,7 @@ DEPENDENCIES
   guard-hologram
   guard-livereload
   guard-sass
+  guard-shell
   hologram
   rack
   rack-livereload
