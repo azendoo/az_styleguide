@@ -86,6 +86,15 @@ a.link-help {
   a.link-help:hover {
     text-decoration: none; }
 
+.well {
+  padding: 15px;
+  background-color: white;
+  border: none;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 2px; }
+
 h1 {
   font-weight: 300;
   font-size: 28px;
@@ -173,6 +182,15 @@ ul.page-header-actions {
         .page-header-navigation > ul > li > a i, .page-header-navigation > ul > ul li.dropdown > a i {
           margin: 0 5px; }
 
+h2.separator, h3.separator {
+  margin: 10px 0 5px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #434343;
+  border-bottom: 1px solid #434343; }
+
 body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -185,6 +203,9 @@ body, p, ol, ul, td, input, textarea {
 
 input, textarea {
   outline: 0; }
+
+textarea {
+  resize: none; }
 
 ul, li {
   margin: 0;
