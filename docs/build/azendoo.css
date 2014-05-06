@@ -24,6 +24,22 @@
   width: 169px;
   height: 32px; }
 
+.exemple-font-myriad, .exemple-font-helvetica {
+  font-size: 24px;
+  font-weight: 300; }
+
+.uppercase {
+  font-size: 16px; }
+
+.lowercase {
+  font-size: 18px; }
+
+.exemple-font-myriad {
+  font-family: "myriad-pro"; }
+
+.exemple-font-helvetica {
+  font-family: "Helvetica Neue"; }
+
 .btn {
   border-bottom-width: 0;
   -webkit-font-smoothing: antialiased; }
