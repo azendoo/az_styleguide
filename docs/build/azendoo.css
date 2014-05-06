@@ -95,6 +95,18 @@ a.link-help {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
   border-radius: 2px; }
 
+.avatar {
+  width: 28px;
+  border-radius: 3px; }
+  .avatar.avatar-xsmall {
+    width: 20px; }
+  .avatar.avatar-small {
+    width: 25px; }
+  .avatar.avatar-large {
+    width: 38px; }
+  .avatar.avatar-xlarge {
+    width: 96px; }
+
 h1 {
   font-weight: 300;
   font-size: 28px;
