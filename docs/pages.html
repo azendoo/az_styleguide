@@ -128,6 +128,77 @@
       <span class="nt">&lt;/ul&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 </pre></div></div></div>
+<h1 id="pageform">Pages Form</h1>
+
+<p>There is one type of page form visible on our subects list and medias: </br>
+  - simple to accelerate the user experience.</p>
+<div class="codeExample"><div class="exampleOutput">    <div class="page-form">
+      <div class="input-search input-group pull-left">
+        <div class="icon-in-input input-group-addon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input name="search" type="text" placeholder="Search" class="form-control">
+      </div>
+      <div class="dropdown-list pull-left">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+          Dropdown-1 <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+        </ul>
+      </div>
+      <div class="dropdown-list pull-left">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+          Dropdown-2 <span class="caret"></span>
+        </a>
+      </div>
+      <div class="filters pull-left">
+        <ul>
+          <li><a href="#"><span class="badge badge-primary">filter-1</span></a></li>
+          <li><a href="#"><span class="badge">filter-2</span></a></li>
+        </ul>
+      </div>
+      <div class="pull-right">
+        <a class="btn btn-default btn-flat">
+          + new-btn
+        </a>
+      </div>
+    </div>
+</div><div class="codeBlock"><div class="highlight"><pre>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;page-form&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;input-search input-group pull-left&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;icon-in-input input-group-addon&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-search&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;search&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Search&quot;</span> <span class="na">class=</span><span class="s">&quot;form-control&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;dropdown-list pull-left&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;dropdown-toggle&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;dropdown&quot;</span><span class="nt">&gt;</span>
+          Dropdown-1 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;caret&quot;</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu&quot;</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Action<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Another action<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;dropdown-list pull-left&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;dropdown-toggle&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;dropdown&quot;</span><span class="nt">&gt;</span>
+          Dropdown-2 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;caret&quot;</span><span class="nt">&gt;&lt;/span&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;filters pull-left&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge badge-primary&quot;</span><span class="nt">&gt;</span>filter-1<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>filter-2<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;pull-right&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-default btn-flat&quot;</span><span class="nt">&gt;</span>
+          + new-btn
+        <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div>
 <h1 id="separator">Separator</h1>
 <div class="codeExample"><div class="exampleOutput">    <h3 class="separator">
       Separator example
@@ -142,6 +213,8 @@
             <li><a href="#header">Header</a></li>
           
             <li><a href="#navbar">Navbar</a></li>
+          
+            <li><a href="#pageform">Pages Form</a></li>
           
             <li><a href="#separator">Separator</a></li>
           
