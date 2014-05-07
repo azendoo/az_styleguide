@@ -59,6 +59,12 @@
   box-shadow: 0 2px 0 #1b7bb0;
   font-weight: 600; }
 
+.btn.btn-success {
+  color: white;
+  background-color: #27ad8d;
+  box-shadow: 0 2px 0 #22987c;
+  font-weight: 600; }
+
 .btn.btn-flat {
   background-color: transparent;
   background-image: none;
@@ -73,6 +79,9 @@
   .btn.btn-flat.btn-danger {
     border-color: #ad1a26;
     color: #ad1a26; }
+  .btn.btn-flat.btn-success {
+    border-color: #27ad8d;
+    color: #27ad8d; }
   .btn.btn-flat.btn-primary {
     border-color: #1e8bc6;
     color: #1e8bc6; }
@@ -126,6 +135,18 @@ a.link-help {
   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
   border-radius: 2px; }
+
+.avatar {
+  width: 28px;
+  border-radius: 3px; }
+  .avatar.avatar-xsmall {
+    width: 20px; }
+  .avatar.avatar-small {
+    width: 25px; }
+  .avatar.avatar-large {
+    width: 38px; }
+  .avatar.avatar-xlarge {
+    width: 96px; }
 
 h1 {
   font-weight: 300;
@@ -223,27 +244,54 @@ h2.separator, h3.separator {
   color: #434343;
   border-bottom: 1px solid #434343; }
 
+.page-placeholder {
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 0 50px 0; }
+  .page-placeholder .small {
+    color: #878888; }
+
+.page-placeholder-icon {
+  font-size: 56px;
+  display: block;
+  padding-bottom: 15px;
+  color: white;
+  text-shadow: 0 1px 0 #1e8bc6, 0 -1px 0 #1e8bc6, 1px 0 0 #1e8bc6, -1px 0 0 #1e8bc6; }
+
 .example-padding {
   padding-bottom: 35px; }
 
+.page-form .dropdown-list, .page-form .filters ul, .page-form .list-options-example {
+  line-height: 30px; }
 .page-form .search-container {
   width: 200px;
   margin-right: 30px; }
 .page-form .left-box-img {
   color: #111111;
-  background-color: white; }
+  background-color: transparent; }
+.page-form input.form-control {
+  background-color: transparent;
+  box-shadow: none; }
+.page-form a.dropdown-toggle {
+  cursor: pointer; }
+.page-form ul.dropdown-menu {
+  top: initial;
+  left: initial; }
+.page-form .dropdown-menu li > a {
+  color: #111111; }
 .page-form .dropdown-list {
-  margin-right: 30px;
-  line-height: 30px; }
+  margin-right: 30px; }
   .page-form .dropdown-list a {
     text-decoration: none;
     color: #878888; }
 .page-form .filters ul {
-  display: inline-flex;
-  line-height: 30px; }
+  display: inline-flex; }
 .page-form .filters li {
   margin-right: 10px;
   cursor: pointer; }
+.page-form .list-options-example {
+  cursor: pointer;
+  padding-right: 40px; }
 
 body {
   font-weight: normal;

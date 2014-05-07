@@ -5,7 +5,7 @@
   category: Pages
   ---
 
-  There is one type of page form visible on our subects list and medias: </br>
+  There is one type of page form visible on our subects list of medias : </br>
   - simple to accelerate the user experience.
 
   ```html_example
@@ -19,16 +19,7 @@
         </div>
         <div class="dropdown-list pull-left">
           <a class="dropdown-toggle" data-toggle="dropdown">
-            Dropdown-1 <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-          </ul>
-        </div>
-        <div class="dropdown-list pull-left">
-          <a class="dropdown-toggle" data-toggle="dropdown">
-            Dropdown-2 <span class="caret"></span>
+            Dropdown-list <span class="caret"></span>
           </a>
         </div>
         <div class="filters pull-left">
@@ -38,9 +29,12 @@
           </ul>
         </div>
         <div class="pull-right">
-          <a class="btn btn-primary btn-flat">
+          <a class="btn btn-success">
             + new-btn
           </a>
+        </div>
+        <div class="list-options-example pull-right">
+          <i class="fa fa-sort-alpha-asc"></i>
         </div>
       </div>
     </div>
@@ -50,17 +44,32 @@
   padding-bottom: 35px
 
 .page-form
+  .dropdown-list, .filters ul, .list-options-example
+    line-height: 30px
+
   .search-container
     width: 200px
     margin-right: 30px
 
   .left-box-img
     color: $color-black
-    background-color: $color-white
+    background-color: transparent
+  input.form-control
+    background-color: transparent
+    box-shadow: none
+
+  a.dropdown-toggle
+    cursor: pointer
+
+  ul.dropdown-menu
+    top: initial
+    left: initial
+
+  .dropdown-menu li > a
+    color: $color-black
 
   .dropdown-list
     margin-right: 30px
-    line-height: 30px
     a
       text-decoration: none
       color: $color-lightGrey
@@ -68,7 +77,10 @@
   .filters
     ul
       display: inline-flex
-      line-height: 30px
     li
       margin-right: 10px
       cursor: pointer
+
+  .list-options-example
+    cursor: pointer
+    padding-right: 40px
