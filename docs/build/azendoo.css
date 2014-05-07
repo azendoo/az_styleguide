@@ -203,6 +203,20 @@ h2.separator, h3.separator {
   color: #434343;
   border-bottom: 1px solid #434343; }
 
+.page-placeholder {
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 0 50px 0; }
+  .page-placeholder .small {
+    color: #878888; }
+
+.page-placeholder-icon {
+  font-size: 56px;
+  display: block;
+  padding-bottom: 15px;
+  color: white;
+  text-shadow: 0 1px 0 #1e8bc6, 0 -1px 0 #1e8bc6, 1px 0 0 #1e8bc6, -1px 0 0 #1e8bc6; }
+
 body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
