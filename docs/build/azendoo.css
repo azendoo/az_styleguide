@@ -85,8 +85,21 @@
     .btn.btn-flat.btn-white:hover {
       color: white; }
 
+.badge {
+  border: 1px solid #999999;
+  background-color: #999999;
+  color: white !important; }
+  .badge.unchecked {
+    background-color: transparent;
+    color: #111111 !important; }
+
 .badge-primary {
-  background-color: #1e8bc6; }
+  border: 1px solid #1e8bc6;
+  background-color: #1e8bc6;
+  color: white !important; }
+  .badge-primary.unchecked {
+    background-color: transparent;
+    color: #111111 !important; }
 
 a {
   color: #1e8bc6;
@@ -210,25 +223,27 @@ h2.separator, h3.separator {
   color: #434343;
   border-bottom: 1px solid #434343; }
 
-.page-form {
+.example-padding {
   padding-bottom: 35px; }
-  .page-form .input-search {
-    width: 180px;
-    margin-right: 30px; }
-  .page-form .icon-in-input {
-    color: #111111;
-    background-color: transparent; }
-  .page-form .dropdown-list {
-    margin-right: 30px;
-    line-height: 30px; }
-    .page-form .dropdown-list a {
-      text-decoration: none;
-      color: #878888; }
-  .page-form .filters ul {
-    display: inline-flex;
-    line-height: 30px; }
-  .page-form .filters li {
-    margin-right: 10px; }
+
+.page-form .search-container {
+  width: 200px;
+  margin-right: 30px; }
+.page-form .left-box-img {
+  color: #111111;
+  background-color: white; }
+.page-form .dropdown-list {
+  margin-right: 30px;
+  line-height: 30px; }
+  .page-form .dropdown-list a {
+    text-decoration: none;
+    color: #878888; }
+.page-form .filters ul {
+  display: inline-flex;
+  line-height: 30px; }
+.page-form .filters li {
+  margin-right: 10px;
+  cursor: pointer; }
 
 body {
   font-weight: normal;

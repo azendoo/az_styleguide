@@ -9,51 +9,54 @@
   - simple to accelerate the user experience.
 
   ```html_example
-    <div class="page-form">
-      <div class="input-search input-group pull-left">
-        <div class="icon-in-input input-group-addon">
-          <i class="fa fa-search"></i>
+    <div class="example-padding">
+      <div class="page-form">
+        <div class="search-container input-group pull-left">
+          <div class="left-box-img input-group-addon">
+            <i class="fa fa-search"></i>
+          </div>
+          <input name="search" type="text" placeholder="Search" class="form-control">
         </div>
-        <input name="search" type="text" placeholder="Search" class="form-control">
-      </div>
-      <div class="dropdown-list pull-left">
-        <a class="dropdown-toggle" data-toggle="dropdown">
-          Dropdown-1 <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-        </ul>
-      </div>
-      <div class="dropdown-list pull-left">
-        <a class="dropdown-toggle" data-toggle="dropdown">
-          Dropdown-2 <span class="caret"></span>
-        </a>
-      </div>
-      <div class="filters pull-left">
-        <ul>
-          <li><a href="#"><span class="badge badge-primary">filter-1</span></a></li>
-          <li><a href="#"><span class="badge">filter-2</span></a></li>
-        </ul>
-      </div>
-      <div class="pull-right">
-        <a class="btn btn-default btn-flat">
-          + new-btn
-        </a>
+        <div class="dropdown-list pull-left">
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            Dropdown-1 <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+          </ul>
+        </div>
+        <div class="dropdown-list pull-left">
+          <a class="dropdown-toggle" data-toggle="dropdown">
+            Dropdown-2 <span class="caret"></span>
+          </a>
+        </div>
+        <div class="filters pull-left">
+          <ul>
+            <li><span class="badge badge-primary">filter-1</span></li>
+            <li><span class="badge">filter-2</span></li>
+          </ul>
+        </div>
+        <div class="pull-right">
+          <a class="btn btn-primary btn-flat">
+            + new-btn
+          </a>
+        </div>
       </div>
     </div>
   ```
 
-.page-form
+.example-padding
   padding-bottom: 35px
 
-  .input-search
-    width: 180px
+.page-form
+  .search-container
+    width: 200px
     margin-right: 30px
 
-  .icon-in-input
+  .left-box-img
     color: $color-black
-    background-color: transparent
+    background-color: $color-white
 
   .dropdown-list
     margin-right: 30px
@@ -68,3 +71,4 @@
       line-height: 30px
     li
       margin-right: 10px
+      cursor: pointer
