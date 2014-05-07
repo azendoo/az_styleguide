@@ -24,6 +24,22 @@
   width: 169px;
   height: 32px; }
 
+.exemple-font-myriad, .exemple-font-helvetica {
+  font-size: 24px;
+  font-weight: 300; }
+
+.uppercase {
+  font-size: 16px; }
+
+.lowercase {
+  font-size: 18px; }
+
+.exemple-font-myriad {
+  font-family: "myriad-pro"; }
+
+.exemple-font-helvetica {
+  font-family: "Helvetica Neue"; }
+
 .btn {
   border-bottom-width: 0;
   -webkit-font-smoothing: antialiased; }
@@ -68,6 +84,9 @@
     color: white; }
     .btn.btn-flat.btn-white:hover {
       color: white; }
+
+.badge-primary {
+  background-color: #1e8bc6; }
 
 a {
   color: #1e8bc6;
@@ -203,6 +222,7 @@ h2.separator, h3.separator {
   color: #434343;
   border-bottom: 1px solid #434343; }
 
+
 .page-placeholder {
   text-align: center;
   font-size: 18px;
@@ -216,6 +236,26 @@ h2.separator, h3.separator {
   padding-bottom: 15px;
   color: white;
   text-shadow: 0 1px 0 #1e8bc6, 0 -1px 0 #1e8bc6, 1px 0 0 #1e8bc6, -1px 0 0 #1e8bc6; }
+
+.page-form {
+  padding-bottom: 35px; }
+  .page-form .input-search {
+    width: 180px;
+    margin-right: 30px; }
+  .page-form .icon-in-input {
+    color: #111111;
+    background-color: transparent; }
+  .page-form .dropdown-list {
+    margin-right: 30px;
+    line-height: 30px; }
+    .page-form .dropdown-list a {
+      text-decoration: none;
+      color: #878888; }
+  .page-form .filters ul {
+    display: inline-flex;
+    line-height: 30px; }
+  .page-form .filters li {
+    margin-right: 10px; }
 
 body {
   font-weight: normal;

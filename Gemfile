@@ -11,3 +11,4 @@ gem 'guard-sass', :require => false
 gem 'guard-hologram', :require => false
 gem 'guard-livereload', :require => false
 gem 'guard-shell'
+gem 'foreman'
