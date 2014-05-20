@@ -133,9 +133,15 @@
   .btn.btn-flat.btn-danger {
     border-color: #ad1a26;
     color: #ad1a26; }
+    .btn.btn-flat.btn-danger:hover {
+      color: #ad1a26;
+      background-color: white; }
   .btn.btn-flat.btn-success {
     border-color: #27ad8d;
     color: #27ad8d; }
+    .btn.btn-flat.btn-success:hover {
+      color: #27ad8d;
+      background-color: white; }
   .btn.btn-flat.btn-primary {
     border-color: #1e8bc6;
     color: #1e8bc6; }
