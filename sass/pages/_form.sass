@@ -51,12 +51,22 @@
     width: 200px
     margin-right: 30px
 
-  .left-box-img
-    color: $color-black
-    background-color: transparent
-  input.form-control
-    background-color: transparent
-    box-shadow: none
+  .input-group
+    .left-box-img
+      color: $color-darkGrey
+      background-color: $color-white
+      border-radius: 16px 0 0 16px
+      padding: 4px 8px
+
+    input[name="search"]
+      border-left: 0
+      border-radius: 0 16px 16px 0
+
+    input.form-control
+      background-color: $color-white
+      box-shadow: none
+      padding: 4px 8px
+      height: 30px
 
   a.dropdown-toggle
     cursor: pointer
