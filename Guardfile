@@ -14,6 +14,6 @@ end
 guard :shell do
   watch(/sass\/(.*).sass/) do |m|
     n "#{m[0]} changed ; copying sass to az_app2"
-    `cp -Rf sass/ ../az_app_2/app/assets/stylesheets/base/`
+    `cp -Rf sass/ ../az_app_2/assets/src/stylesheets/base/`
   end
 end

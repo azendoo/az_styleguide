@@ -41,6 +41,23 @@ h1
     color: $color-lightGrey
     font-weight: 300
 
+.page-back
+  position: absolute
+  left: 55px
+  top: 50px
+  font-size: 24px
+  color: rgba(0,0,0,.3)
+  text-shadow: 1px 1px 1px rgba(255,255,255,.3)
+
+  &:hover
+    cursor: pointer
+    color: rgba(0,0,0,.7)
+
+.page-header, .page-content
+  .page-back
+    left: -40px
+    top: 0px
+
 .page-header
   padding: 0
   margin: 0
@@ -68,13 +85,15 @@ h1
   color: $color-white
   padding: 20px
 
-ul.page-header-actions
+.page-header-actions
   float: right
   margin: 0
+  font-weight: 400
+  > a
+    color: $color-darkGrey
   > li
     display: inline-block
     > a
-      color: $color-white
       text-decoration: none
       display: inline-block
       min-width: 50px
@@ -83,3 +102,7 @@ ul.page-header-actions
         background-color: rgba(255,255,255,.2)
       i
         padding: 0 10px
+
+.page-header-line .page-header-actions
+  > li > a
+    color: $color-white

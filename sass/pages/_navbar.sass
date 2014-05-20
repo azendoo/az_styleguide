@@ -36,17 +36,24 @@
 .page-header-navigation
   background-color: $color-darkGrey
 
-  &.page-header-navigation-small
-    > ul > li, > ul li.dropdown
-      border-bottom: 4px solid transparent
-      margin: 0 15px
-      &:hover, &.active
-        border-bottom: 4px solid $color-lightBlue
-      > a
-        font-size: $basefont
-        padding: 0 5px
-        line-height: 30px
+.modal-body .page-header-navigation
+  background-color: transparent
+  > ul > li, > ul li.dropdown
+    > a
+      color: $color-darkGrey
 
+.page-header-navigation.page-header-navigation-small
+  > ul > li, > ul li.dropdown
+    border-bottom: 4px solid transparent
+    margin: 0 10px
+    &:hover, &.active
+      border-bottom: 4px solid $color-lightBlue
+    > a
+      font-size: $basefont
+      padding: 0 5px
+      line-height: 30px
+
+.page-header-navigation
   > ul
     display: table
     margin: 0 auto
