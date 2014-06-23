@@ -388,10 +388,12 @@ h2.separator, h3.separator {
     text-decoration: none;
     color: #878888; }
 .page-form .filters ul {
-  display: inline-flex; }
+  display: inline-box; }
 .page-form .filters li {
-  margin-right: 10px;
-  cursor: pointer; }
+  margin-right: 5px;
+  float: left; }
+  .page-form .filters li:hover {
+    cursor: pointer; }
 .page-form .list-options-example {
   cursor: pointer;
   padding-right: 40px; }
