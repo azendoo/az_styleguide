@@ -159,6 +159,29 @@
     .btn.btn-flat.btn-white:hover {
       color: white; }
 
+.dropdown-menu-options .dropdown-toggle {
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 8px 13px;
+  color: #878888;
+  text-decoration: none;
+  text-shadow: 1px 1px white; }
+  .dropdown-menu-options .dropdown-toggle i {
+    margin-left: 10px; }
+.dropdown-menu-options .dropdown-toggle:hover, .dropdown-menu-options.open .dropdown-toggle {
+  color: #434343;
+  background-color: rgba(0, 0, 0, 0.15); }
+.dropdown-menu-options .dropdown-menu {
+  max-width: 240px; }
+  .dropdown-menu-options .dropdown-menu > li > a {
+    word-break: break-word;
+    white-space: normal; }
+    .dropdown-menu-options .dropdown-menu > li > a.disabled {
+      color: #878888; }
+    .dropdown-menu-options .dropdown-menu > li > a:hover, .dropdown-menu-options .dropdown-menu > li > a:focus {
+      background-color: #1e8bc6;
+      color: white; }
+
 .badge {
   border: 1px solid #999999;
   background-color: #999999;
