@@ -15,6 +15,18 @@
     </div>
   ```
 
+  Adding `.error` change the icon color.
+
+  ```html_example
+    <div class="page-placeholder error">
+      <i class="page-placeholder-icon fa fa-times"></i>
+      Placeholder example
+      <div class="small">
+        Placeholder example
+      </div>
+    </div>
+  ```
+
 .page-placeholder
   text-align: center
   font-size: $basefont + 4
@@ -23,9 +35,13 @@
   .small
     color: $color-lightGrey
 
+  &.error .page-placeholder-icon
+    +text-stroke($color-red)
+
 .page-placeholder-icon
   font-size: $basefont * 4
   display: block
   padding-bottom: 15px
   color: $color-white
   +text-stroke($color-lightBlue)
+
