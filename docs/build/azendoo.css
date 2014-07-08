@@ -163,9 +163,9 @@
   font-weight: 600;
   border-radius: 4px;
   padding: 8px 13px;
-  color: #878888;
+  color: #434343;
   text-decoration: none;
-  text-shadow: 1px 1px white; }
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); }
   .dropdown-menu-options .dropdown-toggle i {
     margin-left: 10px; }
 .dropdown-menu-options .dropdown-toggle:hover, .dropdown-menu-options.open .dropdown-toggle {
