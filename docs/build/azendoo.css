@@ -16,6 +16,9 @@
 .background-grey {
   background-color: #666666; }
 
+.background-purple {
+  background-color: #b86cff; }
+
 .azendoo-mark {
   width: 80px;
   height: 80px; }
@@ -24,7 +27,7 @@
   width: 169px;
   height: 32px; }
 
-.exemple-font-myriad, .exemple-font-helvetica {
+.exemple-font-default, .exemple-font-title {
   font-size: 24px;
   font-weight: 300; }
 
@@ -34,11 +37,11 @@
 .lowercase {
   font-size: 18px; }
 
-.exemple-font-myriad {
-  font-family: "myriad-pro"; }
+.exemple-font-default {
+  font-family: "Source Sans Pro"; }
 
-.exemple-font-helvetica {
-  font-family: "Helvetica Neue"; }
+.exemple-font-title {
+  font-family: "Raleway"; }
 
 .btn {
   border-bottom-width: 0;
@@ -124,7 +127,6 @@
 .btn.btn-flat {
   background-color: transparent;
   background-image: none;
-  box-shadow: none;
   text-shadow: none;
   line-height: inherit;
   border: 1px solid transparent;
@@ -245,7 +247,8 @@ h1 {
   font-size: 28px;
   margin: 5px 0 15px 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", "Helvetica Neue", "Open Sans", "sans-serif"; }
   h1 small, h1 .small {
     color: #878888;
     font-weight: 300; }
@@ -430,7 +433,7 @@ body {
   font-size: 14px; }
 
 body, p, ol, ul, td, input, textarea {
-  font-family: "myriad-pro", "raleway", "Helvetica Neue", "Open Sans", "sans-serif";
+  font-family: "Source Sans Pro", "Helvetica", Arial, sans-serif;
   color: #333333; }
 
 input, textarea {
