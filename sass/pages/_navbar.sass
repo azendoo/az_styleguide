@@ -33,6 +33,19 @@
     </div>
   ```
 
+  ```html_example
+    <div class="page-header-navigation page-header-navigation-light">
+      <ul>
+        <li class="active"><a href="javascript:void(0)">Section 1</a></li>
+        <li><a href="javascript:void(0)">Section 2
+          <i class="fa fa-pencil"></i>
+          </a></li>
+        <li><a href="javascript:void(0)">Section 3</a></li>
+        <li><a href="javascript:void(0)">Section 4</a></li>
+      </ul>
+    </div>
+  ```
+
 .page-header-navigation
   background-color: $color-darkGrey
 
@@ -78,3 +91,43 @@
           margin-top: 0px
         i
           margin: 0 5px
+
+.page-header-navigation.page-header-navigation-light
+  background-color: $color-white
+  > ul
+    display: inline-block
+    > li, > ul li.dropdown
+      margin: 0 30px 0 10px
+      border-bottom: 3px solid transparent
+      &:hover, &.active
+        border-bottom: 3px solid $color-lightBlue
+        > a
+          color: $color-darkGrey
+      > a
+        padding: 3px 10px
+        color: $color-grey
+        line-height: 30px
+
+.page-aside
+  .btn-aside
+    width: 100%
+    margin-bottom: 20px
+    line-height: 25px
+    i
+      font-size: 18px
+      margin-right: 10px
+    i.icon-caret-down
+      margin-right: .3em
+      padding-top: 3px
+
+    &.btn, .btn:first-child
+      font-size: 16px
+
+    &, & > .btn
+      text-align: left
+
+    &.btn, & >.btn
+      background-color: rgba(238,238,238,.3)
+
+  .panel
+    margin-bottom: 20px

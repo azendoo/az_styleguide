@@ -250,7 +250,7 @@ h1 {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Raleway", "Helvetica Neue", "Open Sans", "sans-serif"; }
   h1 small, h1 .small {
-    color: #878888;
+    color: #666666;
     font-weight: 300; }
 
 .page-back {
@@ -273,6 +273,8 @@ h1 {
   margin: 0;
   border: 0;
   position: relative; }
+  .page-header.row {
+    margin: 0 -15px; }
   .page-header.page-header-line {
     padding-left: 20px;
     font-size: 24px;
@@ -356,6 +358,41 @@ h1 {
         margin-top: 0px; }
       .page-header-navigation > ul > li > a i, .page-header-navigation > ul > ul li.dropdown > a i {
         margin: 0 5px; }
+
+.page-header-navigation.page-header-navigation-light {
+  background-color: white; }
+  .page-header-navigation.page-header-navigation-light > ul {
+    display: inline-block; }
+    .page-header-navigation.page-header-navigation-light > ul > li, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown {
+      margin: 0 30px 0 10px;
+      border-bottom: 3px solid transparent; }
+      .page-header-navigation.page-header-navigation-light > ul > li:hover, .page-header-navigation.page-header-navigation-light > ul > li.active, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown:hover, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown.active {
+        border-bottom: 3px solid #1e8bc6; }
+        .page-header-navigation.page-header-navigation-light > ul > li:hover > a, .page-header-navigation.page-header-navigation-light > ul > li.active > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown:hover > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown.active > a {
+          color: #333333; }
+      .page-header-navigation.page-header-navigation-light > ul > li > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown > a {
+        padding: 3px 10px;
+        color: #666666;
+        line-height: 30px; }
+
+.page-aside .btn-aside {
+  width: 100%;
+  margin-bottom: 20px;
+  line-height: 25px; }
+  .page-aside .btn-aside i {
+    font-size: 18px;
+    margin-right: 10px; }
+  .page-aside .btn-aside i.icon-caret-down {
+    margin-right: 0.3em;
+    padding-top: 3px; }
+  .page-aside .btn-aside.btn, .page-aside .btn-aside .btn:first-child {
+    font-size: 16px; }
+  .page-aside .btn-aside, .page-aside .btn-aside > .btn {
+    text-align: left; }
+  .page-aside .btn-aside.btn, .page-aside .btn-aside > .btn {
+    background-color: rgba(238, 238, 238, 0.3); }
+.page-aside .panel {
+  margin-bottom: 20px; }
 
 h2.separator, h3.separator {
   margin: 10px 0 5px 0;
