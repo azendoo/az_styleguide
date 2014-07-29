@@ -40,16 +40,16 @@
   -webkit-font-smoothing: antialiased
 
 .btn.btn-default
-  +button-variant($color-white, $color-smoothGrey30, darken($color-smoothGrey30, 5%))
+  +button-variant($white, $color-smoothGrey30, darken($color-smoothGrey30, 5%))
 
 .btn.btn-danger
-  +button-variant($color-white, $color-red, darken($color-red, 5%))
+  +button-variant($white, $color-red, darken($color-red, 5%))
 
 .btn.btn-primary
-  +button-variant($color-white, $color-lightBlue, darken($color-lightBlue, 5%))
+  +button-variant($white, $brand-primary, darken($brand-primary, 5%))
 
 .btn.btn-success
-  +button-variant($color-white, $color-green, darken($color-green, 5%))
+  +button-variant($white, $color-green, darken($color-green, 5%))
 
 .btn.btn-flat
   background-color: transparent
@@ -65,31 +65,31 @@
     color: $color-midGrey
     &:hover
       color: $color-midGrey
-      background-color: $color-white
+      background-color: $white
 
   &.btn-danger
     border-color: $color-red
     color: $color-red
     &:hover
       color: $color-red
-      background-color: $color-white
+      background-color: $white
 
   &.btn-success
     border-color: $color-green
     color: $color-green
     &:hover
       color: $color-green
-      background-color: $color-white
+      background-color: $white
 
   &.btn-primary
-    border-color: $color-lightBlue
-    color: $color-lightBlue
+    border-color: $brand-primary
+    color: $brand-primary
     &:hover
-      color: $color-lightBlue
-      background-color: $color-white
+      color: $brand-primary
+      background-color: $white
 
   &.btn-white
-    border-color: $color-white
-    color: $color-white
+    border-color: $white
+    color: $white
     &:hover
-      color: $color-white
+      color: $white

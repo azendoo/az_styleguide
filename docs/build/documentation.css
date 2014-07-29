@@ -1,5 +1,7 @@
+/* line 1, ../sass/documentation.sass */
 .az-doc-nav {
   box-shadow: 0 2px rgba(0, 0, 0, 0.1); }
+  /* line 4, ../sass/documentation.sass */
   .az-doc-nav .navbar-brand {
     background: url("../images/typelockup/azendoo-type-lockup.png");
     background-size: 128px 24px;
@@ -9,56 +11,89 @@
     background-repeat: no-repeat;
     margin: 10px 20px 10px 0;
     margin-left: 0 !important; }
+  /* line 14, ../sass/documentation.sass */
   .az-doc-nav .navbar-nav > li > a {
     color: #434444;
     font-size: 14px; }
 
+/* line 18, ../sass/documentation.sass */
+.az-doc-block {
+  padding: 25%;
+  background-color: #3c3a3f; }
+  /* line 21, ../sass/documentation.sass */
+  .az-doc-block, .az-doc-block p {
+    color: white; }
+
+/* line 24, ../sass/documentation.sass */
+.az-color-block {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px; }
+
+/* line 30, ../sass/documentation.sass */
 .az-doc-sidenav > li > a {
   padding: 5px 15px;
   border-left: 3px solid transparent;
   color: #878888; }
+  /* line 34, ../sass/documentation.sass */
   .az-doc-sidenav > li > a:hover, .az-doc-sidenav > li > a:focus {
     background-color: transparent;
     border-left: 3px solid #1e8cf6;
     color: #434444; }
 
+/* line 39, ../sass/documentation.sass */
 .az-doc-background-block {
   height: 80px;
   margin: 15px auto;
   border: 1px solid #434444; }
 
+/* line 45, ../sass/documentation.sass */
 .az-doc-page > h1:not(:first-child) {
   margin-top: 50px; }
+/* line 48, ../sass/documentation.sass */
 .az-doc-page > h1:first-child {
   margin-top: 0; }
+/* line 51, ../sass/documentation.sass */
 .az-doc-page > h1 {
   font-size: 28px;
   padding: 10px 0; }
+/* line 55, ../sass/documentation.sass */
 .az-doc-page > h3 {
   font-size: 18px; }
+/* line 58, ../sass/documentation.sass */
+.az-doc-page section:not(:first-child) > .separator {
+  margin-top: 50px;
+  margin-bottom: 15px; }
 
+/* line 62, ../sass/documentation.sass */
 .content {
-  margin-top: 5px; }
+  margin-top: 50px; }
 
+/* line 65, ../sass/documentation.sass */
 .main > h1 {
   margin-top: 30px; }
 
+/* line 68, ../sass/documentation.sass */
 .main > h1:first-child {
   margin-top: 0; }
 
+/* line 71, ../sass/documentation.sass */
 footer {
   margin-top: 20px;
   text-align: center; }
 
+/* line 75, ../sass/documentation.sass */
 .componentMenu {
   max-height: 535px;
   width: 175px;
   overflow-y: auto; }
 
+/* line 80, ../sass/documentation.sass */
 blockquote:before {
   content: "Design Note:";
   font-weight: bold; }
 
+/* line 84, ../sass/documentation.sass */
 blockquote {
   border: 1px solid #eeeeee;
   border-radius: 4px;
@@ -67,6 +102,7 @@ blockquote {
   margin: 10px 0;
   padding: 5px; }
 
+/* line 92, ../sass/documentation.sass */
 code {
   padding: 2px 4px;
   color: #dd1144;
@@ -75,14 +111,17 @@ code {
   border: 1px solid #cccccc;
   border-radius: 4px; }
 
+/* line 100, ../sass/documentation.sass */
 div.codeExample, div.jsExample {
   border: 1px solid #cccccc;
   border-radius: 4px;
   margin: 10px 0; }
 
+/* line 105, ../sass/documentation.sass */
 div.jsExample {
   border-top: 0px; }
 
+/* line 108, ../sass/documentation.sass */
 div.codeExample:before, div.jsExample:before {
   font-family: "OpenSans", sans-serif;
   color: #222222;
@@ -94,6 +133,7 @@ div.codeExample:before, div.jsExample:before {
   padding: 2px;
   display: block; }
 
+/* line 119, ../sass/documentation.sass */
 div.codeExample:before {
   content: "Example";
   background-color: #f9f9f9;
@@ -102,6 +142,7 @@ div.codeExample:before {
   left: -1px;
   padding: 5px 12px; }
 
+/* line 127, ../sass/documentation.sass */
 div.jsExample:before {
   content: "JS Example";
   background-color: white;
@@ -109,15 +150,18 @@ div.jsExample:before {
   top: -11px;
   left: -11px; }
 
+/* line 134, ../sass/documentation.sass */
 div.codeBlock, div.exampleOutput {
   padding: 10px; }
 
+/* line 138, ../sass/documentation.sass */
 div.codeBlock {
   background-color: #f9f9f9;
   border-top: 1px solid #cccccc;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px; }
 
+/* line 144, ../sass/documentation.sass */
 .docSwatch {
   min-height: 218.21px;
   border: 1px solid #cccccc;
@@ -125,6 +169,7 @@ div.codeBlock {
   font-size: 12px;
   margin-bottom: 5px; }
 
+/* line 151, ../sass/documentation.sass */
 .codeExample .line > div:after {
   content: attr(class);
   display: block;
@@ -135,9 +180,11 @@ div.codeBlock {
   border-radius: 3px;
   font-size: 12px; }
 
+/* line 161, ../sass/documentation.sass */
 table, table tr, table td, table th {
   padding: 7px;
   border: 1px solid #cccccc; }
 
+/* line 165, ../sass/documentation.sass */
 table th {
   font-weight: bold; }

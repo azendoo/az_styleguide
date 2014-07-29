@@ -1,6 +1,7 @@
 @import 'compass'
 
 @import 'variables'
+@import 'bootstrap_imports'
 @import 'mixins'
 
 @import 'base/colors'
@@ -22,14 +23,8 @@
 
 
 body
-  font-weight: normal
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  font-size: $basefont
-
-body, p, ol, ul, td, input, textarea
-  font-family: $font-default
-  color: $color-darkGrey
 
 input, textarea
   outline: 0
@@ -46,14 +41,10 @@ a:focus
   outline: none
   outline-offset: 0
 
-label, .label
-  font-weight: normal
-  font-size: $basefont - 1
-
 h3
   color: #222
-  font-size: $basefont + 4px
-  line-height: $baseLineHeight * 1.5
+  font-size: $font-size-base + 4px
+  line-height: $line-height-computed * 1.5
   font-weight: normal
 
 img

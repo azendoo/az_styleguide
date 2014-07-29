@@ -1,3 +1,7 @@
+== 0.5.0
+  * added style for page aside
+  * added boostrap as a library
+
 == 0.4.0
   * default fonts are now Raleway for titles and Source sans pro for content
 
