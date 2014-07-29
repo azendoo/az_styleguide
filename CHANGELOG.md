@@ -1,3 +1,6 @@
+== 0.5.1
+  * moved bower components in sass folder
+
 == 0.5.0
   * added style for page aside
   * added boostrap as a library
