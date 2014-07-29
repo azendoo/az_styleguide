@@ -1,0 +1,71 @@
+/*
+Syntax error: Invalid CSS after "-": expected number or function, was "--"
+        on line 1 of /Users/prenaudin/ws-azendoo/az_styleguide/sass/vendor/font-awesome/src/assets/font-awesome/scss/font-awesome-ie7.scss
+
+1: /Users/prenaudin/ws-azendoo/az_styleguide/sass/vendor/font-awesome/src/assets/font-awesome/scss/font-awesome-ie7.scss
+
+Backtrace:
+/Users/prenaudin/ws-azendoo/az_styleguide/sass/vendor/font-awesome/src/assets/font-awesome/scss/font-awesome-ie7.scss:1
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:1149:in `expected'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:1067:in `expr!'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:922:in `term'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:897:in `expr'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:671:in `simple_selector_sequence'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:640:in `_selector'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:619:in `selector'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:603:in `selector_sequence'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:528:in `ruleset'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:543:in `block_contents'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/commands/update_project.rb:45:in `perform'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:67:in `block in run_supervised_task'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:65:in `catch'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:65:in `run_supervised_task'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:109:in `block in _run_first_task_found'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:107:in `each'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:107:in `_run_first_task_found'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:47:in `block in run_on_changes'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:140:in `block (3 levels) in _scoped_plugins'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:138:in `each'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:138:in `block (2 levels) in _scoped_plugins'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:137:in `catch'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:137:in `block in _scoped_plugins'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:135:in `each'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:135:in `_scoped_plugins'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:40:in `run_on_changes'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/setuper.rb:191:in `block (2 levels) in _setup_listener'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/commander.rb:108:in `block in within_preserved_state'
+<internal:prelude>:10:in `synchronize'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/commander.rb:105:in `within_preserved_state'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/setuper.rb:190:in `block in _setup_listener'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/listen-2.7.3/lib/listen/listener.rb:149:in `call'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/listen-2.7.3/lib/listen/listener.rb:149:in `block in _wait_for_changes'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/listen-2.7.3/lib/listen/listener.rb:138:in `loop'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/listen-2.7.3/lib/listen/listener.rb:138:in `_wait_for_changes'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/listen-2.7.3/lib/listen/listener.rb:42:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"-\": expected number or function, was \"--\"\A         on line 1 of /Users/prenaudin/ws-azendoo/az_styleguide/sass/vendor/font-awesome/src/assets/font-awesome/scss/font-awesome-ie7.scss\A \A 1: /Users/prenaudin/ws-azendoo/az_styleguide/sass/vendor/font-awesome/src/assets/font-awesome/scss/font-awesome-ie7.scss"; }

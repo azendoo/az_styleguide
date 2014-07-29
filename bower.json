@@ -6,7 +6,7 @@
     "Azendoo Team"
   ],
   "description": "Azendoo Style Guides",
-  "main": "sass/azendoo.sas",
+  "main": "sass/azendoo.sass",
   "moduleType": [
     "globals"
   ],

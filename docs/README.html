@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="./static/github.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+
+    <title>Azendoo - Style guides</title>
+    <link rel="stylesheet" href="./build/azendoo.css">
+    <link rel="stylesheet" href="./build/documentation.css">
+
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://use.typekit.com/job1ecj.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+<!--     <header class="navbar navbar-static-top az-doc-nav" id="top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">Azendoo</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            
+              <li><a href="components.html">Components</a></li>
+            
+              <li><a href="base.html">Base</a></li>
+            
+              <li><a href="pages.html">Pages</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header> -->
+
+
+    <section class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-9 az-doc-page">
+<h1><a href="http://fontawesome.io">Font Awesome v3.2.1</a></h1>
+
+<h3>the iconic font designed for Bootstrap</h3>
+
+<p>Font Awesome is a full suite of 361 pictographic icons for easy scalable vector graphics on websites, created and
+maintained by <a href="http://twitter.com/byscuits">Dave Gandy</a>. Stay up to date <a href="http://twitter.com/fontawesome">@fontawesome</a>.</p>
+
+<p>Get started at http://fontawesome.io!</p>
+
+<h2>License</h2>
+
+<ul>
+<li>The Font Awesome font is licensed under the SIL OFL 1.1:
+
+<ul>
+<li>http://scripts.sil.org/OFL</li>
+</ul></li>
+<li>Font Awesome CSS, LESS, and SASS files are licensed under the MIT License:
+
+<ul>
+<li>http://opensource.org/licenses/mit-license.html</li>
+</ul></li>
+<li>The Font Awesome documentation is licensed under the CC BY 3.0 License:
+
+<ul>
+<li>http://creativecommons.org/licenses/by/3.0/</li>
+</ul></li>
+<li>Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
+
+<ul>
+<li><code>Font Awesome by Dave Gandy - http://fontawesome.io</code></li>
+</ul></li>
+<li>Full details: http://fontawesome.io/license</li>
+</ul>
+
+<h2>Changelog</h2>
+
+<ul>
+<li>v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap&#39;s 14px default</li>
+<li>v3.0.1 - much improved rendering in webkit, various bug fixes</li>
+<li>v3.0.2 - much improved rendering and alignment in IE7</li>
+<li>v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed SASS support</li>
+<li><a href="https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&amp;page=1&amp;state=closed">v3.1.1 GitHub milestones</a></li>
+<li><a href="https://github.com/FortAwesome/Font-Awesome/issues?milestone=3&amp;page=1&amp;state=closed">v3.2.0 GitHub milestones</a></li>
+<li><a href="https://github.com/FortAwesome/Font-Awesome/issues?milestone=5&amp;page=1&amp;state=closed">v3.2.1 GitHub milestones</a></li>
+</ul>
+
+<h2>Versioning</h2>
+
+<p>Font Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:</p>
+
+<p><code>&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code></p>
+
+<p>And constructed with the following guidelines:</p>
+
+<ul>
+<li>Breaking backward compatibility bumps the major (and resets the minor and patch)</li>
+<li>New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)</li>
+<li>Bug fixes and misc changes bumps the patch</li>
+</ul>
+
+<p>For more information on SemVer, please visit http://semver.org.</p>
+
+<h2>Author</h2>
+
+<ul>
+<li>Email: dave@fontawesome.io</li>
+<li>Twitter: http://twitter.com/byscuits</li>
+<li>GitHub: https://github.com/davegandy</li>
+<li>Work: Lead Product Designer @ http://kyru.us</li>
+</ul>
+
+<h2>Hacking on Font Awesome</h2>
+
+<p>From the root of the repository, install the tools used to develop.</p>
+<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bundle</span> <span class="n">install</span>
+<span class="err">$</span> <span class="n">npm</span> <span class="n">install</span>
+</pre></div></div>
+<p>Build the project and documentation:</p>
+<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bundle</span> <span class="n">exec</span> <span class="n">jekyll</span> <span class="n">build</span>
+</pre></div></div>
+<p>Or serve it on a local server on http://localhost:7998/Font-Awesome/:</p>
+<div class="codeBlock"><div class="highlight"><pre><span class="err">$</span> <span class="n">bundle</span> <span class="n">exec</span> <span class="n">jekyll</span> <span class="n">serve</span>
+</pre></div></div>          </div>
+
+          <ul class="col-xs-3 nav az-doc-sidenav">
+          
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
