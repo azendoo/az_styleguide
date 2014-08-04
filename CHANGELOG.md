@@ -1,3 +1,7 @@
+== 0.5.2
+  * improved page form style
+  * changed fonts variables
+
 == 0.5.1
   * moved bower components in sass folder
 
