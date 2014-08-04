@@ -45,7 +45,7 @@ Backtrace:
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:109:in `block in _run_first_task_found'
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:107:in `each'
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:107:in `_run_first_task_found'
-/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:47:in `block in run_on_changes'
+/Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:48:in `block in run_on_changes'
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:140:in `block (3 levels) in _scoped_plugins'
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:138:in `each'
 /Users/prenaudin/.rvm/gems/ruby-1.9.3-p448/gems/guard-2.6.0/lib/guard/runner.rb:138:in `block (2 levels) in _scoped_plugins'

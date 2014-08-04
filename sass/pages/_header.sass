@@ -32,14 +32,12 @@
   ```
 
 h1
-  font-weight: 300
   font-size: $font-size-base * 2
   margin: 5px 0 15px 0
   +font-smoothing
 
   small, .small
-    color: $color-grey
-    font-weight: 300
+    color: $gray
 
 .page-back
   position: absolute
@@ -69,6 +67,9 @@ h1
   border: 0
   position: relative
 
+  h1
+    font-family: $special-headings-font-family
+
   &.row
     margin: 0 -15px
 
@@ -84,6 +85,7 @@ h1
     h1
       margin: 0
       display: inline-block
+
     small, .small
       color: $white
 

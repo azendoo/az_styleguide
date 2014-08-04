@@ -48,7 +48,6 @@
 
 .page-header-navigation
   background-color: $color-darkGrey
-  margin-bottom: $line-height-computed
 
 .modal-body .page-header-navigation
   background-color: transparent
@@ -82,7 +81,7 @@
       > a
         font-size: $font-size-base + 2
         color: $white
-        padding: 3px 24px
+        padding: $page-navbar-padding 24px
         line-height: 40px
         text-decoration: none
         display: block
@@ -95,19 +94,24 @@
 
 .page-header-navigation.page-header-navigation-light
   background-color: $white
+  margin-bottom: $line-height-computed
+  border-radius: $border-radius-base
   > ul
     display: inline-block
     > li, > ul li.dropdown
       margin: 0 30px 0 10px
-      border-bottom: 3px solid transparent
+      border-bottom: $page-navbar-padding solid transparent
       &:hover, &.active
-        border-bottom: 3px solid $brand-primary
+        border-bottom: $page-navbar-padding solid $brand-primary
         > a
           color: $color-darkGrey
       > a
-        padding: 3px 10px
+        padding: $page-navbar-padding 10px
         color: $color-grey
-        line-height: 30px
+        line-height: $page-navbar-height - 2 * ($page-navbar-padding)
+  > ul.pull-right
+    > li, > ul li.dropdown
+      margin: 0 10px 0 20px
 
 .page-aside
   .btn-aside

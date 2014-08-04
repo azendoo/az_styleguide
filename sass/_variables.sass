@@ -19,13 +19,18 @@ $brand-warning:         $yellow
 $brand-danger:          $red
 
 // TYPOGRAPHY
-$font-family-sans-serif:  'Source Sans Pro', 'Helvetica', 'Open Sans', 'sans-serif'
-$headings-font-family:    'Raleway', 'Helvetica Neue', 'Open Sans', 'sans-serif'
+$font-family-sans-serif:        'Source Sans Pro', 'Helvetica', 'Open Sans', 'sans-serif'
+$headings-font-family:          $font-family-sans-serif
+$special-headings-font-family:  'Raleway', 'Helvetica Neue', 'Open Sans', 'sans-serif'
 
 
 // Bootrap variables import
-@import vendor/bootstrap-sass-twbs/vendor/assets/stylesheets/bootstrap/variables
-@import vendor/bootstrap-sass-twbs/vendor/assets/stylesheets/bootstrap/mixins
+@import vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/variables
+@import vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins
+
+// Azendoo specific sizing
+$page-navbar-height: 36px
+$page-navbar-padding: 3px
 
 
 // ----- TRY TO AVOID THIS COLORS ---------------

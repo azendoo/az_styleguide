@@ -50,6 +50,19 @@
           <div class="col-xs-9 az-doc-page">
 <h1>Changelog</h1>
 
+<h2>3.2.0.0</h2>
+
+<ul>
+<li>Assets (Sass, JS, fonts) moved from <code>vendor/assets</code> to <code>assets</code>. <code>bootstrap.js</code> now contains concatenated JS.</li>
+<li>Compass generator now copies JS and fonts, and provides a better default <code>styles.sass</code>.</li>
+<li>Compass, Sprockets, and Mincer asset path helpers are now provided in pure Sass: <code>bootstrap-compass</code>, <code>bootstrap-sprockets</code>, and <code>bootstrap-mincer</code>.
+Asset path helpers must be imported before <code>bootstrap</code>, more in Readme.</li>
+<li>Sprockets / Mincer JS manifest has been moved to <code>bootstrap-mincer.js</code>.
+It can be required without adding Bootstrap JS directory to load path, as it now uses relative paths.</li>
+<li>Sprockets: <code>depend_on_asset</code> (<code>glyphicons.scss</code>) has been changed to <code>depend_on</code> to work around an issue with <code>depend_on_asset</code>.
+<a href="https://github.com/twbs/bootstrap-sass/issues/592#issuecomment-46570286">More information</a>.</li>
+</ul>
+
 <h2>3.1.1.0</h2>
 
 <ul>
