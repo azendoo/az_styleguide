@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'hologram'
+gem 'hologram', '1.2.0'
 gem 'compass'
 gem 'sass'
 

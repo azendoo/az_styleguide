@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "font-awesome"        : "3.2.1",
-    "bootstrap-sass-twbs" : "3.2.0"
+    "bootstrap-sass-twbs" : "3.2.0",
+    "Cortana": "~1.2.7"
   }
 }

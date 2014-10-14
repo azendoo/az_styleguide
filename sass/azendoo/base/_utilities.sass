@@ -1,0 +1,40 @@
+.u-margin-bottom-content
+  margin: 0 0 ($line-height-computed / 2) !important
+
+.u-margin-right-content
+  margin-right: ($line-height-computed / 2) !important
+
+.u-inline-block
+  display: inline-block !important
+
+.u-break-word
+  word-wrap: break-word
+  white-space: normal
+
+.u-user-select-none
+  +user-select(none)
+
+.u-pull-left
+  float: left !important
+
+.u-pull-right
+  float: right !important
+
+.u-media-body,
+.u-media
+  overflow: visible
+  zoom: 1
+
+.media:first-child
+  margin-top: 0
+
+.u-media-body,
+.u-media,
+.u-media > .u-pull-left
+  +clearfix
+
+.u-media > .u-pull-left
+  margin-right: $line-height-computed / 2
+
+.u-media > .u-pull-right
+  margin-left: $line-height-computed / 2

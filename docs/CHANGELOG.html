@@ -1,262 +1,382 @@
-<!doctype html>
-<html>
-  <head>
+
+<!DOCTYPE html>
+<html ng-app="cortana">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <title></title>
 
-    <link rel="stylesheet" href="./static/github.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Styleguide CSS -->
+    <link rel="stylesheet" href="./theme-build/css/vendors.css">
+    <link rel="stylesheet" href="./theme-build/css/cortana.css">
 
-    <title>Azendoo - Style guides</title>
-    <link rel="stylesheet" href="./build/azendoo.css">
-    <link rel="stylesheet" href="./build/documentation.css">
+    <!-- Source CSS -->
+    
+      
+        <link rel="stylesheet" href="../assets/css/documentation.css">
+      
+        <link rel="stylesheet" href="../assets/css/azendoo.css">
+      
+    
 
-    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="theme-build/polyfill/html5shiv.js"></script>
+      <script src="theme-build/polyfill/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <script type="text/javascript" src="https://use.typekit.com/job1ecj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-<!--     <header class="navbar navbar-static-top az-doc-nav" id="top" role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/" class="navbar-brand">Azendoo</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-          <ul class="nav navbar-nav">
+  <body class="cortana-body"  ng-controller="MainController">
+
+    <div class="sb-slidebar sb-left cortana-sidenav sb-style-push">
+
+      
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+
+      <nav class="cortana-nav">
+        <ul>
+          
+            <li><a href="index.html">Home</a></li>
+          
+        </ul>
+        
+          <h3>Components</h3>
+          <ul>
+          
             
-              <li><a href="components.html">Components</a></li>
+              
+              
+                <li><a href="components.html">Components</a></li>
+              
             
-              <li><a href="base.html">Base</a></li>
+          
             
-              <li><a href="pages.html">Pages</a></li>
+          
+            
+          
+          </ul>
+        
+          <h3>Base</h3>
+          <ul>
+          
+            
+          
+            
+              
+              
+                <li><a href="base.html">Base</a></li>
+              
+            
+          
+            
+          
+          </ul>
+        
+          <h3>Pages</h3>
+          <ul>
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="pages.html">Pages</a></li>
+              
+            
+          
+          </ul>
+        
+      </nav>
+    </div>
+
+    <header class="cortana-header sb-slide">
+      
+      <div id="open-left" class="cortana-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="cortana-search-wrapper" ng-controller="TypeaheadCtrl">
+        <input id="cortana-search" type="text" class="form-control cortana-search" ng-model="customSelected" placeholder="Search" typeahead="data as data.title for data in searchData | filter:{title:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-on-select="onSelect($item, $model, $label)">
+      </div>
+    </header>
+
+    <div id="sb-site">
+
+      <div class="cortana-container">
+
+        <nav id="cortana-inside-nav" class="cortana-inside-nav" bs-affix>
+          <ul bs-scrollspy-list data-offset="-30">
             
           </ul>
         </nav>
-      </div>
-    </header> -->
+
+        <div class="cortana-content-wrapper clearfix">
+          <div class="cortana-content">
 
 
-    <section class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-9 az-doc-page">
-<h1>Changelog</h1>
 
-<h2>3.2.0.0</h2>
+<h1>CHANGELOG</h1>
+
+<p>This changelog references the relevant changes and bug fixes done.</p>
 
 <ul>
-<li>Assets (Sass, JS, fonts) moved from <code>vendor/assets</code> to <code>assets</code>. <code>bootstrap.js</code> now contains concatenated JS.</li>
-<li>Compass generator now copies JS and fonts, and provides a better default <code>styles.sass</code>.</li>
-<li>Compass, Sprockets, and Mincer asset path helpers are now provided in pure Sass: <code>bootstrap-compass</code>, <code>bootstrap-sprockets</code>, and <code>bootstrap-mincer</code>.
-Asset path helpers must be imported before <code>bootstrap</code>, more in Readme.</li>
-<li>Sprockets / Mincer JS manifest has been moved to <code>bootstrap-mincer.js</code>.
-It can be required without adding Bootstrap JS directory to load path, as it now uses relative paths.</li>
-<li>Sprockets: <code>depend_on_asset</code> (<code>glyphicons.scss</code>) has been changed to <code>depend_on</code> to work around an issue with <code>depend_on_asset</code>.
-<a href="https://github.com/twbs/bootstrap-sass/issues/592#issuecomment-46570286">More information</a>.</li>
-</ul>
-
-<h2>3.1.1.0</h2>
+<li><p>1.2.5(2014-08-21)</p>
 
 <ul>
-<li>Updated Bower docs</li>
-</ul>
-
-<h2>3.1.0.2</h2>
-
-<ul>
-<li>#523: Rails 3.2 compatibility</li>
-<li>Bugfixes from upstream up to 7eb532262fbd1112215b5a547b9285794b5360ab.</li>
-</ul>
-
-<h2>3.1.0.1</h2>
+<li>Yago : lock header title styles</li>
+</ul></li>
+<li><p>1.2.5(2014-08-18)</p>
 
 <ul>
-<li>#518: <code>scale</code> mixin Sass compatibility issue</li>
-</ul>
-
-<h2>3.1.0.0</h2>
-
-<ul>
-<li>compiles with libsass master</li>
-</ul>
-
-<h2>3.0.2.1</h2>
+<li>Yago : safer config elements loop</li>
+</ul></li>
+<li><p>1.2.3 &amp; 1.2.4(2014-08-08)</p>
 
 <ul>
-<li>fix vendor paths for compass</li>
-</ul>
-
-<h2>3.0.0.0</h2>
-
-<ul>
-<li>Fully automated (lots of string juggling) LESS -&gt; Sass conversion. - <em>Gleb Mazovetskiy</em></li>
-<li>Ported rake task from vwall/compass-twitter-bootstrap to convert Bootstrap upstream - <em>Peter Gumeson</em></li>
-<li>Moved javascripts to us <code>bootstrap-component.js</code> to <code>bootstrap/component.js</code> - <em>Peter Gumeson</em></li>
-</ul>
-
-<h2>2.3.2.2</h2>
+<li>Yago : Add web components support</li>
+</ul></li>
+<li><p>1.2.2(2014-08-05)</p>
 
 <ul>
-<li>Allow sass-rails <code>&gt;= 3.2</code> - <em>Thomas McDonald</em></li>
-</ul>
-
-<h2>2.3.2.1</h2>
-
-<h2>2.3.2.0</h2>
+<li>Yago : fix markdown renderer issue from hologram 1.2.X</li>
+</ul></li>
+<li><p>1.2.1(2014-07-08)</p>
 
 <ul>
-<li>Update to Bootstrap 2.3.2 - <em>Dan Allen</em></li>
-</ul>
-
-<h2>2.3.1.3</h2>
-
-<ul>
-<li>Find the correct Sprockets context for the <code>image_path</code> function - <em>Tristan Harward, Gleb Mazovetskiy</em></li>
-</ul>
-
-<h2>2.3.1.2</h2>
+<li>Yago : fix text-transform weakness</li>
+</ul></li>
+<li><p>1.2.0(2014-07-07)</p>
 
 <ul>
-<li>Fix changes to image url - <em>Gleb Mazovetskiy</em></li>
-<li>Copy _variables into project on Compass install - <em>Phil Thompson</em></li>
-<li>Add <code>bootstrap-affix</code> to the Compass template file - <em>brief</em></li>
-</ul>
-
-<h2>2.3.1.1 (yanked)</h2>
+<li>Yago : Use Angular.js for search field and inside navigation</li>
+<li>Yago : Change the way to add cortana-content class</li>
+</ul></li>
+<li><p>1.1.2 &amp; 1.1.3(2014-06-11)</p>
 
 <ul>
-<li>Change how image_url is handled internally - <em>Tristan Harward</em></li>
-<li>Fix some font variables not having <code>!default</code> - <em>Thomas McDonald</em></li>
-</ul>
-
-<h2>2.3.0.0</h2>
+<li>Yago : Fix search with the last Hologram update</li>
+</ul></li>
+<li><p>1.1.1 (2014-05-08)</p>
 
 <ul>
-<li>[#290] Update to Bootstrap 2.3.0 - <em>Tristan Harward</em></li>
-<li>Fix <code>rake:debug</code> with new file locations - <em>Thomas McDonald</em></li>
-<li>Add draft contributing document - <em>Thomas McDonald</em></li>
-<li>[#260] Add our load path to the global Sass load path - <em>Tristan Harward</em></li>
-<li>[#275] Use GitHub notation in Sass head testing gemfile - <em>Timo Schilling</em></li>
-<li>[#279, #283] Readme improvements - <em>theverything, Philip Arndt</em></li>
-</ul>
-
-<h2>2.2.2.0</h2>
+<li>Yago : Update how to install hologram in the README</li>
+<li>Yago : fix few little css things</li>
+</ul></li>
+<li><p>1.1.0 (2014-05-07)</p>
 
 <ul>
-<li>[#270] Update to Bootstrap 2.2.2 - <em>Tristan Harward</em></li>
-<li>[#266] Add license to gemspec - <em>Peter Marsh</em></li>
-</ul>
-
-<h2>2.2.1.1</h2>
-
-<ul>
-<li>[#258] Use <code>bootstrap</code> prefix for <code>@import</code>ing files in <code>bootstrap/bootstrap.scss</code> - <em>Umair Siddique</em></li>
-</ul>
-
-<h2>2.2.1.0</h2>
+<li>Yago : fix many bootstrap conflict with theme</li>
+<li>Yago : enhance theme with a complete color scheme change</li>
+<li>Yago : add search feature</li>
+<li>Yago : add css/js to include in the hologra_config.yml</li>
+<li>Yago : add scope_name option</li>
+</ul></li>
+<li><p>1.0.2 (2014-04-23)</p>
 
 <ul>
-<li>[#246] Update to Bootstrap 2.2.1 - <em>Tristan Harward</em></li>
-<li>[#246] Pull Bootstrap updates from jlong/sass-twitter-bootstrap - <em>Tristan Harward</em></li>
-</ul>
-
-<h2>2.1.1.0</h2>
+<li>Yago : fix bower ignore</li>
+</ul></li>
+<li><p>1.0.1 (2014-04-23)</p>
 
 <ul>
-<li>Update to Bootstrap 2.1.1</li>
-<li>[#222] Remove 100% multiplier in vertical-three-colours</li>
-<li>[#227] Fix IE component animation collapse</li>
-<li>[#228] Fix variables documentation link</li>
-<li>[#231] Made .input-block-level a class as well as mixin</li>
-</ul>
-
-<h2>2.1.0.1</h2>
+<li>Yago : add License and bower ignore</li>
+</ul></li>
+<li><p>1.0.0 (2014-04-23)</p>
 
 <ul>
-<li>[#219] Fix expected a color. Got: transparent.</li>
-<li>[#207] Add missing warning style for table row highlighting</li>
-<li>[#208] Use grid-input-span for input spans</li>
+<li>Yago : After one little week, Cortana finally come to a stable and usable version.</li>
+</ul></li>
 </ul>
 
-<h2>2.1.0.0</h2>
-
-<ul>
-<li>Updated to Bootstrap 2.1</li>
-<li>Changed some mixin names to be more consistent. Nested mixins in Less are separated by a <code>-</code> when they are flattened in Sass.</li>
-</ul>
-
-<h2>2.0.4.1</h2>
-
-<ul>
-<li>Fix <code>.row-fluid &gt; spanX</code> nesting</li>
-<li>Small Javascript fixes for those staying on the 2.0.4 release</li>
-<li>Add <code>!default</code> to z-index variables.</li>
-</ul>
-
-<h2>2.0.4.0</h2>
-
-<ul>
-<li>Updated to Bootstrap 2.0.4</li>
-<li>Switched to Bootstrap 2.0.3+&#39;s method of separating responsive files</li>
-<li>[#149, #150] Fix off by one error introduced with manual revert of media query breakpoints</li>
-<li><code>rake debug</code> and <code>rake test</code> both compile bootstrap &amp; bootstrap-responsive</li>
-</ul>
-
-<h2>2.0.3.1</h2>
-
-<ul>
-<li>[#145, #146] Fix button alignment in collapsing navbar as a result of an incorrect variable</li>
-</ul>
-
-<h2>2.0.3</h2>
-
-<ul>
-<li>Updated to Bootstrap 2.0.3</li>
-<li>[#106] Support for Rails &lt; 3.1 through Compass</li>
-<li>[#132] Add CI testing</li>
-<li>[#106] Support Rails w/Compass</li>
-<li>[#134] Fix support for Rails w/Compass</li>
-</ul>
-
-<h2>2.0.2</h2>
-
-<ul>
-<li>[#86] Updated to Bootstrap 2.0.2
-Things of note: static navbars now have full width. (to be fixed in 2.0.3) <code>.navbar-inner &gt; .container { width:940px; }</code> seems to work in the meanwhile</li>
-<li>[#62] Fixed asset compilation taking a <em>very</em> long time.</li>
-<li>[#69, #79, #80] (Hopefully) clarified README. Now with less cat humour.</li>
-<li>[#91] Removed doubled up Sass extensions for Rails.</li>
-<li>[#63, #73] Allow for overriding of image-path</li>
-<li>[<a href="http://stackoverflow.com/a/9909626/241212">SO</a>] Added makeFluidColumn mixin for defining fluid columns. Fluid rows must use <code>@extend .row-fluid</code>, and any column inside it can use <code>@include makeFluidColumn(num)</code>, where <code>num</code> is the number of columns. Unfortunately, there is a rather major limitation to this: margins on first-child elements must be overriden. See the attached Stack Overflow answer for more information.</li>
-</ul>
-
-<h2>2.0.1</h2>
-
-<ul>
-<li>Updated to Bootstrap 2.0.1</li>
-<li>Modified <code>@mixin opacity()</code> to take an argument <code>0...1</code> rather than <code>0...100</code> to be consistent with Compass.</li>
-</ul>
-
-<h2>2.0.0</h2>
-
-<ul>
-<li>Updated to Bootstrap 2.0.0</li>
-</ul>
-          </div>
-
-          <ul class="col-xs-3 nav az-doc-sidenav">
-          
-          </ul>
         </div>
-      </section>
+      </div>
     </div>
-  </body>
+
+    <footer class="cortana-footer">
+      Build with love using Trulia's <a href="https://github.com/trulia/hologram">Hologram</a> and <a href="https://github.com/Yago/Cortana">Cortana</a> !
+    </footer>  
+  </div>
+
+  <script src="theme-build/js/vendors.min.js"></script>
+  <script type="text/javascript">
+    var jQuery_no_conflict = $.noConflict(true);
+  </script>
+  <script src="theme-build/js/main.js"></script>
+  <script type="text/javascript">
+    function TypeaheadCtrl($scope) {
+      $scope.selected = undefined;
+      $scope.searchData = 
+      [
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Avatars",
+              "breadcrumb": "Components > Avatars",
+              "path": "components.html#avatars"
+              },
+            
+              
+              
+              {
+              "title": "Badges",
+              "breadcrumb": "Components > Badges",
+              "path": "components.html#badges"
+              },
+            
+              
+              
+              {
+              "title": "Buttons",
+              "breadcrumb": "Components > Buttons",
+              "path": "components.html#buttons"
+              },
+            
+              
+              
+              {
+              "title": "Dropdowns",
+              "breadcrumb": "Components > Dropdowns",
+              "path": "components.html#dropdowns"
+              },
+            
+              
+              
+              {
+              "title": "Links",
+              "breadcrumb": "Components > Links",
+              "path": "components.html#links"
+              },
+            
+              
+              
+              {
+              "title": "Well",
+              "breadcrumb": "Components > Well",
+              "path": "components.html#Well"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Brand",
+              "breadcrumb": "Base > Brand",
+              "path": "base.html#brand"
+              },
+            
+              
+              
+              {
+              "title": "Colors",
+              "breadcrumb": "Base > Colors",
+              "path": "base.html#color"
+              },
+            
+              
+              
+              {
+              "title": "Typography",
+              "breadcrumb": "Base > Typography",
+              "path": "base.html#typo"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Header",
+              "breadcrumb": "Pages > Header",
+              "path": "pages.html#header"
+              },
+            
+              
+              
+              {
+              "title": "Navbar",
+              "breadcrumb": "Pages > Navbar",
+              "path": "pages.html#navbar"
+              },
+            
+              
+              
+              {
+              "title": "Pages Form",
+              "breadcrumb": "Pages > Pages Form",
+              "path": "pages.html#pageform"
+              },
+            
+              
+              
+              {
+              "title": "Placeholder",
+              "breadcrumb": "Pages > Placeholder",
+              "path": "pages.html#placeholder"
+              },
+            
+              
+              
+              {
+              "title": "Separator",
+              "breadcrumb": "Pages > Separator",
+              "path": "pages.html#separator"
+              },
+            
+          
+        
+      {}];
+      $scope.onSelect = function ($item, $model, $label) {
+        window.location.replace($item.path);
+      };
+    }
+  </script>
+  <script type="text/ng-template" id="customTemplate.html">
+    <a href="{{match.model.path}}">
+      <p class="cortana-search-title">{{match.model.title}}</p>
+      <p class="cortana-search-path">{{match.model.breadcrumb}}</p>
+    </a>
+  </script>
+  
+    
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+      <script type="text/javascript" src="../assets/js/main.js"></script>
+    
+  
+  <!-- Source Components -->
+  
+</body>
 </html>

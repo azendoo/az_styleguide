@@ -1,0 +1,64 @@
+//doc
+  ---
+  title: Dropdowns
+  name: dropdowns
+  category: Azendoo - Components
+  ---
+
+  ```html_example
+  <div class="btn-group dropdown-menu-options">
+    <a href="javascript:void(0)" class="dropdown-toggle btn" data-toggle="dropdown">
+      Menu
+      <i class="fa fa-caret-square-o-down"></i>
+    </a>
+
+    <ul class="dropdown-menu">
+      <li>
+        <a href="javascript:void(0)">
+          Print
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          Export to JSON
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="javascript:void(0)" class="disabled">
+          Want to be awesome ? Go Premium !
+        </a>
+      </li>
+    </ul>
+  </div>
+  ```
+.dropdown-menu-options
+
+  .dropdown-toggle
+    font-weight: 600
+    border-radius: 4px
+    padding: 8px 13px
+    color: $color-midGrey
+    text-decoration: none
+    text-shadow: 1px 1px 1px rgba(255,255,255,.5)
+
+    i
+      margin-left: 10px
+
+  .dropdown-toggle:hover, &.open .dropdown-toggle
+    color: $color-midGrey
+    background-color: rgba(0,0,0,.15)
+
+  .dropdown-menu
+    max-width: 240px
+
+    > li > a
+      word-break: break-word
+      white-space: normal
+
+      &.disabled
+        color: $color-lightGrey
+
+      &:hover, &:focus
+        background-color: $brand-primary
+        color: $white

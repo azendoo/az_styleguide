@@ -1,0 +1,37 @@
+//doc
+  ---
+  title: Badges
+  name: badges
+  category: Azendoo - Components
+  ---
+
+  We are using two types of badges :
+  <ul>
+    <li>One for our officers and subjects members and the other for the follower.</li>
+  </ul>
+
+  Badges styles can be applied to any element. Typically you'll want to
+  use either a `<span>` or an `<li>` element:
+
+  Badges                                                            | Modifier Class
+  ----------------------------------------------------------------- | -----------------
+  <li class="badge"><span>Default</span></li>                          | `badge`
+  <li class="badge unchecked"><span>Primary</span></li>                | `badge unchecked`
+  <li class="badge badge-primary"><span>Primary</span></li>            | `badge badge-primary`
+  <li class="badge badge-primary unchecked"><span>Primary</span></li>  | `badge badge-primary unchecked`
+
+.badge
+  border: 1px solid $color-role-follower
+  background-color: $color-role-follower
+  color: $white !important
+  &.unchecked
+    background-color: transparent
+    color: $color-black !important
+
+.badge-primary
+  border: 1px solid $color-role-officer
+  background-color: $color-role-officer
+  color: $white !important
+  &.unchecked
+    background-color: transparent
+    color: $color-black !important

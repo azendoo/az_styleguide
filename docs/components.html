@@ -1,63 +1,163 @@
-<!doctype html>
-<html>
-  <head>
+
+<!DOCTYPE html>
+<html ng-app="cortana">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <title>Components</title>
 
-    <link rel="stylesheet" href="./static/github.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Styleguide CSS -->
+    <link rel="stylesheet" href="./theme-build/css/vendors.css">
+    <link rel="stylesheet" href="./theme-build/css/cortana.css">
 
-    <title>Azendoo - Style guides</title>
-    <link rel="stylesheet" href="./build/azendoo.css">
-    <link rel="stylesheet" href="./build/documentation.css">
+    <!-- Source CSS -->
+    
+      
+        <link rel="stylesheet" href="../assets/css/documentation.css">
+      
+        <link rel="stylesheet" href="../assets/css/azendoo.css">
+      
+    
 
-    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="theme-build/polyfill/html5shiv.js"></script>
+      <script src="theme-build/polyfill/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <script type="text/javascript" src="https://use.typekit.com/job1ecj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-<!--     <header class="navbar navbar-static-top az-doc-nav" id="top" role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/" class="navbar-brand">Azendoo</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-          <ul class="nav navbar-nav">
+  <body class="cortana-body"  ng-controller="MainController">
+
+    <div class="sb-slidebar sb-left cortana-sidenav sb-style-push">
+
+      
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+
+      <nav class="cortana-nav">
+        <ul>
+          
+            <li><a href="index.html">Home</a></li>
+          
+        </ul>
+        
+          <h3>Components</h3>
+          <ul>
+          
             
-              <li><a href="components.html">Components</a></li>
+              
+              
+                <li><a class="active" href="components.html">Components</a></li>
+              
             
-              <li><a href="base.html">Base</a></li>
+          
             
-              <li><a href="pages.html">Pages</a></li>
+          
+            
+          
+          </ul>
+        
+          <h3>Base</h3>
+          <ul>
+          
+            
+          
+            
+              
+              
+                <li><a href="base.html">Base</a></li>
+              
+            
+          
+            
+          
+          </ul>
+        
+          <h3>Pages</h3>
+          <ul>
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="pages.html">Pages</a></li>
+              
+            
+          
+          </ul>
+        
+      </nav>
+    </div>
+
+    <header class="cortana-header sb-slide">
+      
+        <h1>Components</h1>
+      
+      <div id="open-left" class="cortana-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="cortana-search-wrapper" ng-controller="TypeaheadCtrl">
+        <input id="cortana-search" type="text" class="form-control cortana-search" ng-model="customSelected" placeholder="Search" typeahead="data as data.title for data in searchData | filter:{title:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-on-select="onSelect($item, $model, $label)">
+      </div>
+    </header>
+
+    <div id="sb-site">
+
+      <div class="cortana-container">
+
+        <nav id="cortana-inside-nav" class="cortana-inside-nav" bs-affix>
+          <ul bs-scrollspy-list data-offset="-30">
+            
+              
+                <li><a href="#avatars">Avatars</a></li>
+              
+            
+              
+                <li><a href="#badges">Badges</a></li>
+              
+            
+              
+                <li><a href="#buttons">Buttons</a></li>
+              
+            
+              
+                <li><a href="#dropdowns">Dropdowns</a></li>
+              
+            
+              
+                <li><a href="#links">Links</a></li>
+              
+            
+              
+                <li><a href="#Well">Well</a></li>
+              
             
           </ul>
         </nav>
-      </div>
-    </header> -->
+
+        <div class="cortana-content-wrapper clearfix">
+          <div class="cortana-content">
 
 
-    <section class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-9 az-doc-page">
-<h1 id="Well">Well</h1>
 
-<p>Display well block of content in the html page</p>
-<div class="codeExample"><div class="exampleOutput">    <div class="well">
-      The well displayed content example
-    </div>
-</div><div class="codeBlock"><div class="highlight"><pre>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;well&quot;</span><span class="nt">&gt;</span>
-      The well displayed content example
-    <span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
 <h1 id="avatars">Avatars</h1>
 
 <p>Some helper classes to display avatar with different sizes</p>
@@ -134,15 +234,15 @@
 
 <p>Button styles can be applied to any element. Typically you&#39;ll want to
   use either a <code>&lt;button&gt;</code> or an <code>&lt;a&gt;</code> element:</p>
-<div class="codeExample"><div class="exampleOutput">  <button class="btn btn-default">Default</button>
+</div><div class="codeExample"><div class="exampleOutput">  <button class="btn btn-default">Default</button>
   <a class="btn btn-primary" href="http://azendoo.com">
     Primary
   </a>
-</div><div class="codeBlock"><div class="highlight"><pre>  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;btn btn-default&quot;</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;btn btn-primary&quot;</span> <span class="na">href=</span><span class="s">&quot;http://azendoo.com&quot;</span><span class="nt">&gt;</span>
+</div><div class="codeBlock"><div class="highlight"><pre>  <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>Default<span class="nt">&lt;/button&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span> <span class="na">href=</span><span class="s">"http://azendoo.com"</span><span class="nt">&gt;</span>
     Primary
   <span class="nt">&lt;/a&gt;</span>
-</pre></div></div></div>
+</pre></div></div></div><div class="cortana-content">
 <table><thead>
 <tr>
 <th>Buttons</th>
@@ -184,7 +284,7 @@
 </tbody></table>
 
 <h1 id="dropdowns">Dropdowns</h1>
-<div class="codeExample"><div class="exampleOutput">  <div class="btn-group dropdown-menu-options">
+</div><div class="codeExample"><div class="exampleOutput">  <div class="btn-group dropdown-menu-options">
     <a href="javascript:void(0)" class="dropdown-toggle btn" data-toggle="dropdown">
       Menu
       <i class="fa fa-caret-square-o-down"></i>
@@ -209,32 +309,32 @@
       </li>
     </ul>
   </div>
-</div><div class="codeBlock"><div class="highlight"><pre>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;btn-group dropdown-menu-options&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;javascript:void(0)&quot;</span> <span class="na">class=</span><span class="s">&quot;dropdown-toggle btn&quot;</span> <span class="na">data-toggle=</span><span class="s">&quot;dropdown&quot;</span><span class="nt">&gt;</span>
+</div><div class="codeBlock"><div class="highlight"><pre>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"btn-group dropdown-menu-options"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0)"</span> <span class="na">class=</span><span class="s">"dropdown-toggle btn"</span> <span class="na">data-toggle=</span><span class="s">"dropdown"</span><span class="nt">&gt;</span>
       Menu
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;fa fa-caret-square-o-down&quot;</span><span class="nt">&gt;&lt;/i&gt;</span>
+      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa fa-caret-square-o-down"</span><span class="nt">&gt;&lt;/i&gt;</span>
     <span class="nt">&lt;/a&gt;</span>
 
-    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;li&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;javascript:void(0)&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0)"</span><span class="nt">&gt;</span>
           Print
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/li&gt;</span>
       <span class="nt">&lt;li&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;javascript:void(0)&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0)"</span><span class="nt">&gt;</span>
           Export to JSON
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/li&gt;</span>
-      <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
+      <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
       <span class="nt">&lt;li&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;javascript:void(0)&quot;</span> <span class="na">class=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"javascript:void(0)"</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;</span>
           Want to be awesome ? Go Premium !
         <span class="nt">&lt;/a&gt;</span>
       <span class="nt">&lt;/li&gt;</span>
     <span class="nt">&lt;/ul&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div>
+</pre></div></div></div><div class="cortana-content">
 <h1 id="links">Links</h1>
 
 <p>Default style of link is disabled.
@@ -260,25 +360,183 @@
 <td><code>link-help</code></td>
 </tr>
 </tbody></table>
-          </div>
 
-          <ul class="col-xs-3 nav az-doc-sidenav">
-          
-            <li><a href="#Well">Well</a></li>
-          
-            <li><a href="#avatars">Avatars</a></li>
-          
-            <li><a href="#badges">Badges</a></li>
-          
-            <li><a href="#buttons">Buttons</a></li>
-          
-            <li><a href="#dropdowns">Dropdowns</a></li>
-          
-            <li><a href="#links">Links</a></li>
-          
-          </ul>
-        </div>
-      </section>
+<h1 id="Well">Well</h1>
+
+<p>Display well block of content in the html page</p>
+</div><div class="codeExample"><div class="exampleOutput">    <div class="well">
+      The well displayed content example
     </div>
-  </body>
+</div><div class="codeBlock"><div class="highlight"><pre>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"well"</span><span class="nt">&gt;</span>
+      The well displayed content example
+    <span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
+        </div>
+      </div>
+    </div>
+
+    <footer class="cortana-footer">
+      Build with love using Trulia's <a href="https://github.com/trulia/hologram">Hologram</a> and <a href="https://github.com/Yago/Cortana">Cortana</a> !
+    </footer>  
+  </div>
+
+  <script src="theme-build/js/vendors.min.js"></script>
+  <script type="text/javascript">
+    var jQuery_no_conflict = $.noConflict(true);
+  </script>
+  <script src="theme-build/js/main.js"></script>
+  <script type="text/javascript">
+    function TypeaheadCtrl($scope) {
+      $scope.selected = undefined;
+      $scope.searchData = 
+      [
+        
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Avatars",
+              "breadcrumb": "Components > Avatars",
+              "path": "components.html#avatars"
+              },
+            
+              
+              
+              {
+              "title": "Badges",
+              "breadcrumb": "Components > Badges",
+              "path": "components.html#badges"
+              },
+            
+              
+              
+              {
+              "title": "Buttons",
+              "breadcrumb": "Components > Buttons",
+              "path": "components.html#buttons"
+              },
+            
+              
+              
+              {
+              "title": "Dropdowns",
+              "breadcrumb": "Components > Dropdowns",
+              "path": "components.html#dropdowns"
+              },
+            
+              
+              
+              {
+              "title": "Links",
+              "breadcrumb": "Components > Links",
+              "path": "components.html#links"
+              },
+            
+              
+              
+              {
+              "title": "Well",
+              "breadcrumb": "Components > Well",
+              "path": "components.html#Well"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Brand",
+              "breadcrumb": "Base > Brand",
+              "path": "base.html#brand"
+              },
+            
+              
+              
+              {
+              "title": "Colors",
+              "breadcrumb": "Base > Colors",
+              "path": "base.html#color"
+              },
+            
+              
+              
+              {
+              "title": "Typography",
+              "breadcrumb": "Base > Typography",
+              "path": "base.html#typo"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Header",
+              "breadcrumb": "Pages > Header",
+              "path": "pages.html#header"
+              },
+            
+              
+              
+              {
+              "title": "Navbar",
+              "breadcrumb": "Pages > Navbar",
+              "path": "pages.html#navbar"
+              },
+            
+              
+              
+              {
+              "title": "Pages Form",
+              "breadcrumb": "Pages > Pages Form",
+              "path": "pages.html#pageform"
+              },
+            
+              
+              
+              {
+              "title": "Placeholder",
+              "breadcrumb": "Pages > Placeholder",
+              "path": "pages.html#placeholder"
+              },
+            
+              
+              
+              {
+              "title": "Separator",
+              "breadcrumb": "Pages > Separator",
+              "path": "pages.html#separator"
+              },
+            
+          
+        
+      {}];
+      $scope.onSelect = function ($item, $model, $label) {
+        window.location.replace($item.path);
+      };
+    }
+  </script>
+  <script type="text/ng-template" id="customTemplate.html">
+    <a href="{{match.model.path}}">
+      <p class="cortana-search-title">{{match.model.title}}</p>
+      <p class="cortana-search-path">{{match.model.breadcrumb}}</p>
+    </a>
+  </script>
+  
+    
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+      <script type="text/javascript" src="../assets/js/main.js"></script>
+    
+  
+  <!-- Source Components -->
+  
+</body>
 </html>

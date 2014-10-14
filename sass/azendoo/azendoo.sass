@@ -1,0 +1,52 @@
+@import 'compass'
+
+@import 'variables'
+@import 'bootstrap_imports'
+@import 'mixins'
+
+@import 'base/colors'
+@import 'base/brand'
+@import 'base/typo'
+@import 'base/utilities'
+
+@import 'components/buttons'
+@import 'components/dropdowns'
+@import 'components/badges'
+@import 'components/links'
+@import 'components/well'
+@import 'components/avatars'
+
+@import 'pages/header'
+@import 'pages/navbar'
+@import 'pages/separator'
+@import 'pages/placeholder'
+@import 'pages/form'
+
+
+body
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+input, textarea
+  outline: 0
+
+textarea
+  resize: none
+
+ul, li
+  margin: 0
+  padding: 0
+  list-style: none
+
+a:focus
+  outline: none
+  outline-offset: 0
+
+h3
+  color: #222
+  font-size: $font-size-base + 4px
+  line-height: $line-height-computed * 1.5
+  font-weight: normal
+
+img
+  border: none

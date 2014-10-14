@@ -1,53 +1,137 @@
-<!doctype html>
-<html>
-  <head>
+
+<!DOCTYPE html>
+<html ng-app="cortana">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <title></title>
 
-    <link rel="stylesheet" href="./static/github.css">
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Styleguide CSS -->
+    <link rel="stylesheet" href="./theme-build/css/vendors.css">
+    <link rel="stylesheet" href="./theme-build/css/cortana.css">
 
-    <title>Azendoo - Style guides</title>
-    <link rel="stylesheet" href="./build/azendoo.css">
-    <link rel="stylesheet" href="./build/documentation.css">
+    <!-- Source CSS -->
+    
+      
+        <link rel="stylesheet" href="../assets/css/documentation.css">
+      
+        <link rel="stylesheet" href="../assets/css/azendoo.css">
+      
+    
 
-    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="theme-build/polyfill/html5shiv.js"></script>
+      <script src="theme-build/polyfill/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <script type="text/javascript" src="https://use.typekit.com/job1ecj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-<!--     <header class="navbar navbar-static-top az-doc-nav" id="top" role="banner">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="/" class="navbar-brand">Azendoo</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-          <ul class="nav navbar-nav">
+  <body class="cortana-body"  ng-controller="MainController">
+
+    <div class="sb-slidebar sb-left cortana-sidenav sb-style-push">
+
+      
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+
+      <nav class="cortana-nav">
+        <ul>
+          
+            <li><a href="index.html">Home</a></li>
+          
+        </ul>
+        
+          <h3>Components</h3>
+          <ul>
+          
             
-              <li><a href="components.html">Components</a></li>
+              
+              
+                <li><a href="components.html">Components</a></li>
+              
             
-              <li><a href="base.html">Base</a></li>
+          
             
-              <li><a href="pages.html">Pages</a></li>
+          
+            
+          
+          </ul>
+        
+          <h3>Base</h3>
+          <ul>
+          
+            
+          
+            
+              
+              
+                <li><a href="base.html">Base</a></li>
+              
+            
+          
+            
+          
+          </ul>
+        
+          <h3>Pages</h3>
+          <ul>
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="pages.html">Pages</a></li>
+              
+            
+          
+          </ul>
+        
+      </nav>
+    </div>
+
+    <header class="cortana-header sb-slide">
+      
+      <div id="open-left" class="cortana-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="cortana-search-wrapper" ng-controller="TypeaheadCtrl">
+        <input id="cortana-search" type="text" class="form-control cortana-search" ng-model="customSelected" placeholder="Search" typeahead="data as data.title for data in searchData | filter:{title:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-on-select="onSelect($item, $model, $label)">
+      </div>
+    </header>
+
+    <div id="sb-site">
+
+      <div class="cortana-container">
+
+        <nav id="cortana-inside-nav" class="cortana-inside-nav" bs-affix>
+          <ul bs-scrollspy-list data-offset="-30">
             
           </ul>
         </nav>
-      </div>
-    </header> -->
+
+        <div class="cortana-content-wrapper clearfix">
+          <div class="cortana-content">
 
 
-    <section class="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-9 az-doc-page">
+
 <h1>Contributing to Font Awesome</h1>
 
 <p>Looking to contribute something to Font Awesome? <strong>Here&#39;s how you can help.</strong></p>
@@ -117,13 +201,179 @@
 <h2>Thanks</h2>
 
 <p>Thanks to Bootstrap for their wonderful CONTRIBUTING.MD doc. It was modified to create this one.</p>
-          </div>
 
-          <ul class="col-xs-3 nav az-doc-sidenav">
-          
-          </ul>
         </div>
-      </section>
+      </div>
     </div>
-  </body>
+
+    <footer class="cortana-footer">
+      Build with love using Trulia's <a href="https://github.com/trulia/hologram">Hologram</a> and <a href="https://github.com/Yago/Cortana">Cortana</a> !
+    </footer>  
+  </div>
+
+  <script src="theme-build/js/vendors.min.js"></script>
+  <script type="text/javascript">
+    var jQuery_no_conflict = $.noConflict(true);
+  </script>
+  <script src="theme-build/js/main.js"></script>
+  <script type="text/javascript">
+    function TypeaheadCtrl($scope) {
+      $scope.selected = undefined;
+      $scope.searchData = 
+      [
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Avatars",
+              "breadcrumb": "Components > Avatars",
+              "path": "components.html#avatars"
+              },
+            
+              
+              
+              {
+              "title": "Badges",
+              "breadcrumb": "Components > Badges",
+              "path": "components.html#badges"
+              },
+            
+              
+              
+              {
+              "title": "Buttons",
+              "breadcrumb": "Components > Buttons",
+              "path": "components.html#buttons"
+              },
+            
+              
+              
+              {
+              "title": "Dropdowns",
+              "breadcrumb": "Components > Dropdowns",
+              "path": "components.html#dropdowns"
+              },
+            
+              
+              
+              {
+              "title": "Links",
+              "breadcrumb": "Components > Links",
+              "path": "components.html#links"
+              },
+            
+              
+              
+              {
+              "title": "Well",
+              "breadcrumb": "Components > Well",
+              "path": "components.html#Well"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Brand",
+              "breadcrumb": "Base > Brand",
+              "path": "base.html#brand"
+              },
+            
+              
+              
+              {
+              "title": "Colors",
+              "breadcrumb": "Base > Colors",
+              "path": "base.html#color"
+              },
+            
+              
+              
+              {
+              "title": "Typography",
+              "breadcrumb": "Base > Typography",
+              "path": "base.html#typo"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Header",
+              "breadcrumb": "Pages > Header",
+              "path": "pages.html#header"
+              },
+            
+              
+              
+              {
+              "title": "Navbar",
+              "breadcrumb": "Pages > Navbar",
+              "path": "pages.html#navbar"
+              },
+            
+              
+              
+              {
+              "title": "Pages Form",
+              "breadcrumb": "Pages > Pages Form",
+              "path": "pages.html#pageform"
+              },
+            
+              
+              
+              {
+              "title": "Placeholder",
+              "breadcrumb": "Pages > Placeholder",
+              "path": "pages.html#placeholder"
+              },
+            
+              
+              
+              {
+              "title": "Separator",
+              "breadcrumb": "Pages > Separator",
+              "path": "pages.html#separator"
+              },
+            
+          
+        
+      {}];
+      $scope.onSelect = function ($item, $model, $label) {
+        window.location.replace($item.path);
+      };
+    }
+  </script>
+  <script type="text/ng-template" id="customTemplate.html">
+    <a href="{{match.model.path}}">
+      <p class="cortana-search-title">{{match.model.title}}</p>
+      <p class="cortana-search-path">{{match.model.breadcrumb}}</p>
+    </a>
+  </script>
+  
+    
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+      <script type="text/javascript" src="../assets/js/main.js"></script>
+    
+  
+  <!-- Source Components -->
+  
+</body>
 </html>
