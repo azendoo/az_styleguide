@@ -1,3 +1,7 @@
+== 0.6.0
+  * added cortona to display styleguide
+  * added utilies
+
 == 0.5.2
   * improved page form style
   * changed fonts variables
