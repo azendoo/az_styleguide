@@ -1,6 +1,6 @@
 # guard 'sass', :input => 'sass', :output => 'build', :compass => true
 
-guard "hologram", config_path: "hologram.yml" do
+guard "hologram", config_path: "hologram_config.yml" do
   watch('build/azendoo.css')
   watch('build/documentation.css')
   watch(%r{assets/.+})
