@@ -1,3 +1,6 @@
+== 0.6.1
+  * moved bower components to vendor
+
 == 0.6.0
   * added cortona to display styleguide
   * added utilies
