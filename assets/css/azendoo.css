@@ -5833,13 +5833,13 @@ button.close {
 .u-media > .u-pull-right {
   margin-left: 10px; }
 
-/* line 37, ../../sass/azendoo/components/_buttons.sass */
+/* line 38, ../../sass/azendoo/components/_buttons.sass */
 .btn {
   border-bottom-width: 0;
   font-weight: 600;
   -webkit-font-smoothing: antialiased; }
 
-/* line 42, ../../sass/azendoo/components/_buttons.sass */
+/* line 43, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-default {
   color: white;
   background-color: #c6c7c8;
@@ -5863,7 +5863,7 @@ button.close {
     color: #c6c7c8;
     background-color: white; }
 
-/* line 45, ../../sass/azendoo/components/_buttons.sass */
+/* line 46, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-danger {
   color: white;
   background-color: #ad1a26;
@@ -5887,7 +5887,7 @@ button.close {
     color: #ad1a26;
     background-color: white; }
 
-/* line 48, ../../sass/azendoo/components/_buttons.sass */
+/* line 49, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-primary {
   color: white;
   background-color: #1e8bc6;
@@ -5911,7 +5911,7 @@ button.close {
     color: #1e8bc6;
     background-color: white; }
 
-/* line 51, ../../sass/azendoo/components/_buttons.sass */
+/* line 52, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-success {
   color: white;
   background-color: #27ad8d;
@@ -5935,7 +5935,7 @@ button.close {
     color: #27ad8d;
     background-color: white; }
 
-/* line 54, ../../sass/azendoo/components/_buttons.sass */
+/* line 55, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-flat {
   background-color: transparent;
   background-image: none;
@@ -5943,45 +5943,46 @@ button.close {
   line-height: inherit;
   border: 1px solid transparent;
   font-weight: 400; }
-  /* line 63, ../../sass/azendoo/components/_buttons.sass */
+  /* line 64, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-default {
     border-color: #434343;
     color: #434343; }
-    /* line 66, ../../sass/azendoo/components/_buttons.sass */
+    /* line 67, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-default:hover {
       color: #434343;
       background-color: white; }
-  /* line 70, ../../sass/azendoo/components/_buttons.sass */
+  /* line 71, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-danger {
     border-color: #ad1a26;
     color: #ad1a26; }
-    /* line 73, ../../sass/azendoo/components/_buttons.sass */
+    /* line 74, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-danger:hover {
       color: #ad1a26;
       background-color: white; }
-  /* line 77, ../../sass/azendoo/components/_buttons.sass */
+  /* line 78, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-success {
     border-color: #27ad8d;
     color: #27ad8d; }
-    /* line 80, ../../sass/azendoo/components/_buttons.sass */
+    /* line 81, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-success:hover {
       color: #27ad8d;
       background-color: white; }
-  /* line 84, ../../sass/azendoo/components/_buttons.sass */
+  /* line 85, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-primary {
     border-color: #1e8bc6;
     color: #1e8bc6; }
-    /* line 87, ../../sass/azendoo/components/_buttons.sass */
+    /* line 88, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-primary:hover {
       color: #1e8bc6;
       background-color: white; }
-  /* line 91, ../../sass/azendoo/components/_buttons.sass */
+  /* line 92, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-white {
     border-color: white;
     color: white; }
-    /* line 94, ../../sass/azendoo/components/_buttons.sass */
+    /* line 95, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-white:hover {
-      color: white; }
+      color: #333333;
+      background-color: white; }
 
 /* line 37, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle {
