@@ -18,6 +18,7 @@ index: index
 css_include:
   - '../assets/css/documentation.css'
   - '../assets/css/azendoo.css'
+  - '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
 
 # List all js to include for the styleguide render examples (path from styleguide directory)
 js_include:

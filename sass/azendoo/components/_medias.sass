@@ -1,0 +1,193 @@
+//doc
+  ---
+  title: Medias
+  name: medias
+  category: Azendoo - Components
+  ---
+
+  ```html_example
+
+    <div class="media-gallery-item media-gallery-item--floating">
+      <div class="media-gallery-item-image media-gallery-item-image--medium">
+        <img src="https://app.azendoo.com/gridfs/uploads/webfile/image/54466bb2324f7174e80005a1/az-page-background%20220141021-12006-dr3iou-7b8f8c487ad2890e9058c11383f59391.png"/>
+      </div>
+
+      <div class="media-gallery-item-content">
+        <a class="u-bold" href="#">Evernote Note with a Sharing Link as a demonstration of a very long title of a file I likeé</a>
+      </div>
+
+      <div class="media-gallery-item-description text-muted small">
+        Automated Code Review for evernote sharing solution in the cloud environment in the cloud environment in the cloud environment
+      </div>
+
+      <div class="media-gallery-item-controls clearfix">
+        <a href="javascript:void(0)" class="pull-left media-gallery-item-control">
+          <i class="fa fa-file-o"></i>
+        </a>
+
+        <ul class="pull-right">
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-arrow-down"></i></a></li>
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-trash"></i></a></li>
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-info"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="media-gallery-item media-gallery-item--floating">
+      <div class="media-gallery-item-image media-gallery-item-image--small">
+        <img src="https://app.azendoo.com/gridfs/weblinks/mini_magick20141029-28290-9lwfwa.png"/>
+      </div>
+
+      <div class="media-gallery-item-content">
+        <a class="u-bold" href="#">Azendoo sort du navigateur et prépare un mode déconnecté | Collaboratif-Info</a>
+      </div>
+
+      <div class="media-gallery-item-description text-muted small">
+        La revue en ligne des pratiques collaboratives : Entreprise 2.0, réseau social d'entreprise, Knowledge Management, communautés de pratique, ...
+      </div>
+
+      <div class="media-gallery-item-link text-muted small">
+        http://www.collaboratif-info.fr/actualite/azendoo-sort-du-navigateur-et-prepare-un-mode-deconnecte
+      </div>
+
+      <div class="media-gallery-item-controls clearfix">
+        <a href="javascript:void(0)" class="pull-left media-gallery-item-control">
+          <i class="fa fa-link"></i>
+        </a>
+
+        <ul class="pull-right">
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-info"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="media-gallery-item media-gallery-item--floating">
+      <div class="media-gallery-item-image media-gallery-item-image--large">
+        <img src="https://app.azendoo.com/gridfs/uploads/webfile/image/5450a982324f716e82001b1a/image6601120141029-15796-1tmdbqt-9fa2065b878cb7a759a45f301b248981.png"/>
+      </div>
+
+      <div class="media-gallery-item-content">
+        <a class="u-bold" href="#">image66011.jpg</a>
+      </div>
+
+      <div class="media-gallery-item-controls clearfix">
+        <a href="javascript:void(0)" class="pull-left media-gallery-item-control">
+          <i class="fa fa-picture-o"></i>
+        </a>
+
+        <ul class="pull-right">
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-arrow-down"></i></a></li>
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-info"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="media-gallery-item media-gallery-item--floating">
+      <div class="media-gallery-item-content">
+        <a class="u-bold" href="#">Nouveau texte modal de refresh</a>
+      </div>
+
+      <div class="media-gallery-item-description text-muted small">
+        by <a href="javascript:void(0)">Fred Castagnac</a>
+      </div>
+
+      <div class="media-gallery-item-separator"></div>
+
+      <div class="media-gallery-item-description text-muted small">
+        Shared from Dropbox
+      </div>
+
+      <div class="media-gallery-item-controls clearfix">
+        <a href="javascript:void(0)" class="pull-left media-gallery-item-control">
+          <i class="fa fa-dropbox"></i>
+        </a>
+
+        <ul class="pull-right">
+          <li><a href="javascript:void(0)" class="media-gallery-item-control"><i class="fa fa-info"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+  ```
+
+$media-gallery-item-height: 220px
+
+.media-gallery-item
+  height: $media-gallery-item-height
+  +box-shadow(0 1px 3px rgba(0,0,0,.3))
+  border-radius: $border-radius-small
+  overflow: hidden
+  position: relative
+  background-color: $white
+
+.media-gallery-item--floating
+  float: left
+  margin: 0 15px 15px 0
+  width: $media-gallery-item-height
+
+.media-gallery-item-image
+  overflow: hidden
+  display: block
+  &:hover
+    cursor: pointer
+    opacity: .7
+
+.media-gallery-item-image--large
+  height: $media-gallery-item-height
+  > img
+    width: 100%
+
+.media-gallery-item-image--medium
+  height: 128px
+  > img
+    width: 100%
+
+.media-gallery-item-image--small
+  height: 96px
+  line-height: 96px
+  text-align: center
+  vertical-align: middle
+  > img
+    width: auto
+
+.media-gallery-item-content
+  height: 50px
+  padding: 8px
+
+.media-gallery-item-description,
+.media-gallery-item-link
+  height: 35px
+  padding: 0 8px
+
+.media-gallery-item-content,
+.media-gallery-item-description
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  text-overflow: ellipsis
+  overflow: hidden
+
+.media-gallery-item-separator
+  height: 1px
+  background-color: $gray-lightest
+  margin: 0 8px 8px 8px
+
+.media-gallery-item-controls
+  background-color: $white
+  border-top: 1px solid $gray-lightest
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  > ul
+    > li
+      display: inline-block
+
+.media-gallery-item-control
+  padding: 8px
+  font-size: 15px
+  display: block
+  width: 30px
+  color: $gray-light
+  &:hover
+    color: $gray
+    text-decoration: none
