@@ -1,3 +1,13 @@
+== 0.6.3
+  * added media component
+  * added BEM mixin
+
+== 0.6.2
+  * fixed hover on button white
+
+== 0.6.1
+  * moved bower components to vendor
+
 == 0.6.1
   * moved bower components to vendor
 
