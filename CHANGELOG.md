@@ -1,3 +1,7 @@
+== 0.7
+  * revamped avatar component
+  * added property to display premium icon on user avatar
+
 == 0.6.3
   * added media component
   * added BEM mixin
