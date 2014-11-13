@@ -5,32 +5,106 @@
   category: Azendoo - Components
   ---
 
-  Some helper classes to display avatar with different sizes
+  Helper classes to format avatar, with different sizes and correct border radius
 
-  Avatars                                      | Modifier Class
-  -------------------------------------------- | -----------------
-  <img class="avatar" src="images/avatar.jpg"/> | `avatar`
-  <img class="avatar avatar-xsmall" src="images/avatar.jpg"/>  | `avatar avatar-xsmall`
-  <img class="avatar avatar-small" src="images/avatar.jpg"/>  | `avatar avatar-small`
-  <img class="avatar avatar-large" src="images/avatar.jpg"/>  | `avatar avatar-large`
-  <img class="avatar avatar-xlarge" src="images/avatar.jpg"/>  | `avatar avatar-xlarge`
+  ```html_example
+    <div class="user user-xsmall">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+    <div class="user user-small">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+    <div class="user user-base">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+    <div class="user user-large">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+    <div class="user user-xlarge">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+    <div class="user user-xxlarge">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+  ```
 
-.avatar
-  width: 28px
-  border-radius: 3px
+  Some modifier classes to add the premium icon or give a clickable sensation
 
-  &.avatar-xsmall
-    width: 20px
-    height: 20px
+  ```html_example
+    <div class="user user-xsmall is-premium">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+      <div class="user-premium-icon"></div>
+    </div>
+    <div class="user user-small is-premium">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+      <div class="user-premium-icon"></div>
+    </div>
+    <div class="user user-large is-premium">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+      <div class="user-premium-icon"></div>
+    </div>
+    <div class="user user-xxlarge is-premium">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+      <div class="user-premium-icon"></div>
+    </div>
 
-  &.avatar-small
-    width: 25px
-    height: 25px
+    <br/>
 
-  &.avatar-large
-    width: 38px
-    height: 38px
+    <div class="user user-large is-clickable">
+      <img class="user-avatar" src="images/avatar.jpg"/>
+    </div>
+  ```
 
-  &.avatar-xlarge
-    width: 96px
-    height: 96px
+.user
+  position: relative
+  display: inline-block
+
+.user-avatar
+  border-radius: $border-radius-base
+  width: 100%
+
+.user-xsmall
+  +square(20px)
+
+.user-small,
+  +square(25px)
+
+.user-base
+  +square(28px)
+
+.user-large
+  +square(38px)
+
+.user-xlarge
+  +square(90px)
+
+.user-xxlarge
+  +square(120px)
+
+.user.is-clickable:hover
+  opacity: .8
+  cursor: pointer
+
+.user-premium-icon
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9Ijg5cHgiIGhlaWdodD0iODlweCIgdmlld0JveD0iMCAwIDg5IDg5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4xICg4NzUxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5SZWN0YW5nbGUgKyBGaWxsIDQ5MCArIEZpbGwgNDkxPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9IlByZW1pdW0tSWNvbi0jLVN0YXIiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4wMDAwMDAsIC0xOS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9IlJlY3RhbmdsZS0rLUZpbGwtNDkwLSstRmlsbC00OTEiIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLjAwMDAwMCwgMTkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjNDk5MEUyIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB4PSIwIiB5PSIxIiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxOCI+PC9yZWN0PgogICAgICAgICAgICAgICAgPGcgaWQ9IkZpbGwtNDkwLSstRmlsbC00OTEiIGZpbGw9IiNGRkZGRkYiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik01OC43OTk0NTczLDY2Ljk5OTEwMzggQzU4LjQ2ODI3MDQsNjYuOTk5MTAzOCA1OC4xMzQwMTY4LDY2Ljg5MTU1OTMgNTcuODU4MDI3Nyw2Ni42NzY0NzAyIEw0NSw1Ni42NTMzMTkyIEwzMi4xNDE5NzIzLDY2LjY3NjQ3MDIgQzMxLjYxNzU5MjksNjcuMDg1MTM5NCAzMC44OTM4ODgxLDY3LjEwNjY0ODMgMzAuMzUxMTA5NCw2Ni43NDA5OTY5IEMyOS43OTkxMzExLDY2LjM3NTM0NTUgMjkuNTQ3Njc0Myw2NS42OTYyNzg1IDI5LjcyMjQ2NzUsNjUuMDYwMjI5NCBMMzQuMDY3NzYzMiw0OS4wODUyNTYzIEwyMi41MjUyODM4LDM4Ljk2Mzc3ODkgQzIyLjA0MzgzNjEsMzguNTQyODE4OCAyMS44NzIxMDk1LDM3Ljg2NjgyNDYgMjIuMDk5MDMzOSwzNy4yNjc2NDc5IEMyMi4zMjI4OTE4LDM2LjY2ODQ3MTEgMjIuODk2MzM1OSwzNi4yNzIwOTI3IDIzLjUzNDE3NzUsMzYuMjcyMDkyNyBMMzcuODMwNDE1MywzNi4yNzIwOTI3IEw0My41NzcxMjI2LDIxLjg3MzQxNTMgQzQ0LjA0MzIzNzYsMjAuNzA4ODYxNiA0NS45NTY3NjI0LDIwLjcwODg2MTYgNDYuNDIyODc3NCwyMS44NzM0MTUzIEw1Mi4xNjk1ODQ3LDM2LjI3MjA5MjcgTDY2LjQ2NTgyMjUsMzYuMjcyMDkyNyBDNjcuMTAzNjY0MSwzNi4yNzIwOTI3IDY3LjY3NzEwODIsMzYuNjY4NDcxMSA2Ny45MDA5NjYxLDM3LjI2NzY0NzkgQzY4LjEyNzg5MDUsMzcuODY2ODI0NiA2Ny45NTYxNjM5LDM4LjU0MjgxODggNjcuNDc0NzE2MiwzOC45NjM3Nzg5IEw1NS45MzIyMzY4LDQ5LjA4NTI1NjMgTDYwLjI3NzUzMjUsNjUuMDYwMjI5NCBDNjAuNDUyMzI1Nyw2NS42OTYyNzg1IDYwLjIwMDg2ODksNjYuMzc1MzQ1NSA1OS42NDg4OTA2LDY2Ljc0MDk5NjkgQzU5LjM5MTMwMDcsNjYuOTEzMDY4MiA1OS4wOTY5MTIzLDY2Ljk5OTEwMzggNTguNzk5NDU3Myw2Ni45OTkxMDM4IFoiIGlkPSJGaWxsLTQ5MCI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC41OTUxNzA1LDkuMzc1IEMxNC40NTQyNjE0LDkuMzc1IDkuNDU4ODA2ODIsMTQuMzcwNDU0NSA5LjQ1ODgwNjgyLDIwLjUxMTM2MzYgTDkuNDU4ODA2ODIsNjguMjM4NjM2NCBDOS40NTg4MDY4Miw3NC4zNzk1NDU1IDE0LjQ1NDI2MTQsNzkuMzc1IDIwLjU5NTE3MDUsNzkuMzc1IEw2OC4zMjI0NDMyLDc5LjM3NSBDNzQuNDYzMzUyMyw3OS4zNzUgNzkuNDU4ODA2OCw3NC4zNzk1NDU1IDc5LjQ1ODgwNjgsNjguMjM4NjM2NCBMNzkuNDU4ODA2OCwyMC41MTEzNjM2IEM3OS40NTg4MDY4LDE0LjM3MDQ1NDUgNzQuNDYzMzUyMyw5LjM3NSA2OC4zMjI0NDMyLDkuMzc1IEwyMC41OTUxNzA1LDkuMzc1IFogTTcyLjMxMjUsODkgTDE2LjY4NzUsODkgQzcuNDg3MTI1LDg5IDAsODEuNTEyODc1IDAsNzIuMzEyNSBMMCwxNi42ODc1IEMwLDcuNDg3MTI1IDcuNDg3MTI1LDAgMTYuNjg3NSwwIEw3Mi4zMTI1LDAgQzgxLjUxMjg3NSwwIDg5LDcuNDg3MTI1IDg5LDE2LjY4NzUgTDg5LDcyLjMxMjUgQzg5LDgxLjUxMjg3NSA4MS41MTI4NzUsODkgNzIuMzEyNSw4OSBMNzIuMzEyNSw4OSBaIiBpZD0iRmlsbC00OTEiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+')
+  position: absolute
+  $size: 13px
+  top: 2px
+  right: 2px
+  +square($size)
+  background-size: $size
+
+.user-xxlarge .user-premium-icon
+  $size: 22px
+  top: 8px
+  right: 8px
+  +square($size)
+  background-size: $size
+
+.user-xsmall .user-premium-icon,
+.user-small .user-premium-icon
+  $size: 11px
+  top: 1px
+  right: 1px
+  +square($size)
+  background-size: $size
