@@ -1,3 +1,6 @@
+== 0.7.1
+  * fixed premium icon for small avatars
+
 == 0.7
   * revamped avatar component
   * added property to display premium icon on user avatar
