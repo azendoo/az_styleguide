@@ -36,3 +36,12 @@ a.link--dark
   color: $gray-dark
   &:visited, &:active
     color: $gray-dark
+
+a.link.link--white
+  color: $gray-lighter
+  border-bottom: 1px dotted $gray-lighter
+  text-decoration: initial
+  +transition(color .3s ease)
+  &:hover
+    color: $white
+    border-bottom: 1px solid $white

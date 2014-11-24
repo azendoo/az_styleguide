@@ -19,6 +19,8 @@
   <li class="badge unchecked"><span>Primary</span></li>                | `badge unchecked`
   <li class="badge badge-primary"><span>Primary</span></li>            | `badge badge-primary`
   <li class="badge badge-primary unchecked"><span>Primary</span></li>  | `badge badge-primary unchecked`
+  <li class="badge badge-danger"><span>Primary</span></li>            | `badge badge-danger`
+
 
 .badge
   border: 1px solid $color-role-follower
@@ -35,3 +37,7 @@
   &.unchecked
     background-color: transparent
     color: $color-black !important
+
+.badge.badge-danger
+  border-color: $red
+  background-color: $red

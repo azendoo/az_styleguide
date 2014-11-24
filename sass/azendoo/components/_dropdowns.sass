@@ -62,3 +62,29 @@
       &:hover, &:focus
         background-color: $brand-primary
         color: $white
+
+// reapply default dropdown-menu style to submenu
+.dropdown-menu-subsection > li > a
+  display: block
+  padding: 3px 20px
+  clear: both
+  font-weight: normal
+  line-height: $line-height-base
+  color: $dropdown-link-color
+  white-space: nowrap
+
+.dropdown-menu-subsection > li > a
+  &:hover,
+  &:focus
+    text-decoration: none
+    color: $dropdown-link-hover-color
+    background-color: $dropdown-link-hover-bg
+
+.dropdown-menu-subsection > .active > a
+  &,
+  &:hover,
+  &:focus
+    color: $dropdown-link-active-color
+    text-decoration: none
+    outline: 0
+    background-color: $dropdown-link-active-bg

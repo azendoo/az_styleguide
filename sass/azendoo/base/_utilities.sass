@@ -11,6 +11,9 @@
   word-wrap: break-word
   white-space: normal
 
+.u-text-overflow
+  +text-overflow
+
 .u-bold
   font-weight: bold
 
@@ -48,6 +51,17 @@
 .margin-block-bottom
   margin: 0 0 $line-height-computed !important
 
+.dropdown-menu--no-border
+  border: 0
+
+.navbar-pills
+  // navbar pills are 42 px height
+  +navbar-vertical-align(42px)
+
 [class^="icon-"],
 [class*=" icon-"]
   line-height: inherit
+
+[class^="icon-"].pull-left, [class*=" icon-"].pull-left
+  margin-right: .6em
+  vertical-align: middle
