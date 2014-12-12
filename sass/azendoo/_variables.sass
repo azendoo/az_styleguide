@@ -1,14 +1,18 @@
 // COlORS
 $gray-darker:           #111
-$gray-dark:             #333
+$gray-dark:             #313131
 $gray-mid:              #535353
 $gray:                  #666
-$gray-light:            #878888
-$gray-lighter:          #e0e0e0
+$gray-light:            #8E939B
+$gray-soft:             #D5D5D5
+$gray-lighter:          #EDEDED
 $gray-lightest:         #f0f0f0
 $white:                 #ffffff
 
 $blue:                  #1E8BC6
+$blue-bright:           #BDE6FB
+$blue-light:            #F2F8FB
+
 $red:                   #AD1A26
 $green:                 #27AD8D
 $yellow:                #FFCC44
@@ -19,11 +23,14 @@ $brand-success:         $green
 $brand-info:            lighten($blue, 5%)
 $brand-warning:         $yellow
 $brand-danger:          $red
+$brand-gray:            #75848D
+$brand-bright:          #BDE6FB
+$brand-soft:            #CEDBE1
+$brand-light:           #E9EFF2
 
 // TYPOGRAPHY
 $font-family-sans-serif:        'Source Sans Pro', 'Helvetica', 'Open Sans', 'sans-serif'
 $headings-font-family:          $font-family-sans-serif
-$special-headings-font-family:  'Raleway', 'Helvetica Neue', 'Open Sans', 'sans-serif'
 
 $border-radius-small: 2px
 
@@ -39,10 +46,15 @@ $navbar-default-link-active-color   : $gray-light
 $navbar-default-link-active-bg      : $gray-lightest
 $navbar-default-link-hover-bg       : $gray-lightest
 
+$input-color-placeholder: $gray-light
+
 $modal-backdrop-opacity: .25
 
-$background-color    : $gray-lightest
+$background-color    : $brand-light
 $dropdown-link-color : $gray-mid
+
+$link-action-color   : $brand-gray
+
 
 // Bootrap variables import
 @import ../vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/variables
@@ -52,6 +64,15 @@ $dropdown-link-color : $gray-mid
 $page-navbar-height  : 36px
 $page-navbar-padding : 3px
 $sidemenu-width      : 265px
+
+$spacing-xs : 4px
+$spacing-sm : 6px
+$spacing-md : 10px
+$spacing-lg : 14px
+
+$grid-gutter-width    : $spacing-lg
+$well-padding         : $spacing-lg
+$line-height-computed : $spacing-lg
 
 
 // ----- TRY TO AVOID THIS COLORS ---------------

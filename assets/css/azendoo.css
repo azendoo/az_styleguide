@@ -242,7 +242,7 @@ body {
   font-family: "Source Sans Pro", "Helvetica", "Open Sans", "sans-serif";
   font-size: 14px;
   line-height: 1.42857;
-  color: #333;
+  color: #313131;
   background-color: #fff; }
 
 /* line 36, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -311,7 +311,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #e0e0e0; }
+  border-top: 1px solid #EDEDED; }
 
 /* line 125, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_scaffolding.scss */
 .sr-only {
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6,
   .h6 .small {
     font-weight: normal;
     line-height: 1;
-    color: #878888; }
+    color: #8E939B; }
 
 /* line 24, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1,
@@ -483,7 +483,7 @@ mark,
 
 /* line 107, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
 .text-muted {
-  color: #878888; }
+  color: #8E939B; }
 
 /* line 5, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
@@ -573,7 +573,7 @@ a.bg-danger:hover {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #e0e0e0; }
+  border-bottom: 1px solid #EDEDED; }
 
 /* line 154, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
 ul,
@@ -644,7 +644,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #878888; }
+  border-bottom: 1px dotted #8E939B; }
 
 /* line 235, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
 .initialism {
@@ -656,7 +656,7 @@ blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: 5px solid #e0e0e0; }
+  border-left: 5px solid #EDEDED; }
   /* line 250, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
   blockquote p:last-child,
   blockquote ul:last-child,
@@ -669,7 +669,7 @@ blockquote {
     display: block;
     font-size: 80%;
     line-height: 1.42857;
-    color: #878888; }
+    color: #8E939B; }
     /* line 265, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
     blockquote footer:before,
     blockquote small:before,
@@ -681,7 +681,7 @@ blockquote {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #e0e0e0;
+  border-right: 5px solid #EDEDED;
   border-left: 0;
   text-align: right; }
   /* line 286, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_type.scss */
@@ -750,7 +750,7 @@ pre {
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333;
+  color: #313131;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px; }
@@ -1902,7 +1902,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: inherit;
-  color: #333;
+  color: #313131;
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
 
@@ -1982,18 +1982,18 @@ output {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
   /* line 102, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
   .form-control::-moz-placeholder {
-    color: #878888;
+    color: #8E939B;
     opacity: 1; }
   /* line 104, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
   .form-control:-ms-input-placeholder {
-    color: #878888; }
+    color: #8E939B; }
   /* line 105, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
   .form-control::-webkit-input-placeholder {
-    color: #878888; }
+    color: #8E939B; }
   /* line 141, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_forms.scss */
   .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     cursor: not-allowed;
-    background-color: #e0e0e0;
+    background-color: #EDEDED;
     opacity: 1; }
 
 /* line 153, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_forms.scss */
@@ -2316,7 +2316,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373; }
+  color: #717171; }
 
 @media (min-width: 768px) {
   /* line 400, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_forms.scss */
@@ -2608,7 +2608,7 @@ select[multiple].input-lg,
     background-color: transparent; }
   /* line 112, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
-    color: #878888;
+    color: #8E939B;
     text-decoration: none; }
 
 /* line 124, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_buttons.scss */
@@ -2738,13 +2738,13 @@ tbody.collapse.in {
     clear: both;
     font-weight: normal;
     line-height: 1.42857;
-    color: #333;
+    color: #535353;
     white-space: nowrap; }
 
 /* line 76, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #242424;
   background-color: #f5f5f5; }
 
 /* line 86, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -2756,7 +2756,7 @@ tbody.collapse.in {
 
 /* line 101, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
-  color: #878888; }
+  color: #8E939B; }
 
 /* line 109, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -2789,7 +2789,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 12px;
   line-height: 1.42857;
-  color: #878888;
+  color: #8E939B;
   white-space: nowrap; }
 
 /* line 162, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -3078,7 +3078,7 @@ tbody.collapse.in {
   line-height: 1;
   color: #666;
   text-align: center;
-  background-color: #e0e0e0;
+  background-color: #EDEDED;
   border: 1px solid #ccc;
   border-radius: 4px; }
   /* line 85, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -3177,19 +3177,19 @@ tbody.collapse.in {
       /* line 23, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
-        background-color: #e0e0e0; }
+        background-color: #EDEDED; }
     /* line 31, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
     .nav > li.disabled > a {
-      color: #878888; }
+      color: #8E939B; }
       /* line 34, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-        color: #878888;
+        color: #8E939B;
         text-decoration: none;
         background-color: transparent;
         cursor: not-allowed; }
   /* line 46, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #e0e0e0;
+    background-color: #EDEDED;
     border-color: #1E8BC6; }
   /* line 59, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
@@ -3216,7 +3216,7 @@ tbody.collapse.in {
       border-radius: 4px 4px 0 0; }
       /* line 89, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
       .nav-tabs > li > a:hover {
-        border-color: #e0e0e0 #e0e0e0 #ddd; }
+        border-color: #EDEDED #EDEDED #ddd; }
     /* line 96, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #666;
@@ -3326,7 +3326,7 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar {
-      border-radius: 4px; } }
+      border-radius: 0; } }
 
 /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .navbar-header:before, .navbar-header:after {
@@ -3605,75 +3605,75 @@ tbody.collapse.in {
 
 /* line 394, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: #ffffff;
+  border-color: #eeeeee; }
   /* line 398, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
-    color: #777; }
+    color: #8E939B; }
     /* line 400, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #5e5e5e;
+      color: #737983;
       background-color: transparent; }
   /* line 407, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
     color: #777; }
   /* line 412, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #777; }
+    color: #8E939B; }
     /* line 415, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #333;
-      background-color: transparent; }
+      background-color: #f0f0f0; }
   /* line 422, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7; }
+    color: #8E939B;
+    background-color: #f0f0f0; }
   /* line 430, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
   /* line 439, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-toggle {
-    border-color: #ddd; }
+    border-color: #ffffff; }
     /* line 441, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #ddd; }
+      background-color: #f0f0f0; }
     /* line 445, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #888; }
+      background-color: #8E939B; }
   /* line 450, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #eeeeee; }
   /* line 459, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
-    color: #555; }
+    background-color: #f0f0f0;
+    color: #8E939B; }
   @media (max-width: 767px) {
     /* line 470, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #777; }
+      color: #8E939B; }
       /* line 472, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
-        background-color: transparent; }
+        background-color: #f0f0f0; }
     /* line 479, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #555;
-      background-color: #e7e7e7; }
+      color: #8E939B;
+      background-color: #f0f0f0; }
     /* line 487, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
   /* line 503, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
-    color: #777; }
+    color: #8E939B; }
     /* line 505, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
       color: #333; }
   /* line 510, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .btn-link {
-    color: #777; }
+    color: #8E939B; }
     /* line 512, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
       color: #333; }
@@ -3687,17 +3687,17 @@ tbody.collapse.in {
   border-color: #090909; }
   /* line 532, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-brand {
-    color: #878888; }
+    color: #8E939B; }
     /* line 534, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
       color: #fff;
       background-color: transparent; }
   /* line 541, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-text {
-    color: #878888; }
+    color: #8E939B; }
   /* line 546, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > li > a {
-    color: #878888; }
+    color: #8E939B; }
     /* line 549, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
       color: #fff;
@@ -3736,7 +3736,7 @@ tbody.collapse.in {
       background-color: #090909; }
     /* line 610, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-      color: #878888; }
+      color: #8E939B; }
       /* line 612, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #fff;
@@ -3751,13 +3751,13 @@ tbody.collapse.in {
       background-color: transparent; } }
   /* line 638, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-link {
-    color: #878888; }
+    color: #8E939B; }
     /* line 640, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-link:hover {
       color: #fff; }
   /* line 645, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .btn-link {
-    color: #878888; }
+    color: #8E939B; }
     /* line 647, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
       color: #fff; }
@@ -3782,7 +3782,7 @@ tbody.collapse.in {
       color: #ccc; }
   /* line 23, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_breadcrumbs.scss */
   .breadcrumb > .active {
-    color: #878888; }
+    color: #8E939B; }
 
 /* line 4, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_pagination.scss */
 .pagination {
@@ -3821,7 +3821,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     color: #145c84;
-    background-color: #e0e0e0;
+    background-color: #EDEDED;
     border-color: #ddd; }
   /* line 51, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -3840,7 +3840,7 @@ tbody.collapse.in {
   .pagination > .disabled > a,
   .pagination > .disabled > a:hover,
   .pagination > .disabled > a:focus {
-    color: #878888;
+    color: #8E939B;
     background-color: #fff;
     border-color: #ddd;
     cursor: not-allowed; }
@@ -3905,7 +3905,7 @@ tbody.collapse.in {
     .pager li > a:hover,
     .pager li > a:focus {
       text-decoration: none;
-      background-color: #e0e0e0; }
+      background-color: #EDEDED; }
   /* line 31, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_pager.scss */
   .pager .next > a,
   .pager .next > span {
@@ -3919,7 +3919,7 @@ tbody.collapse.in {
   .pager .disabled > a:hover,
   .pager .disabled > a:focus,
   .pager .disabled > span {
-    color: #878888;
+    color: #8E939B;
     background-color: #fff;
     cursor: not-allowed; }
 
@@ -3951,10 +3951,10 @@ a.label:hover, a.label:focus {
 
 /* line 44, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_labels.scss */
 .label-default {
-  background-color: #878888; }
+  background-color: #8E939B; }
   /* line 7, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-default[href]:hover, .label-default[href]:focus {
-    background-color: #6e6e6e; }
+    background-color: #737983; }
 
 /* line 48, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
@@ -4003,7 +4003,7 @@ a.label:hover, a.label:focus {
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #878888;
+  background-color: #8E939B;
   border-radius: 10px; }
   /* line 22, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_badges.scss */
   .badge:empty {
@@ -4035,7 +4035,7 @@ a.badge:hover, a.badge:focus {
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #e0e0e0; }
+  background-color: #EDEDED; }
   /* line 12, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
@@ -4047,7 +4047,7 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   /* line 22, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron > hr {
-    border-top-color: #c7c7c7; }
+    border-top-color: lightgray; }
   /* line 26, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_jumbotron.scss */
   .container .jumbotron {
     border-radius: 6px; }
@@ -4092,7 +4092,7 @@ a.badge:hover, a.badge:focus {
   /* line 27, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_thumbnails.scss */
   .thumbnail .caption {
     padding: 9px;
-    color: #333; }
+    color: #313131; }
 
 /* line 34, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_thumbnails.scss */
 a.thumbnail:hover,
@@ -4237,7 +4237,7 @@ a.thumbnail.active {
   min-width: 30px; }
 /* line 77, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar[aria-valuenow="0"] {
-  color: #878888;
+  color: #8E939B;
   min-width: 30px;
   background-color: transparent;
   background-image: none;
@@ -4357,14 +4357,14 @@ a.list-group-item {
 
 /* line 72, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
-  background-color: #e0e0e0;
-  color: #878888; }
+  background-color: #EDEDED;
+  color: #8E939B; }
   /* line 79, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
     color: inherit; }
   /* line 82, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-    color: #878888; }
+    color: #8E939B; }
 /* line 88, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
@@ -4700,7 +4700,7 @@ a.list-group-item-danger {
   border-color: #ddd; }
   /* line 6, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-default > .panel-heading {
-    color: #333;
+    color: #313131;
     background-color: #f5f5f5;
     border-color: #ddd; }
     /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
@@ -4709,7 +4709,7 @@ a.list-group-item-danger {
     /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-default > .panel-heading .badge {
       color: #f5f5f5;
-      background-color: #333; }
+      background-color: #313131; }
   /* line 20, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #ddd; }
@@ -5076,31 +5076,6 @@ a.list-group-item-danger {
   /* line 18, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 7, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_wells.scss */
-.well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
-  /* line 15, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_wells.scss */
-  .well blockquote {
-    border-color: #ddd;
-    border-color: rgba(0, 0, 0, 0.15); }
-
-/* line 22, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_wells.scss */
-.well-lg {
-  padding: 24px;
-  border-radius: 6px; }
-
-/* line 26, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_wells.scss */
-.well-sm {
-  padding: 9px;
-  border-radius: 2px; }
-
 /* line 6, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
@@ -5194,8 +5169,8 @@ button.close {
     filter: alpha(opacity=0); }
   /* line 74, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.in {
-    opacity: 0.5;
-    filter: alpha(opacity=50); }
+    opacity: 0.25;
+    filter: alpha(opacity=25); }
 
 /* line 79, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
@@ -5696,38 +5671,46 @@ button.close {
   background-color: #1E8BC6; }
 
 /* line 48, ../../sass/azendoo/base/_colors.sass */
+.bg-blue-bright {
+  background-color: #BDE6FB; }
+
+/* line 51, ../../sass/azendoo/base/_colors.sass */
+.bg-blue-light {
+  background-color: #F2F8FB; }
+
+/* line 54, ../../sass/azendoo/base/_colors.sass */
 .bg-white {
   background-color: #ffffff; }
 
-/* line 51, ../../sass/azendoo/base/_colors.sass */
+/* line 57, ../../sass/azendoo/base/_colors.sass */
 .bg-whitesmoke {
-  background-color: #e0e0e0; }
+  background-color: #EDEDED; }
 
-/* line 54, ../../sass/azendoo/base/_colors.sass */
+/* line 60, ../../sass/azendoo/base/_colors.sass */
 .bg-midgrey {
   background-color: #434343; }
 
-/* line 57, ../../sass/azendoo/base/_colors.sass */
+/* line 63, ../../sass/azendoo/base/_colors.sass */
 .bg-lightgrey {
   background-color: #878888; }
 
-/* line 60, ../../sass/azendoo/base/_colors.sass */
+/* line 66, ../../sass/azendoo/base/_colors.sass */
 .bg-dark {
   background-color: #3c3a3f; }
 
-/* line 63, ../../sass/azendoo/base/_colors.sass */
+/* line 69, ../../sass/azendoo/base/_colors.sass */
 .bg-green {
   background-color: #27AD8D; }
 
-/* line 66, ../../sass/azendoo/base/_colors.sass */
+/* line 72, ../../sass/azendoo/base/_colors.sass */
 .bg-red {
   background-color: #AD1A26; }
 
-/* line 69, ../../sass/azendoo/base/_colors.sass */
+/* line 75, ../../sass/azendoo/base/_colors.sass */
 .bg-grey {
   background-color: #666666; }
 
-/* line 72, ../../sass/azendoo/base/_colors.sass */
+/* line 78, ../../sass/azendoo/base/_colors.sass */
 .bg-purple {
   background-color: #B86CFF; }
 
@@ -5779,31 +5762,37 @@ button.close {
   white-space: normal; }
 
 /* line 14, ../../sass/azendoo/base/_utilities.sass */
+.u-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/* line 17, ../../sass/azendoo/base/_utilities.sass */
 .u-bold {
   font-weight: bold; }
 
-/* line 17, ../../sass/azendoo/base/_utilities.sass */
+/* line 20, ../../sass/azendoo/base/_utilities.sass */
 .u-user-select-none {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
 
-/* line 20, ../../sass/azendoo/base/_utilities.sass */
+/* line 23, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-left {
   float: left !important; }
 
-/* line 23, ../../sass/azendoo/base/_utilities.sass */
+/* line 26, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-right {
   float: right !important; }
 
-/* line 26, ../../sass/azendoo/base/_utilities.sass */
+/* line 29, ../../sass/azendoo/base/_utilities.sass */
 .u-media-body,
 .u-media {
   overflow: visible;
   zoom: 1; }
 
-/* line 31, ../../sass/azendoo/base/_utilities.sass */
+/* line 34, ../../sass/azendoo/base/_utilities.sass */
 .media:first-child {
   margin-top: 0; }
 
@@ -5821,58 +5810,87 @@ button.close {
 .u-media > .u-pull-left:after {
   clear: both; }
 
-/* line 39, ../../sass/azendoo/base/_utilities.sass */
+/* line 42, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .u-pull-left {
   margin-right: 10px; }
 
-/* line 42, ../../sass/azendoo/base/_utilities.sass */
+/* line 45, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .u-pull-right {
   margin-left: 10px; }
 
-/* line 45, ../../sass/azendoo/base/_utilities.sass */
+/* line 48, ../../sass/azendoo/base/_utilities.sass */
 .panel--no-border {
   border: 0; }
 
-/* line 48, ../../sass/azendoo/base/_utilities.sass */
+/* line 51, ../../sass/azendoo/base/_utilities.sass */
 .margin-block-bottom {
   margin: 0 0 20px !important; }
 
-/* line 51, ../../sass/azendoo/base/_utilities.sass */
+/* line 54, ../../sass/azendoo/base/_utilities.sass */
+.dropdown-menu--no-border {
+  border: 0; }
+
+/* line 57, ../../sass/azendoo/base/_utilities.sass */
+.navbar-pills {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+/* line 61, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit; }
 
-/* line 38, ../../sass/azendoo/components/_buttons.sass */
+/* line 65, ../../sass/azendoo/base/_utilities.sass */
+[class^="icon-"].pull-left, [class*=" icon-"].pull-left {
+  margin-right: 0.6em;
+  vertical-align: middle; }
+
+/* line 44, ../../sass/azendoo/components/_buttons.sass */
 .btn {
   border-bottom-width: 0;
-  font-weight: 600;
   -webkit-font-smoothing: antialiased; }
 
-/* line 43, ../../sass/azendoo/components/_buttons.sass */
+/* line 48, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-default {
-  color: #ffffff;
-  background-color: #C6C7C8;
-  border-color: #b9babb;
-  border-width: 2px;
-  border-bottom: 3px solid #b9babb; }
-  /* line 24, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default.active, .open > .btn.btn-default.dropdown-toggle {
-    color: #ffffff;
-    background-color: #d3d4d5;
-    border-color: #c6c7c8; }
-  /* line 29, ../../sass/azendoo/_mixins.sass */
-  .open > .btn.btn-default:active.dropdown-toggle, .open > .btn.btn-default.active.dropdown-toggle {
-    background-image: none; }
-  /* line 32, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-default.disabled, .btn.btn-default.disabled:hover, .btn.btn-default.disabled:focus, .btn.btn-default.disabled:active, .btn.btn-default.disabled.active, .btn.btn-default[disabled], .btn.btn-default[disabled]:hover, .btn.btn-default[disabled]:focus, .btn.btn-default[disabled]:active, .btn.btn-default[disabled].active, .btn.btn-default fieldset[disabled], .btn.btn-default fieldset[disabled]:hover, .btn.btn-default fieldset[disabled]:focus, .btn.btn-default fieldset[disabled]:active, .btn.btn-default fieldset[disabled].active {
-    background-color: #C6C7C8;
-    border-color: #b9babb; }
-  /* line 36, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-default .badge {
-    color: #C6C7C8;
-    background-color: #ffffff; }
+  padding: 7px 12px;
+  border: 0;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  color: #1E8BC6; }
+  /* line 41, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-default, .btn.btn-default:active, .btn.btn-default:focus {
+    outline: 0; }
+  /* line 54, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-default:hover, .open > .btn.btn-default.dropdown-toggle, .btn.btn-default:focus {
+    background-color: #F7FAFC; }
+  /* line 56, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-default:active, .btn.btn-default.active {
+    background-color: #F7FAFC;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2); }
 
-/* line 46, ../../sass/azendoo/components/_buttons.sass */
+/* line 60, ../../sass/azendoo/components/_buttons.sass */
+.btn.btn-primary {
+  border: 0;
+  border-radius: 2px;
+  padding: 8px 14px;
+  font-weight: 600;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(-180deg, #279cdb 0%, #1e8bc6 100%);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2); }
+  /* line 41, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-primary, .btn.btn-primary:active, .btn.btn-primary:focus {
+    outline: 0; }
+  /* line 67, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-primary:hover, .open > .btn.btn-primary.dropdown-toggle, .btn.btn-primary:focus {
+    background-image: linear-gradient(-180deg, #3fb2f0 0%, #1e8bc6 100%); }
+  /* line 69, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-primary:active, .btn.btn-primary.active {
+    background-image: linear-gradient(0deg, #3fb2f0 0%, #1e8bc6 100%); }
+
+/* line 72, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-danger {
   color: #ffffff;
   background-color: #AD1A26;
@@ -5896,31 +5914,7 @@ button.close {
     color: #AD1A26;
     background-color: #ffffff; }
 
-/* line 49, ../../sass/azendoo/components/_buttons.sass */
-.btn.btn-primary {
-  color: #ffffff;
-  background-color: #1E8BC6;
-  border-color: #1b7bb0;
-  border-width: 2px;
-  border-bottom: 3px solid #1b7bb0; }
-  /* line 24, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active, .open > .btn.btn-primary.dropdown-toggle {
-    color: #ffffff;
-    background-color: #219bdc;
-    border-color: #1e8bc6; }
-  /* line 29, ../../sass/azendoo/_mixins.sass */
-  .open > .btn.btn-primary:active.dropdown-toggle, .open > .btn.btn-primary.active.dropdown-toggle {
-    background-image: none; }
-  /* line 32, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-primary.disabled, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled:active, .btn.btn-primary.disabled.active, .btn.btn-primary[disabled], .btn.btn-primary[disabled]:hover, .btn.btn-primary[disabled]:focus, .btn.btn-primary[disabled]:active, .btn.btn-primary[disabled].active, .btn.btn-primary fieldset[disabled], .btn.btn-primary fieldset[disabled]:hover, .btn.btn-primary fieldset[disabled]:focus, .btn.btn-primary fieldset[disabled]:active, .btn.btn-primary fieldset[disabled].active {
-    background-color: #1E8BC6;
-    border-color: #1b7bb0; }
-  /* line 36, ../../sass/azendoo/_mixins.sass */
-  .btn.btn-primary .badge {
-    color: #1E8BC6;
-    background-color: #ffffff; }
-
-/* line 52, ../../sass/azendoo/components/_buttons.sass */
+/* line 75, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-success {
   color: #ffffff;
   background-color: #27AD8D;
@@ -5944,7 +5938,7 @@ button.close {
     color: #27AD8D;
     background-color: #ffffff; }
 
-/* line 55, ../../sass/azendoo/components/_buttons.sass */
+/* line 78, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-flat {
   background-color: transparent;
   background-image: none;
@@ -5952,46 +5946,56 @@ button.close {
   line-height: inherit;
   border: 1px solid transparent;
   font-weight: 400; }
-  /* line 64, ../../sass/azendoo/components/_buttons.sass */
+  /* line 87, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-default {
     border-color: #434343;
     color: #434343; }
-    /* line 67, ../../sass/azendoo/components/_buttons.sass */
+    /* line 90, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-default:hover {
       color: #434343;
       background-color: #ffffff; }
-  /* line 71, ../../sass/azendoo/components/_buttons.sass */
+  /* line 94, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-danger {
     border-color: #AD1A26;
     color: #AD1A26; }
-    /* line 74, ../../sass/azendoo/components/_buttons.sass */
+    /* line 97, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-danger:hover {
       color: #AD1A26;
       background-color: #ffffff; }
-  /* line 78, ../../sass/azendoo/components/_buttons.sass */
+  /* line 101, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-success {
     border-color: #27AD8D;
     color: #27AD8D; }
-    /* line 81, ../../sass/azendoo/components/_buttons.sass */
+    /* line 104, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-success:hover {
       color: #27AD8D;
       background-color: #ffffff; }
-  /* line 85, ../../sass/azendoo/components/_buttons.sass */
+  /* line 108, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-primary {
     border-color: #1E8BC6;
     color: #1E8BC6; }
-    /* line 88, ../../sass/azendoo/components/_buttons.sass */
+    /* line 111, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-primary:hover {
       color: #1E8BC6;
       background-color: #ffffff; }
-  /* line 92, ../../sass/azendoo/components/_buttons.sass */
+  /* line 115, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-white {
     border-color: #ffffff;
     color: #ffffff; }
-    /* line 95, ../../sass/azendoo/components/_buttons.sass */
+    /* line 118, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-white:hover {
-      color: #333;
+      color: #313131;
       background-color: #ffffff; }
+
+/* line 122, ../../sass/azendoo/components/_buttons.sass */
+.btn-full-width {
+  width: 100%;
+  line-height: 25px;
+  text-align: left;
+  font-size: 16px; }
+  /* line 127, ../../sass/azendoo/components/_buttons.sass */
+  .btn-full-width i {
+    margin-right: 0.5em; }
 
 /* line 37, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle {
@@ -6023,25 +6027,53 @@ button.close {
       background-color: #1E8BC6;
       color: #ffffff; }
 
-/* line 23, ../../sass/azendoo/components/_badges.sass */
+/* line 67, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857;
+  color: #535353;
+  white-space: nowrap; }
+
+/* line 77, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > li > a:hover, .dropdown-menu-subsection > li > a:focus {
+  text-decoration: none;
+  color: #242424;
+  background-color: #f5f5f5; }
+
+/* line 84, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > .active > a, .dropdown-menu-subsection > .active > a:hover, .dropdown-menu-subsection > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #1E8BC6; }
+
+/* line 25, ../../sass/azendoo/components/_badges.sass */
 .badge {
   border: 1px solid #999;
   background-color: #999;
   color: #ffffff !important; }
-  /* line 27, ../../sass/azendoo/components/_badges.sass */
+  /* line 29, ../../sass/azendoo/components/_badges.sass */
   .badge.unchecked {
     background-color: transparent;
     color: #111111 !important; }
 
-/* line 31, ../../sass/azendoo/components/_badges.sass */
+/* line 33, ../../sass/azendoo/components/_badges.sass */
 .badge-primary {
   border: 1px solid #1E8BC6;
   background-color: #1E8BC6;
   color: #ffffff !important; }
-  /* line 35, ../../sass/azendoo/components/_badges.sass */
+  /* line 37, ../../sass/azendoo/components/_badges.sass */
   .badge-primary.unchecked {
     background-color: transparent;
     color: #111111 !important; }
+
+/* line 41, ../../sass/azendoo/components/_badges.sass */
+.badge.badge-danger {
+  border-color: #AD1A26;
+  background-color: #AD1A26; }
 
 /* line 18, ../../sass/azendoo/components/_links.sass */
 a {
@@ -6068,21 +6100,35 @@ a.link-help {
 
 /* line 35, ../../sass/azendoo/components/_links.sass */
 a.link--dark {
-  color: #333; }
+  color: #313131; }
   /* line 37, ../../sass/azendoo/components/_links.sass */
   a.link--dark:visited, a.link--dark:active {
-    color: #333; }
+    color: #313131; }
+
+/* line 40, ../../sass/azendoo/components/_links.sass */
+a.link.link--white {
+  color: #EDEDED;
+  border-bottom: 1px dotted #EDEDED;
+  text-decoration: initial;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  /* line 45, ../../sass/azendoo/components/_links.sass */
+  a.link.link--white:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff; }
 
 /* line 17, ../../sass/azendoo/components/_well.sass */
 .well {
-  padding: 15px;
+  min-height: 20px;
+  padding: 14px;
+  margin-bottom: 10px;
   background-color: #ffffff;
-  border: none;
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
   border-radius: 2px; }
 
-/* line 24, ../../sass/azendoo/components/_well.sass */
+/* line 25, ../../sass/azendoo/components/_well.sass */
 .well--no-padding {
   padding: 0; }
 
@@ -6093,7 +6139,7 @@ a.link--dark {
 
 /* line 62, ../../sass/azendoo/components/_avatars.sass */
 .user-avatar {
-  border-radius: 4px;
+  border-radius: 2px;
   width: 100%; }
 
 /* line 66, ../../sass/azendoo/components/_avatars.sass */
@@ -6108,8 +6154,8 @@ a.link--dark {
 
 /* line 72, ../../sass/azendoo/components/_avatars.sass */
 .user-base {
-  width: 28px;
-  height: 28px; }
+  width: 30px;
+  height: 30px; }
 
 /* line 75, ../../sass/azendoo/components/_avatars.sass */
 .user-large {
@@ -6135,11 +6181,11 @@ a.link--dark {
 .user-premium-icon {
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9Ijg5cHgiIGhlaWdodD0iODlweCIgdmlld0JveD0iMCAwIDg5IDg5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4xICg4NzUxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5SZWN0YW5nbGUgKyBGaWxsIDQ5MCArIEZpbGwgNDkxPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9IlByZW1pdW0tSWNvbi0jLVN0YXIiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4wMDAwMDAsIC0xOS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9IlJlY3RhbmdsZS0rLUZpbGwtNDkwLSstRmlsbC00OTEiIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLjAwMDAwMCwgMTkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjNDk5MEUyIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB4PSIwIiB5PSIxIiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxOCI+PC9yZWN0PgogICAgICAgICAgICAgICAgPGcgaWQ9IkZpbGwtNDkwLSstRmlsbC00OTEiIGZpbGw9IiNGRkZGRkYiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik01OC43OTk0NTczLDY2Ljk5OTEwMzggQzU4LjQ2ODI3MDQsNjYuOTk5MTAzOCA1OC4xMzQwMTY4LDY2Ljg5MTU1OTMgNTcuODU4MDI3Nyw2Ni42NzY0NzAyIEw0NSw1Ni42NTMzMTkyIEwzMi4xNDE5NzIzLDY2LjY3NjQ3MDIgQzMxLjYxNzU5MjksNjcuMDg1MTM5NCAzMC44OTM4ODgxLDY3LjEwNjY0ODMgMzAuMzUxMTA5NCw2Ni43NDA5OTY5IEMyOS43OTkxMzExLDY2LjM3NTM0NTUgMjkuNTQ3Njc0Myw2NS42OTYyNzg1IDI5LjcyMjQ2NzUsNjUuMDYwMjI5NCBMMzQuMDY3NzYzMiw0OS4wODUyNTYzIEwyMi41MjUyODM4LDM4Ljk2Mzc3ODkgQzIyLjA0MzgzNjEsMzguNTQyODE4OCAyMS44NzIxMDk1LDM3Ljg2NjgyNDYgMjIuMDk5MDMzOSwzNy4yNjc2NDc5IEMyMi4zMjI4OTE4LDM2LjY2ODQ3MTEgMjIuODk2MzM1OSwzNi4yNzIwOTI3IDIzLjUzNDE3NzUsMzYuMjcyMDkyNyBMMzcuODMwNDE1MywzNi4yNzIwOTI3IEw0My41NzcxMjI2LDIxLjg3MzQxNTMgQzQ0LjA0MzIzNzYsMjAuNzA4ODYxNiA0NS45NTY3NjI0LDIwLjcwODg2MTYgNDYuNDIyODc3NCwyMS44NzM0MTUzIEw1Mi4xNjk1ODQ3LDM2LjI3MjA5MjcgTDY2LjQ2NTgyMjUsMzYuMjcyMDkyNyBDNjcuMTAzNjY0MSwzNi4yNzIwOTI3IDY3LjY3NzEwODIsMzYuNjY4NDcxMSA2Ny45MDA5NjYxLDM3LjI2NzY0NzkgQzY4LjEyNzg5MDUsMzcuODY2ODI0NiA2Ny45NTYxNjM5LDM4LjU0MjgxODggNjcuNDc0NzE2MiwzOC45NjM3Nzg5IEw1NS45MzIyMzY4LDQ5LjA4NTI1NjMgTDYwLjI3NzUzMjUsNjUuMDYwMjI5NCBDNjAuNDUyMzI1Nyw2NS42OTYyNzg1IDYwLjIwMDg2ODksNjYuMzc1MzQ1NSA1OS42NDg4OTA2LDY2Ljc0MDk5NjkgQzU5LjM5MTMwMDcsNjYuOTEzMDY4MiA1OS4wOTY5MTIzLDY2Ljk5OTEwMzggNTguNzk5NDU3Myw2Ni45OTkxMDM4IFoiIGlkPSJGaWxsLTQ5MCI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC41OTUxNzA1LDkuMzc1IEMxNC40NTQyNjE0LDkuMzc1IDkuNDU4ODA2ODIsMTQuMzcwNDU0NSA5LjQ1ODgwNjgyLDIwLjUxMTM2MzYgTDkuNDU4ODA2ODIsNjguMjM4NjM2NCBDOS40NTg4MDY4Miw3NC4zNzk1NDU1IDE0LjQ1NDI2MTQsNzkuMzc1IDIwLjU5NTE3MDUsNzkuMzc1IEw2OC4zMjI0NDMyLDc5LjM3NSBDNzQuNDYzMzUyMyw3OS4zNzUgNzkuNDU4ODA2OCw3NC4zNzk1NDU1IDc5LjQ1ODgwNjgsNjguMjM4NjM2NCBMNzkuNDU4ODA2OCwyMC41MTEzNjM2IEM3OS40NTg4MDY4LDE0LjM3MDQ1NDUgNzQuNDYzMzUyMyw5LjM3NSA2OC4zMjI0NDMyLDkuMzc1IEwyMC41OTUxNzA1LDkuMzc1IFogTTcyLjMxMjUsODkgTDE2LjY4NzUsODkgQzcuNDg3MTI1LDg5IDAsODEuNTEyODc1IDAsNzIuMzEyNSBMMCwxNi42ODc1IEMwLDcuNDg3MTI1IDcuNDg3MTI1LDAgMTYuNjg3NSwwIEw3Mi4zMTI1LDAgQzgxLjUxMjg3NSwwIDg5LDcuNDg3MTI1IDg5LDE2LjY4NzUgTDg5LDcyLjMxMjUgQzg5LDgxLjUxMjg3NSA4MS41MTI4NzUsODkgNzIuMzEyNSw4OSBMNzIuMzEyNSw4OSBaIiBpZD0iRmlsbC00OTEiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
   position: absolute;
-  top: 2px;
-  right: 2px;
-  width: 13px;
-  height: 13px;
-  background-size: 13px; }
+  top: 1px;
+  right: 1px;
+  width: 11px;
+  height: 11px;
+  background-size: 11px; }
 
 /* line 97, ../../sass/azendoo/components/_avatars.sass */
 .user-xxlarge .user-premium-icon {
@@ -6250,11 +6296,15 @@ a.link--dark {
   font-size: 15px;
   display: block;
   width: 30px;
-  color: #878888; }
+  color: #8E939B; }
   /* line 191, ../../sass/azendoo/components/_medias.sass */
   .media-gallery-item-control:hover {
     color: #666;
     text-decoration: none; }
+
+/* line 15, ../../sass/azendoo/components/_form.sass */
+.form-control {
+  -webkit-font-smoothing: antialiased; }
 
 /* line 34, ../../sass/azendoo/pages/_header.sass */
 h1 {
@@ -6296,62 +6346,59 @@ h1 {
   border: 0;
   position: relative; }
   /* line 70, ../../sass/azendoo/pages/_header.sass */
-  .page-header h1 {
-    font-family: "Raleway", "Helvetica Neue", "Open Sans", "sans-serif"; }
-  /* line 73, ../../sass/azendoo/pages/_header.sass */
   .page-header.row {
     margin: 0 -15px; }
-  /* line 76, ../../sass/azendoo/pages/_header.sass */
+  /* line 73, ../../sass/azendoo/pages/_header.sass */
   .page-header.page-header-line {
     padding-left: 20px;
     font-size: 24px;
     line-height: 56px;
     color: #ffffff;
     background-color: #878888; }
-    /* line 82, ../../sass/azendoo/pages/_header.sass */
+    /* line 79, ../../sass/azendoo/pages/_header.sass */
     .page-header.page-header-line > i {
       margin-right: 10px;
       font-size: 24px; }
-    /* line 85, ../../sass/azendoo/pages/_header.sass */
+    /* line 82, ../../sass/azendoo/pages/_header.sass */
     .page-header.page-header-line h1 {
       margin: 0;
       display: inline-block; }
-    /* line 89, ../../sass/azendoo/pages/_header.sass */
+    /* line 86, ../../sass/azendoo/pages/_header.sass */
     .page-header.page-header-line small, .page-header.page-header-line .small {
       color: #ffffff; }
 
-/* line 92, ../../sass/azendoo/pages/_header.sass */
+/* line 89, ../../sass/azendoo/pages/_header.sass */
 .page-header-content {
   background-color: #333;
   text-align: center;
   color: #ffffff;
   padding: 20px; }
 
-/* line 98, ../../sass/azendoo/pages/_header.sass */
+/* line 95, ../../sass/azendoo/pages/_header.sass */
 .page-header-actions {
   float: right;
   margin: 0;
   font-weight: 400; }
-  /* line 102, ../../sass/azendoo/pages/_header.sass */
+  /* line 99, ../../sass/azendoo/pages/_header.sass */
   .page-header-actions > a {
     color: #333; }
-  /* line 104, ../../sass/azendoo/pages/_header.sass */
+  /* line 101, ../../sass/azendoo/pages/_header.sass */
   .page-header-actions > li {
     display: inline-block; }
-    /* line 106, ../../sass/azendoo/pages/_header.sass */
+    /* line 103, ../../sass/azendoo/pages/_header.sass */
     .page-header-actions > li > a {
       text-decoration: none;
       display: inline-block;
       min-width: 50px;
       text-align: center; }
-      /* line 111, ../../sass/azendoo/pages/_header.sass */
+      /* line 108, ../../sass/azendoo/pages/_header.sass */
       .page-header-actions > li > a:hover {
         background-color: rgba(255, 255, 255, 0.2); }
-      /* line 113, ../../sass/azendoo/pages/_header.sass */
+      /* line 110, ../../sass/azendoo/pages/_header.sass */
       .page-header-actions > li > a i {
         padding: 0 10px; }
 
-/* line 117, ../../sass/azendoo/pages/_header.sass */
+/* line 114, ../../sass/azendoo/pages/_header.sass */
 .page-header-line .page-header-actions > li > a {
   color: #ffffff; }
 
@@ -6459,13 +6506,17 @@ h1 {
   .page-aside .btn-aside.btn, .page-aside .btn-aside > .btn {
     background-color: rgba(238, 238, 238, 0.3); }
 
-/* line 16, ../../sass/azendoo/pages/_separator.sass */
+/* line 22, ../../sass/azendoo/pages/_separator.sass */
 h2.separator, h3.separator {
   text-transform: uppercase;
   font-weight: 400;
   color: #434343;
   border-bottom: 1px solid #434343;
   margin-top: 10px; }
+
+/* line 29, ../../sass/azendoo/pages/_separator.sass */
+hr {
+  border-top-color: #D5D5D5; }
 
 /* line 30, ../../sass/azendoo/pages/_placeholder.sass */
 .page-placeholder {
@@ -6561,33 +6612,32 @@ h2.separator, h3.separator {
 .page-form .pull-right .btn {
   border-radius: 0 4px 4px 0; }
 
-/* line 27, ../../sass/azendoo/azendoo.sass */
+/* line 28, ../../sass/azendoo/azendoo.sass */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 31, ../../sass/azendoo/azendoo.sass */
+/* line 32, ../../sass/azendoo/azendoo.sass */
 input, textarea {
   outline: 0; }
 
-/* line 34, ../../sass/azendoo/azendoo.sass */
+/* line 35, ../../sass/azendoo/azendoo.sass */
 textarea {
   resize: none; }
 
-/* line 37, ../../sass/azendoo/azendoo.sass */
+/* line 38, ../../sass/azendoo/azendoo.sass */
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 42, ../../sass/azendoo/azendoo.sass */
+/* line 43, ../../sass/azendoo/azendoo.sass */
 a:focus {
   outline: none;
   outline-offset: 0; }
 
-/* line 46, ../../sass/azendoo/azendoo.sass */
+/* line 47, ../../sass/azendoo/azendoo.sass */
 h3 {
-  color: #222;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal; }
