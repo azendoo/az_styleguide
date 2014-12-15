@@ -1,3 +1,6 @@
+== 0.7.3
+  * Add user status icon
+
 == 0.7.2
   * Fix active state for btn flat
   * Add utilities and gray variations
