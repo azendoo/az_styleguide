@@ -53,13 +53,14 @@
   +button-variant($white, $color-green, darken($color-green, 5%))
 
 .btn.btn-flat
-  background-color: transparent
   background-image: none
-  // box-shadow: none
   text-shadow: none
   line-height: inherit
   border: 1px solid transparent
   font-weight: 400
+
+  &, &:active
+    background-color: transparent
 
   &.btn-default
     border-color: $color-midGrey

@@ -2738,7 +2738,7 @@ tbody.collapse.in {
     clear: both;
     font-weight: normal;
     line-height: 1.42857;
-    color: #333;
+    color: #535353;
     white-space: nowrap; }
 
 /* line 76, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -3326,7 +3326,7 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar {
-      border-radius: 4px; } }
+      border-radius: 0; } }
 
 /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .navbar-header:before, .navbar-header:after {
@@ -3605,75 +3605,75 @@ tbody.collapse.in {
 
 /* line 394, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: #ffffff;
+  border-color: #eeeeee; }
   /* line 398, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
-    color: #777; }
+    color: #878888; }
     /* line 400, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #5e5e5e;
+      color: #6e6e6e;
       background-color: transparent; }
   /* line 407, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
     color: #777; }
   /* line 412, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
-    color: #777; }
+    color: #878888; }
     /* line 415, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #333;
-      background-color: transparent; }
+      background-color: #f0f0f0; }
   /* line 422, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7; }
+    color: #878888;
+    background-color: #f0f0f0; }
   /* line 430, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
   /* line 439, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-toggle {
-    border-color: #ddd; }
+    border-color: #ffffff; }
     /* line 441, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #ddd; }
+      background-color: #f0f0f0; }
     /* line 445, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #888; }
+      background-color: #878888; }
   /* line 450, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #eeeeee; }
   /* line 459, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
-    color: #555; }
+    background-color: #f0f0f0;
+    color: #878888; }
   @media (max-width: 767px) {
     /* line 470, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #777; }
+      color: #878888; }
       /* line 472, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
-        background-color: transparent; }
+        background-color: #f0f0f0; }
     /* line 479, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #555;
-      background-color: #e7e7e7; }
+      color: #878888;
+      background-color: #f0f0f0; }
     /* line 487, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
   /* line 503, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
-    color: #777; }
+    color: #878888; }
     /* line 505, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
       color: #333; }
   /* line 510, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .btn-link {
-    color: #777; }
+    color: #878888; }
     /* line 512, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
       color: #333; }
@@ -5194,8 +5194,8 @@ button.close {
     filter: alpha(opacity=0); }
   /* line 74, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.in {
-    opacity: 0.5;
-    filter: alpha(opacity=50); }
+    opacity: 0.25;
+    filter: alpha(opacity=25); }
 
 /* line 79, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
@@ -5779,31 +5779,37 @@ button.close {
   white-space: normal; }
 
 /* line 14, ../../sass/azendoo/base/_utilities.sass */
+.u-text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/* line 17, ../../sass/azendoo/base/_utilities.sass */
 .u-bold {
   font-weight: bold; }
 
-/* line 17, ../../sass/azendoo/base/_utilities.sass */
+/* line 20, ../../sass/azendoo/base/_utilities.sass */
 .u-user-select-none {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
 
-/* line 20, ../../sass/azendoo/base/_utilities.sass */
+/* line 23, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-left {
   float: left !important; }
 
-/* line 23, ../../sass/azendoo/base/_utilities.sass */
+/* line 26, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-right {
   float: right !important; }
 
-/* line 26, ../../sass/azendoo/base/_utilities.sass */
+/* line 29, ../../sass/azendoo/base/_utilities.sass */
 .u-media-body,
 .u-media {
   overflow: visible;
   zoom: 1; }
 
-/* line 31, ../../sass/azendoo/base/_utilities.sass */
+/* line 34, ../../sass/azendoo/base/_utilities.sass */
 .media:first-child {
   margin-top: 0; }
 
@@ -5821,26 +5827,40 @@ button.close {
 .u-media > .u-pull-left:after {
   clear: both; }
 
-/* line 39, ../../sass/azendoo/base/_utilities.sass */
+/* line 42, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .u-pull-left {
   margin-right: 10px; }
 
-/* line 42, ../../sass/azendoo/base/_utilities.sass */
+/* line 45, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .u-pull-right {
   margin-left: 10px; }
 
-/* line 45, ../../sass/azendoo/base/_utilities.sass */
+/* line 48, ../../sass/azendoo/base/_utilities.sass */
 .panel--no-border {
   border: 0; }
 
-/* line 48, ../../sass/azendoo/base/_utilities.sass */
+/* line 51, ../../sass/azendoo/base/_utilities.sass */
 .margin-block-bottom {
   margin: 0 0 20px !important; }
 
-/* line 51, ../../sass/azendoo/base/_utilities.sass */
+/* line 54, ../../sass/azendoo/base/_utilities.sass */
+.dropdown-menu--no-border {
+  border: 0; }
+
+/* line 57, ../../sass/azendoo/base/_utilities.sass */
+.navbar-pills {
+  margin-top: 4px;
+  margin-bottom: 4px; }
+
+/* line 61, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit; }
+
+/* line 65, ../../sass/azendoo/base/_utilities.sass */
+[class^="icon-"].pull-left, [class*=" icon-"].pull-left {
+  margin-right: 0.6em;
+  vertical-align: middle; }
 
 /* line 38, ../../sass/azendoo/components/_buttons.sass */
 .btn {
@@ -5946,52 +5966,64 @@ button.close {
 
 /* line 55, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-flat {
-  background-color: transparent;
   background-image: none;
   text-shadow: none;
   line-height: inherit;
   border: 1px solid transparent;
   font-weight: 400; }
-  /* line 64, ../../sass/azendoo/components/_buttons.sass */
+  /* line 62, ../../sass/azendoo/components/_buttons.sass */
+  .btn.btn-flat, .btn.btn-flat:active {
+    background-color: transparent; }
+  /* line 65, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-default {
     border-color: #434343;
     color: #434343; }
-    /* line 67, ../../sass/azendoo/components/_buttons.sass */
+    /* line 68, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-default:hover {
       color: #434343;
       background-color: #ffffff; }
-  /* line 71, ../../sass/azendoo/components/_buttons.sass */
+  /* line 72, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-danger {
     border-color: #AD1A26;
     color: #AD1A26; }
-    /* line 74, ../../sass/azendoo/components/_buttons.sass */
+    /* line 75, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-danger:hover {
       color: #AD1A26;
       background-color: #ffffff; }
-  /* line 78, ../../sass/azendoo/components/_buttons.sass */
+  /* line 79, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-success {
     border-color: #27AD8D;
     color: #27AD8D; }
-    /* line 81, ../../sass/azendoo/components/_buttons.sass */
+    /* line 82, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-success:hover {
       color: #27AD8D;
       background-color: #ffffff; }
-  /* line 85, ../../sass/azendoo/components/_buttons.sass */
+  /* line 86, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-primary {
     border-color: #1E8BC6;
     color: #1E8BC6; }
-    /* line 88, ../../sass/azendoo/components/_buttons.sass */
+    /* line 89, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-primary:hover {
       color: #1E8BC6;
       background-color: #ffffff; }
-  /* line 92, ../../sass/azendoo/components/_buttons.sass */
+  /* line 93, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-white {
     border-color: #ffffff;
     color: #ffffff; }
-    /* line 95, ../../sass/azendoo/components/_buttons.sass */
+    /* line 96, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-white:hover {
       color: #333;
       background-color: #ffffff; }
+
+/* line 100, ../../sass/azendoo/components/_buttons.sass */
+.btn-full-width {
+  width: 100%;
+  line-height: 25px;
+  text-align: left;
+  font-size: 16px; }
+  /* line 105, ../../sass/azendoo/components/_buttons.sass */
+  .btn-full-width i {
+    margin-right: 0.5em; }
 
 /* line 37, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle {
@@ -6023,25 +6055,53 @@ button.close {
       background-color: #1E8BC6;
       color: #ffffff; }
 
-/* line 23, ../../sass/azendoo/components/_badges.sass */
+/* line 67, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857;
+  color: #535353;
+  white-space: nowrap; }
+
+/* line 77, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > li > a:hover, .dropdown-menu-subsection > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5; }
+
+/* line 84, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu-subsection > .active > a, .dropdown-menu-subsection > .active > a:hover, .dropdown-menu-subsection > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #1E8BC6; }
+
+/* line 25, ../../sass/azendoo/components/_badges.sass */
 .badge {
   border: 1px solid #999;
   background-color: #999;
   color: #ffffff !important; }
-  /* line 27, ../../sass/azendoo/components/_badges.sass */
+  /* line 29, ../../sass/azendoo/components/_badges.sass */
   .badge.unchecked {
     background-color: transparent;
     color: #111111 !important; }
 
-/* line 31, ../../sass/azendoo/components/_badges.sass */
+/* line 33, ../../sass/azendoo/components/_badges.sass */
 .badge-primary {
   border: 1px solid #1E8BC6;
   background-color: #1E8BC6;
   color: #ffffff !important; }
-  /* line 35, ../../sass/azendoo/components/_badges.sass */
+  /* line 37, ../../sass/azendoo/components/_badges.sass */
   .badge-primary.unchecked {
     background-color: transparent;
     color: #111111 !important; }
+
+/* line 41, ../../sass/azendoo/components/_badges.sass */
+.badge.badge-danger {
+  border-color: #AD1A26;
+  background-color: #AD1A26; }
 
 /* line 18, ../../sass/azendoo/components/_links.sass */
 a {
@@ -6073,6 +6133,19 @@ a.link--dark {
   a.link--dark:visited, a.link--dark:active {
     color: #333; }
 
+/* line 40, ../../sass/azendoo/components/_links.sass */
+a.link.link--white {
+  color: #e0e0e0;
+  border-bottom: 1px dotted #e0e0e0;
+  text-decoration: initial;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  /* line 45, ../../sass/azendoo/components/_links.sass */
+  a.link.link--white:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff; }
+
 /* line 17, ../../sass/azendoo/components/_well.sass */
 .well {
   padding: 15px;
@@ -6093,7 +6166,7 @@ a.link--dark {
 
 /* line 62, ../../sass/azendoo/components/_avatars.sass */
 .user-avatar {
-  border-radius: 4px;
+  border-radius: 2px;
   width: 100%; }
 
 /* line 66, ../../sass/azendoo/components/_avatars.sass */
@@ -6108,8 +6181,8 @@ a.link--dark {
 
 /* line 72, ../../sass/azendoo/components/_avatars.sass */
 .user-base {
-  width: 28px;
-  height: 28px; }
+  width: 30px;
+  height: 30px; }
 
 /* line 75, ../../sass/azendoo/components/_avatars.sass */
 .user-large {
@@ -6135,11 +6208,11 @@ a.link--dark {
 .user-premium-icon {
   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9Ijg5cHgiIGhlaWdodD0iODlweCIgdmlld0JveD0iMCAwIDg5IDg5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy4xICg4NzUxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5SZWN0YW5nbGUgKyBGaWxsIDQ5MCArIEZpbGwgNDkxPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc2tldGNoOnR5cGU9Ik1TUGFnZSI+CiAgICAgICAgPGcgaWQ9IlByZW1pdW0tSWNvbi0jLVN0YXIiIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4wMDAwMDAsIC0xOS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9IlJlY3RhbmdsZS0rLUZpbGwtNDkwLSstRmlsbC00OTEiIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwLjAwMDAwMCwgMTkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlIiBmaWxsPSIjNDk5MEUyIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB4PSIwIiB5PSIxIiB3aWR0aD0iODgiIGhlaWdodD0iODgiIHJ4PSIxOCI+PC9yZWN0PgogICAgICAgICAgICAgICAgPGcgaWQ9IkZpbGwtNDkwLSstRmlsbC00OTEiIGZpbGw9IiNGRkZGRkYiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik01OC43OTk0NTczLDY2Ljk5OTEwMzggQzU4LjQ2ODI3MDQsNjYuOTk5MTAzOCA1OC4xMzQwMTY4LDY2Ljg5MTU1OTMgNTcuODU4MDI3Nyw2Ni42NzY0NzAyIEw0NSw1Ni42NTMzMTkyIEwzMi4xNDE5NzIzLDY2LjY3NjQ3MDIgQzMxLjYxNzU5MjksNjcuMDg1MTM5NCAzMC44OTM4ODgxLDY3LjEwNjY0ODMgMzAuMzUxMTA5NCw2Ni43NDA5OTY5IEMyOS43OTkxMzExLDY2LjM3NTM0NTUgMjkuNTQ3Njc0Myw2NS42OTYyNzg1IDI5LjcyMjQ2NzUsNjUuMDYwMjI5NCBMMzQuMDY3NzYzMiw0OS4wODUyNTYzIEwyMi41MjUyODM4LDM4Ljk2Mzc3ODkgQzIyLjA0MzgzNjEsMzguNTQyODE4OCAyMS44NzIxMDk1LDM3Ljg2NjgyNDYgMjIuMDk5MDMzOSwzNy4yNjc2NDc5IEMyMi4zMjI4OTE4LDM2LjY2ODQ3MTEgMjIuODk2MzM1OSwzNi4yNzIwOTI3IDIzLjUzNDE3NzUsMzYuMjcyMDkyNyBMMzcuODMwNDE1MywzNi4yNzIwOTI3IEw0My41NzcxMjI2LDIxLjg3MzQxNTMgQzQ0LjA0MzIzNzYsMjAuNzA4ODYxNiA0NS45NTY3NjI0LDIwLjcwODg2MTYgNDYuNDIyODc3NCwyMS44NzM0MTUzIEw1Mi4xNjk1ODQ3LDM2LjI3MjA5MjcgTDY2LjQ2NTgyMjUsMzYuMjcyMDkyNyBDNjcuMTAzNjY0MSwzNi4yNzIwOTI3IDY3LjY3NzEwODIsMzYuNjY4NDcxMSA2Ny45MDA5NjYxLDM3LjI2NzY0NzkgQzY4LjEyNzg5MDUsMzcuODY2ODI0NiA2Ny45NTYxNjM5LDM4LjU0MjgxODggNjcuNDc0NzE2MiwzOC45NjM3Nzg5IEw1NS45MzIyMzY4LDQ5LjA4NTI1NjMgTDYwLjI3NzUzMjUsNjUuMDYwMjI5NCBDNjAuNDUyMzI1Nyw2NS42OTYyNzg1IDYwLjIwMDg2ODksNjYuMzc1MzQ1NSA1OS42NDg4OTA2LDY2Ljc0MDk5NjkgQzU5LjM5MTMwMDcsNjYuOTEzMDY4MiA1OS4wOTY5MTIzLDY2Ljk5OTEwMzggNTguNzk5NDU3Myw2Ni45OTkxMDM4IFoiIGlkPSJGaWxsLTQ5MCI+PC9wYXRoPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMC41OTUxNzA1LDkuMzc1IEMxNC40NTQyNjE0LDkuMzc1IDkuNDU4ODA2ODIsMTQuMzcwNDU0NSA5LjQ1ODgwNjgyLDIwLjUxMTM2MzYgTDkuNDU4ODA2ODIsNjguMjM4NjM2NCBDOS40NTg4MDY4Miw3NC4zNzk1NDU1IDE0LjQ1NDI2MTQsNzkuMzc1IDIwLjU5NTE3MDUsNzkuMzc1IEw2OC4zMjI0NDMyLDc5LjM3NSBDNzQuNDYzMzUyMyw3OS4zNzUgNzkuNDU4ODA2OCw3NC4zNzk1NDU1IDc5LjQ1ODgwNjgsNjguMjM4NjM2NCBMNzkuNDU4ODA2OCwyMC41MTEzNjM2IEM3OS40NTg4MDY4LDE0LjM3MDQ1NDUgNzQuNDYzMzUyMyw5LjM3NSA2OC4zMjI0NDMyLDkuMzc1IEwyMC41OTUxNzA1LDkuMzc1IFogTTcyLjMxMjUsODkgTDE2LjY4NzUsODkgQzcuNDg3MTI1LDg5IDAsODEuNTEyODc1IDAsNzIuMzEyNSBMMCwxNi42ODc1IEMwLDcuNDg3MTI1IDcuNDg3MTI1LDAgMTYuNjg3NSwwIEw3Mi4zMTI1LDAgQzgxLjUxMjg3NSwwIDg5LDcuNDg3MTI1IDg5LDE2LjY4NzUgTDg5LDcyLjMxMjUgQzg5LDgxLjUxMjg3NSA4MS41MTI4NzUsODkgNzIuMzEyNSw4OSBMNzIuMzEyNSw4OSBaIiBpZD0iRmlsbC00OTEiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
   position: absolute;
-  top: 2px;
-  right: 2px;
-  width: 13px;
-  height: 13px;
-  background-size: 13px; }
+  top: 1px;
+  right: 1px;
+  width: 11px;
+  height: 11px;
+  background-size: 11px; }
 
 /* line 97, ../../sass/azendoo/components/_avatars.sass */
 .user-xxlarge .user-premium-icon {
@@ -6587,11 +6660,10 @@ a:focus {
 
 /* line 46, ../../sass/azendoo/azendoo.sass */
 h3 {
-  color: #222;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal; }
 
-/* line 52, ../../sass/azendoo/azendoo.sass */
+/* line 51, ../../sass/azendoo/azendoo.sass */
 img {
   border: none; }
