@@ -5967,61 +5967,59 @@ button.close {
 /* line 55, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-flat {
   background-image: none;
+  background-color: transparent;
   text-shadow: none;
   line-height: inherit;
   border: 1px solid transparent;
   font-weight: 400; }
-  /* line 62, ../../sass/azendoo/components/_buttons.sass */
-  .btn.btn-flat, .btn.btn-flat:active {
-    background-color: transparent; }
-  /* line 65, ../../sass/azendoo/components/_buttons.sass */
+  /* line 63, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-default {
     border-color: #434343;
     color: #434343; }
-    /* line 68, ../../sass/azendoo/components/_buttons.sass */
-    .btn.btn-flat.btn-default:hover {
+    /* line 66, ../../sass/azendoo/components/_buttons.sass */
+    .btn.btn-flat.btn-default:hover, .btn.btn-flat.btn-default:active, .btn.btn-flat.btn-default:focus {
       color: #434343;
       background-color: #ffffff; }
-  /* line 72, ../../sass/azendoo/components/_buttons.sass */
+  /* line 70, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-danger {
     border-color: #AD1A26;
     color: #AD1A26; }
-    /* line 75, ../../sass/azendoo/components/_buttons.sass */
+    /* line 73, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-danger:hover {
       color: #AD1A26;
       background-color: #ffffff; }
-  /* line 79, ../../sass/azendoo/components/_buttons.sass */
+  /* line 77, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-success {
     border-color: #27AD8D;
     color: #27AD8D; }
-    /* line 82, ../../sass/azendoo/components/_buttons.sass */
+    /* line 80, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-success:hover {
       color: #27AD8D;
       background-color: #ffffff; }
-  /* line 86, ../../sass/azendoo/components/_buttons.sass */
+  /* line 84, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-primary {
     border-color: #1E8BC6;
     color: #1E8BC6; }
-    /* line 89, ../../sass/azendoo/components/_buttons.sass */
+    /* line 87, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-primary:hover {
       color: #1E8BC6;
       background-color: #ffffff; }
-  /* line 93, ../../sass/azendoo/components/_buttons.sass */
+  /* line 91, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-white {
     border-color: #ffffff;
     color: #ffffff; }
-    /* line 96, ../../sass/azendoo/components/_buttons.sass */
+    /* line 94, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-white:hover {
       color: #333;
       background-color: #ffffff; }
 
-/* line 100, ../../sass/azendoo/components/_buttons.sass */
+/* line 98, ../../sass/azendoo/components/_buttons.sass */
 .btn-full-width {
   width: 100%;
   line-height: 25px;
   text-align: left;
   font-size: 16px; }
-  /* line 105, ../../sass/azendoo/components/_buttons.sass */
+  /* line 103, ../../sass/azendoo/components/_buttons.sass */
   .btn-full-width i {
     margin-right: 0.5em; }
 
@@ -6230,6 +6228,32 @@ a.link.link--white {
   width: 11px;
   height: 11px;
   background-size: 11px; }
+
+/* line 112, ../../sass/azendoo/components/_avatars.sass */
+.user-status-icon {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
+  /* line 123, ../../sass/azendoo/components/_avatars.sass */
+  .user-status-icon.user-status-icon--active {
+    background: #27AD8D;
+    background: linear-gradient(to bottom, #27ad8d 0%, #1e836b 100%);
+    border-color: #dcf7f1; }
+  /* line 128, ../../sass/azendoo/components/_avatars.sass */
+  .user-status-icon.user-status-icon--away {
+    background: #FFCC44;
+    background: linear-gradient(to bottom, #ffcc44 0%, #ffbe11 100%);
+    border-color: white; }
+  /* line 133, ../../sass/azendoo/components/_avatars.sass */
+  .user-status-icon.user-status-icon--disconnected {
+    background: #e0e0e0;
+    background: linear-gradient(to bottom, #e0e0e0 0%, #c7c7c7 100%);
+    border-color: white; }
 
 /* line 115, ../../sass/azendoo/components/_medias.sass */
 .media-gallery-item {
