@@ -1,3 +1,7 @@
+== 0.7.2
+  * Fix active state for btn flat
+  * Add utilities and gray variations
+
 == 0.7.1
   * fixed premium icon for small avatars
 
