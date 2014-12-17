@@ -61,7 +61,7 @@
   +button-variant-azendoo
   color: $white
   padding: 8px 14px
-  font-weight: 600
+  font-weight: $font-weight-bold
   +box-shadow(inset 0px 0px 0px 1px rgba(0,0,0,0.20), 0px 1px 1px 0px rgba(0,0,0,0.20))
   background-image: linear-gradient(-180deg, #279CDB 0%, $brand-primary 100%)
   text-shadow: 0 -1px 0 rgba(0,0,0,.2)
@@ -71,10 +71,10 @@
     background-image: linear-gradient(0deg, #3FB2F0 0%, $brand-primary 100%)
 
 .btn.btn-danger
-  +button-variant($white, $color-red, darken($color-red, 5%))
+  +button-variant($white, $red, darken($red, 5%))
 
 .btn.btn-success
-  +button-variant($white, $color-green, darken($color-green, 5%))
+  +button-variant($white, $green, darken($green, 5%))
 
 .btn.btn-flat
   background-color: transparent
@@ -86,24 +86,24 @@
   font-weight: 400
 
   &.btn-default
-    border-color: $color-midGrey
-    color: $color-midGrey
+    border-color: $gray-mid
+    color: $gray-mid
     &:hover
-      color: $color-midGrey
+      color: $gray-mid
       background-color: $white
 
   &.btn-danger
-    border-color: $color-red
-    color: $color-red
+    border-color: $red
+    color: $red
     &:hover
-      color: $color-red
+      color: $red
       background-color: $white
 
   &.btn-success
-    border-color: $color-green
-    color: $color-green
+    border-color: $green
+    color: $green
     &:hover
-      color: $color-green
+      color: $green
       background-color: $white
 
   &.btn-primary

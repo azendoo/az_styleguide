@@ -9,14 +9,23 @@ $gray-lighter:          #EDEDED
 $gray-lightest:         #f0f0f0
 $white:                 #ffffff
 
+$gray-lightest20:       rgba($gray-lightest, 0.2)
+$gray-lightest30:       rgba($gray-lightest, 0.3)
+$gray-lightest40:       rgba($gray-lightest, 0.4)
+
 $blue:                  #1E8BC6
 $blue-bright:           #BDE6FB
 $blue-light:            #F2F8FB
 
-$red:                   #AD1A26
 $green:                 #27AD8D
+$green-bright:          #97CD76
+
+$red:                   #AD1A26
+$red-bright:            #F93A2D
+
 $yellow:                #FFCC44
 $purple:                #B86CFF
+$orange:                #FF8B3A
 
 $brand-primary:         $blue
 $brand-success:         $green
@@ -28,11 +37,24 @@ $brand-bright:          #BDE6FB
 $brand-soft:            #CEDBE1
 $brand-light:           #E9EFF2
 
-// TYPOGRAPHY
-$font-family-sans-serif:        'Source Sans Pro', 'Helvetica', 'Open Sans', 'sans-serif'
-$headings-font-family:          $font-family-sans-serif
+$spacing-xs : 4px
+$spacing-sm : 6px
+$spacing-md : 10px
+$spacing-lg : 14px
 
-$border-radius-small: 2px
+$font-family-sans-serif  : 'Source Sans Pro', 'Helvetica', 'Open Sans', 'sans-serif'
+$headings-font-family    : $font-family-sans-serif
+
+$font-weight-normal    : 400
+$font-weight-semibold  : 600
+$font-weight-bold      : 700
+
+$border-radius-small   : 2px
+$border-radius-base    : 3px
+
+$navbar-height                      : 60px
+$navbar-padding-vertical            : $spacing-lg
+$navbar-padding-horizontal          : $spacing-lg
 
 $navbar-default-bg                  : $white
 $navbar-border-radius               : 0
@@ -46,7 +68,13 @@ $navbar-default-link-active-color   : $gray-light
 $navbar-default-link-active-bg      : $gray-lightest
 $navbar-default-link-hover-bg       : $gray-lightest
 
-$input-color-placeholder: $gray-light
+$input-height-base       : 32px
+$input-color-placeholder : $gray-light
+$input-color             : $gray-dark
+$input-border-focus      : $blue
+$input-border            : $gray-soft
+$input-border-radius     : $border-radius-small
+$input-bg                : $white
 
 $modal-backdrop-opacity: .25
 
@@ -54,7 +82,6 @@ $background-color    : $brand-light
 $dropdown-link-color : $gray-mid
 
 $link-action-color   : $brand-gray
-
 
 // Bootrap variables import
 @import ../vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/variables
@@ -65,63 +92,10 @@ $page-navbar-height  : 36px
 $page-navbar-padding : 3px
 $sidemenu-width      : 265px
 
-$spacing-xs : 4px
-$spacing-sm : 6px
-$spacing-md : 10px
-$spacing-lg : 14px
-
 $grid-gutter-width    : $spacing-lg
 $well-padding         : $spacing-lg
 $line-height-computed : $spacing-lg
 
-
-// ----- TRY TO AVOID THIS COLORS ---------------
-//
-// OLD COLORS V3
-// $brand-primary:               #1e8bc6
-$color-electroBlue:             #1EBCF6
-$color-midBlue:                 #2B3A4E
-$color-darkBlue:                #21272E
-$color-green:                   #27AD8D
-$color-red:                     #AD1A26
-$color-orange:                  #FF8B3A
-$color-yellow:                  #FFCC44
-$color-grey:                    #666666
-$color-purple:                  #B86CFF
-
-$color-shatterGrey:             #F3F3F3
-$color-shatterGrey20:           rgba($color-shatterGrey, 0.2)
-$color-shatterGrey30:           rgba($color-shatterGrey, 0.3)
-$color-shatterGrey40:           rgba($color-shatterGrey, 0.4)
-$color-shatterGrey80:           rgba($color-shatterGrey, 0.8)
-$color-shatterGrey95:           rgba($color-shatterGrey, 0.95)
-
-$color-smoothGrey20:            #DADADA
-$color-smoothGrey30:            #C6C7C8
-
-$color-midGrey:                 #434343
-$color-lightGrey:               #878888
-$color-darkGrey:                #333
-$color-black:                   #111111
-$color-dark:                    #3c3a3f
-
-// Layout colors
-$color-subject:                 $brand-primary
-$modal-background-color:        #FCFCFC
-$pageBackgroundColor:           #FAFAFA
-
-// Navigation
-$color-navigationBackground:   $color-dark
-$color-navigationBorder:       $color-midGrey
-$color-navigationLightBorder:  $color-lightGrey
-$color-navigationFont:         $gray-lighter
-
-// Task colors
-$color-task-selected:           #DAE2E6
-$color-card-background:         $white
-
-// Role colors
-$color-role-officer:            $brand-primary
-$color-role-member:             $brand-primary
-$color-role-follower:           #999
-$color-role-none:               #999
+// Specific App Colors - Try to avoid
+$modal-background-color: $white
+$color-task-selected:    #DAE2E6
