@@ -35,25 +35,6 @@
 .u-pull-right
   float: right !important
 
-.u-media-body,
-.u-media
-  overflow: visible
-  zoom: 1
-
-.media:first-child
-  margin-top: 0
-
-.u-media-body,
-.u-media,
-.u-media > .u-pull-left
-  +clearfix
-
-.u-media > .u-pull-left
-  margin-right: $line-height-computed / 2
-
-.u-media > .u-pull-right
-  margin-left: $line-height-computed / 2
-
 .panel--no-border
   border: 0
 
@@ -74,3 +55,27 @@
 [class^="icon-"].pull-left, [class*=" icon-"].pull-left
   margin-right: .6em
   vertical-align: middle
+
+// Media Component
+.u-media
+  +clearfix
+
+.u-media-body
+  display: table-cell
+  width: 10000px
+  vertical-align: top
+
+.media:first-child
+  margin-top: 0
+
+.u-media
+  > .pull-left, > .u-pull-left
+    margin-right: $spacing-md
+  > .u-pull-right, > .pull-right
+    margin-left: $spacing-md
+
+.u-media--sm
+  > .pull-left, > .u-pull-left
+    margin-right: $spacing-sm
+  > .u-pull-right, > .pull-right
+    margin-left: $spacing-sm

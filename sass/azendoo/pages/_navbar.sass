@@ -57,13 +57,13 @@
 
 .page-header-navigation.page-header-navigation-small
   > ul > li, > ul li.dropdown
-    border-bottom: 4px solid transparent
-    margin: 0 10px
+    border-bottom: 3px solid transparent
+    margin: 0 $spacing-sm
     &:hover, &.active
-      border-bottom: 4px solid $brand-primary
+      border-bottom: 3px solid $brand-primary
     > a
       font-size: $font-size-base
-      padding: 0 5px
+      padding: 0 $spacing-xs
       line-height: 30px
 
 .page-header-navigation
@@ -74,10 +74,10 @@
 
     > li, > ul li.dropdown
       display: inline-block
-      border-bottom: 5px solid transparent
-      margin: 0 10px
+      border-bottom: 4px solid transparent
+      margin: 0 $spacing-md
       &:hover, &.active
-        border-bottom: 5px solid $brand-primary
+        border-bottom: 4px solid $brand-primary
       > a
         font-size: $font-size-base + 2
         color: $white
@@ -96,17 +96,18 @@
   background-color: $white
   margin-bottom: $line-height-computed
   border-radius: $border-radius-base
+  +box-shadow(0px 0px 2px rgba(0, 0, 0, 0.28))
   > ul
     display: inline-block
     > li, > ul li.dropdown
-      margin: 0 30px 0 10px
+      margin: 0 $spacing-lg 0 $spacing-md
       border-bottom: $page-navbar-padding solid transparent
       &:hover, &.active
         border-bottom: $page-navbar-padding solid $brand-primary
         > a
           color: $gray-dark
       > a
-        padding: $page-navbar-padding 10px
+        padding: $page-navbar-padding $spacing-md
         color: $gray
         line-height: $page-navbar-height - 2 * ($page-navbar-padding)
   > ul.pull-right
@@ -116,17 +117,13 @@
 .page-aside
   .btn-aside
     width: 100%
-    margin-bottom: $line-height-computed
-    line-height: 25px
+    margin-bottom: $spacing-md
+    line-height: 20px
     i
-      font-size: 18px
-      margin-right: 10px
+      margin-right: $spacing-sm
     i.icon-caret-down
       margin-right: .3em
-      padding-top: 3px
-
-    &.btn, .btn:first-child
-      font-size: 16px
+      padding-top: 1px
 
     &, & > .btn
       text-align: left

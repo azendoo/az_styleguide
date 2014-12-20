@@ -4489,7 +4489,7 @@ a.list-group-item-danger {
 
 /* line 16, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_panels.scss */
 .panel-body {
-  padding: 15px; }
+  padding: 14px; }
   /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
   .panel-body:before, .panel-body:after {
     content: " ";
@@ -5803,63 +5803,63 @@ p {
   float: right !important; }
 
 /* line 38, ../../sass/azendoo/base/_utilities.sass */
-.u-media-body,
-.u-media {
-  overflow: visible;
-  zoom: 1; }
-
-/* line 43, ../../sass/azendoo/base/_utilities.sass */
-.media:first-child {
-  margin-top: 0; }
-
-/* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.u-media-body:before, .u-media-body:after,
-.u-media:before,
-.u-media:after,
-.u-media > .u-pull-left:before,
-.u-media > .u-pull-left:after {
-  content: " ";
-  display: table; }
-/* line 19, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
-.u-media-body:after,
-.u-media:after,
-.u-media > .u-pull-left:after {
-  clear: both; }
-
-/* line 51, ../../sass/azendoo/base/_utilities.sass */
-.u-media > .u-pull-left {
-  margin-right: 7px; }
-
-/* line 54, ../../sass/azendoo/base/_utilities.sass */
-.u-media > .u-pull-right {
-  margin-left: 7px; }
-
-/* line 57, ../../sass/azendoo/base/_utilities.sass */
 .panel--no-border {
   border: 0; }
 
-/* line 60, ../../sass/azendoo/base/_utilities.sass */
+/* line 41, ../../sass/azendoo/base/_utilities.sass */
 .margin-block-bottom {
   margin: 0 0 14px !important; }
 
-/* line 63, ../../sass/azendoo/base/_utilities.sass */
+/* line 44, ../../sass/azendoo/base/_utilities.sass */
 .dropdown-menu--no-border {
   border: 0; }
 
-/* line 66, ../../sass/azendoo/base/_utilities.sass */
+/* line 47, ../../sass/azendoo/base/_utilities.sass */
 .navbar-pills {
   margin-top: 9px;
   margin-bottom: 9px; }
 
-/* line 70, ../../sass/azendoo/base/_utilities.sass */
+/* line 51, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit; }
 
-/* line 74, ../../sass/azendoo/base/_utilities.sass */
+/* line 55, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"].pull-left, [class*=" icon-"].pull-left {
   margin-right: 0.6em;
   vertical-align: middle; }
+
+/* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.u-media:before, .u-media:after {
+  content: " ";
+  display: table; }
+/* line 19, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.u-media:after {
+  clear: both; }
+
+/* line 63, ../../sass/azendoo/base/_utilities.sass */
+.u-media-body {
+  display: table-cell;
+  width: 10000px;
+  vertical-align: top; }
+
+/* line 68, ../../sass/azendoo/base/_utilities.sass */
+.media:first-child {
+  margin-top: 0; }
+
+/* line 72, ../../sass/azendoo/base/_utilities.sass */
+.u-media > .pull-left, .u-media > .u-pull-left {
+  margin-right: 10px; }
+/* line 74, ../../sass/azendoo/base/_utilities.sass */
+.u-media > .u-pull-right, .u-media > .pull-right {
+  margin-left: 10px; }
+
+/* line 78, ../../sass/azendoo/base/_utilities.sass */
+.u-media--sm > .pull-left, .u-media--sm > .u-pull-left {
+  margin-right: 6px; }
+/* line 80, ../../sass/azendoo/base/_utilities.sass */
+.u-media--sm > .u-pull-right, .u-media--sm > .pull-right {
+  margin-left: 6px; }
 
 /* line 44, ../../sass/azendoo/components/_buttons.sass */
 .btn {
@@ -6153,6 +6153,11 @@ a.link.link--white {
 .well--no-padding {
   padding: 0; }
 
+/* line 17, ../../sass/azendoo/components/_panel.sass */
+.panel {
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28); }
+
 /* line 58, ../../sass/azendoo/components/_avatars.sass */
 .user {
   position: relative;
@@ -6374,7 +6379,7 @@ h1 {
   position: relative; }
   /* line 70, ../../sass/azendoo/pages/_header.sass */
   .page-header.row {
-    margin: 0 -15px; }
+    margin: 0 -7px; }
   /* line 73, ../../sass/azendoo/pages/_header.sass */
   .page-header.page-header-line {
     padding-left: 20px;
@@ -6442,15 +6447,15 @@ h1 {
 
 /* line 59, ../../sass/azendoo/pages/_navbar.sass */
 .page-header-navigation.page-header-navigation-small > ul > li, .page-header-navigation.page-header-navigation-small > ul li.dropdown {
-  border-bottom: 4px solid transparent;
-  margin: 0 10px; }
+  border-bottom: 3px solid transparent;
+  margin: 0 6px; }
   /* line 62, ../../sass/azendoo/pages/_navbar.sass */
   .page-header-navigation.page-header-navigation-small > ul > li:hover, .page-header-navigation.page-header-navigation-small > ul > li.active, .page-header-navigation.page-header-navigation-small > ul li.dropdown:hover, .page-header-navigation.page-header-navigation-small > ul li.dropdown.active {
-    border-bottom: 4px solid #1E8BC6; }
+    border-bottom: 3px solid #1E8BC6; }
   /* line 64, ../../sass/azendoo/pages/_navbar.sass */
   .page-header-navigation.page-header-navigation-small > ul > li > a, .page-header-navigation.page-header-navigation-small > ul li.dropdown > a {
     font-size: 14px;
-    padding: 0 5px;
+    padding: 0 4px;
     line-height: 30px; }
 
 /* line 70, ../../sass/azendoo/pages/_navbar.sass */
@@ -6461,11 +6466,11 @@ h1 {
   /* line 75, ../../sass/azendoo/pages/_navbar.sass */
   .page-header-navigation > ul > li, .page-header-navigation > ul > ul li.dropdown {
     display: inline-block;
-    border-bottom: 5px solid transparent;
+    border-bottom: 4px solid transparent;
     margin: 0 10px; }
     /* line 79, ../../sass/azendoo/pages/_navbar.sass */
     .page-header-navigation > ul > li:hover, .page-header-navigation > ul > li.active, .page-header-navigation > ul > ul li.dropdown:hover, .page-header-navigation > ul > ul li.dropdown.active {
-      border-bottom: 5px solid #1E8BC6; }
+      border-bottom: 4px solid #1E8BC6; }
     /* line 81, ../../sass/azendoo/pages/_navbar.sass */
     .page-header-navigation > ul > li > a, .page-header-navigation > ul > ul li.dropdown > a {
       font-size: 16px;
@@ -6487,49 +6492,47 @@ h1 {
 .page-header-navigation.page-header-navigation-light {
   background-color: #ffffff;
   margin-bottom: 14px;
-  border-radius: 3px; }
-  /* line 99, ../../sass/azendoo/pages/_navbar.sass */
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28); }
+  /* line 100, ../../sass/azendoo/pages/_navbar.sass */
   .page-header-navigation.page-header-navigation-light > ul {
     display: inline-block; }
-    /* line 101, ../../sass/azendoo/pages/_navbar.sass */
+    /* line 102, ../../sass/azendoo/pages/_navbar.sass */
     .page-header-navigation.page-header-navigation-light > ul > li, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown {
-      margin: 0 30px 0 10px;
+      margin: 0 14px 0 10px;
       border-bottom: 3px solid transparent; }
-      /* line 104, ../../sass/azendoo/pages/_navbar.sass */
+      /* line 105, ../../sass/azendoo/pages/_navbar.sass */
       .page-header-navigation.page-header-navigation-light > ul > li:hover, .page-header-navigation.page-header-navigation-light > ul > li.active, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown:hover, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown.active {
         border-bottom: 3px solid #1E8BC6; }
-        /* line 106, ../../sass/azendoo/pages/_navbar.sass */
+        /* line 107, ../../sass/azendoo/pages/_navbar.sass */
         .page-header-navigation.page-header-navigation-light > ul > li:hover > a, .page-header-navigation.page-header-navigation-light > ul > li.active > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown:hover > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown.active > a {
           color: #313131; }
-      /* line 108, ../../sass/azendoo/pages/_navbar.sass */
+      /* line 109, ../../sass/azendoo/pages/_navbar.sass */
       .page-header-navigation.page-header-navigation-light > ul > li > a, .page-header-navigation.page-header-navigation-light > ul > ul li.dropdown > a {
         padding: 3px 10px;
         color: #666;
         line-height: 30px; }
-  /* line 113, ../../sass/azendoo/pages/_navbar.sass */
+  /* line 114, ../../sass/azendoo/pages/_navbar.sass */
   .page-header-navigation.page-header-navigation-light > ul.pull-right > li, .page-header-navigation.page-header-navigation-light > ul.pull-right > ul li.dropdown {
     margin: 0 10px 0 20px; }
 
-/* line 117, ../../sass/azendoo/pages/_navbar.sass */
+/* line 118, ../../sass/azendoo/pages/_navbar.sass */
 .page-aside .btn-aside {
   width: 100%;
-  margin-bottom: 14px;
-  line-height: 25px; }
-  /* line 121, ../../sass/azendoo/pages/_navbar.sass */
+  margin-bottom: 10px;
+  line-height: 20px; }
+  /* line 122, ../../sass/azendoo/pages/_navbar.sass */
   .page-aside .btn-aside i {
-    font-size: 18px;
-    margin-right: 10px; }
+    margin-right: 6px; }
   /* line 124, ../../sass/azendoo/pages/_navbar.sass */
   .page-aside .btn-aside i.icon-caret-down {
     margin-right: 0.3em;
-    padding-top: 3px; }
+    padding-top: 1px; }
   /* line 128, ../../sass/azendoo/pages/_navbar.sass */
-  .page-aside .btn-aside.btn, .page-aside .btn-aside .btn:first-child {
-    font-size: 16px; }
-  /* line 131, ../../sass/azendoo/pages/_navbar.sass */
   .page-aside .btn-aside, .page-aside .btn-aside > .btn {
     text-align: left; }
-  /* line 134, ../../sass/azendoo/pages/_navbar.sass */
+  /* line 131, ../../sass/azendoo/pages/_navbar.sass */
   .page-aside .btn-aside.btn, .page-aside .btn-aside > .btn {
     background-color: rgba(238, 238, 238, 0.3); }
 
@@ -6639,37 +6642,38 @@ hr {
 .page-form .pull-right .btn {
   border-radius: 0 3px 3px 0; }
 
-/* line 29, ../../sass/azendoo/azendoo.sass */
+/* line 30, ../../sass/azendoo/azendoo.sass */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   line-height: 1.35; }
 
-/* line 34, ../../sass/azendoo/azendoo.sass */
+/* line 36, ../../sass/azendoo/azendoo.sass */
 input, textarea {
   outline: 0; }
 
-/* line 37, ../../sass/azendoo/azendoo.sass */
+/* line 39, ../../sass/azendoo/azendoo.sass */
 textarea {
   resize: none; }
 
-/* line 40, ../../sass/azendoo/azendoo.sass */
+/* line 42, ../../sass/azendoo/azendoo.sass */
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 45, ../../sass/azendoo/azendoo.sass */
+/* line 47, ../../sass/azendoo/azendoo.sass */
 a:focus {
   outline: none;
   outline-offset: 0; }
 
-/* line 49, ../../sass/azendoo/azendoo.sass */
+/* line 51, ../../sass/azendoo/azendoo.sass */
 h3 {
   font-size: 18px;
   line-height: 21px;
   font-weight: normal; }
 
-/* line 54, ../../sass/azendoo/azendoo.sass */
+/* line 56, ../../sass/azendoo/azendoo.sass */
 img {
   border: none; }
