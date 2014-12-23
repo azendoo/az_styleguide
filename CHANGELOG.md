@@ -1,3 +1,8 @@
+== 0.8.1
+  * Add style for svg icons
+  * Add style for link actions
+  * Update bower json
+
 == 0.8.0
   * Update Boostrap to 3.3.1
   * Add spacing variables
