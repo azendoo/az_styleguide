@@ -2715,7 +2715,7 @@ tbody.collapse.in {
   text-align: left;
   background-color: #fff;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid #D5D5D5;
   border-radius: 3px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -2743,8 +2743,8 @@ tbody.collapse.in {
 /* line 76, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #242424;
-  background-color: #f5f5f5; }
+  color: #ffffff;
+  background-color: #1E8BC6; }
 
 /* line 86, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
@@ -6118,7 +6118,7 @@ p {
   .btn-full-width i {
     margin-right: 0.5em; }
 
-/* line 37, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 38, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle {
   font-weight: 600;
   border-radius: 4px;
@@ -6126,29 +6126,29 @@ p {
   color: #535353;
   text-decoration: none;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); }
-  /* line 45, ../../sass/azendoo/components/_dropdowns.sass */
+  /* line 46, ../../sass/azendoo/components/_dropdowns.sass */
   .dropdown-menu-options .dropdown-toggle i {
     margin-left: 10px; }
-/* line 48, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 49, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle:hover, .dropdown-menu-options.open .dropdown-toggle {
   color: #535353;
   background-color: rgba(0, 0, 0, 0.15); }
-/* line 52, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 53, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-menu {
   max-width: 240px; }
-  /* line 55, ../../sass/azendoo/components/_dropdowns.sass */
+  /* line 56, ../../sass/azendoo/components/_dropdowns.sass */
   .dropdown-menu-options .dropdown-menu > li > a {
     word-break: break-word;
     white-space: normal; }
-    /* line 59, ../../sass/azendoo/components/_dropdowns.sass */
+    /* line 60, ../../sass/azendoo/components/_dropdowns.sass */
     .dropdown-menu-options .dropdown-menu > li > a.disabled {
       color: #666; }
-    /* line 62, ../../sass/azendoo/components/_dropdowns.sass */
+    /* line 63, ../../sass/azendoo/components/_dropdowns.sass */
     .dropdown-menu-options .dropdown-menu > li > a:hover, .dropdown-menu-options .dropdown-menu > li > a:focus {
       background-color: #1E8BC6;
       color: #ffffff; }
 
-/* line 67, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 68, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > li > a {
   display: block;
   padding: 3px 20px;
@@ -6158,13 +6158,13 @@ p {
   color: #535353;
   white-space: nowrap; }
 
-/* line 77, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 78, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > li > a:hover, .dropdown-menu-subsection > li > a:focus {
   text-decoration: none;
-  color: #242424;
-  background-color: #f5f5f5; }
+  color: #ffffff;
+  background-color: #1E8BC6; }
 
-/* line 84, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 85, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > .active > a, .dropdown-menu-subsection > .active > a:hover, .dropdown-menu-subsection > .active > a:focus {
   color: #fff;
   text-decoration: none;
