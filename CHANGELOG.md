@@ -1,3 +1,10 @@
+== 0.8.0
+  * Update Boostrap to 3.3.1
+  * Add spacing variables
+  * Refactor color variables
+  * Custom style for primary and default buttons
+  * Change custom font for headings
+
 == 0.7.3
   * Add user status icon
 
