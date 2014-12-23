@@ -45,3 +45,31 @@ a.link.link--white
   &:hover
     color: $white
     border-bottom: 1px solid $white
+
+a.link--action
+  display: inline-block
+  color: $link-action-color
+  font-size: $font-size-small
+  font-weight: $font-weight-semibold
+  svg.azicon
+    float: left
+    fill: $link-action-color
+    margin-right: 2px
+  &:hover
+    color: $brand-primary
+    svg.azicon
+      fill: $brand-primary
+  &:hover, &:active
+    text-decoration: initial
+
+.list-inline--actions
+  margin: 0
+  a.link--action
+    line-height: $link-action-height
+  > li:not(:last-child)
+    padding: 0
+    margin: 0 $spacing-md 0 0
+  > li:first-child
+    margin-left: -2px
+  > li:last-child
+    margin-right: -($spacing-lg/2)
