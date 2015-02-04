@@ -1,3 +1,6 @@
+== 0.8.2
+  * Change modal-md to modal-sm
+
 == 0.8.1
   * Add style for svg icons
   * Add style for link actions
