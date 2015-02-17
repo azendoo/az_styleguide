@@ -1,3 +1,8 @@
+== 0.8.3
+  * Add utility to capitalize
+  * Add turquoise and pink color
+  * Add large size for dropdown
+
 == 0.8.2
   * Change modal-md to modal-sm
 
