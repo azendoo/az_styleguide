@@ -89,3 +89,26 @@
     text-decoration: none
     outline: 0
     background-color: $dropdown-link-active-bg
+
+// Large dropdown
+.dropdown-menu.dropdown-menu--large
+  padding: 16px 0
+  > li > a
+    padding: 5px 28px
+    line-height: 24px
+    > svg.azicon
+      float: left
+      display: inline-block
+      margin-left: -6px
+      margin-right: 2px
+
+    &.text-primary
+      color: $brand-primary
+      svg.azicon
+        fill: $brand-primary
+      &:hover, &:active, &:focus
+        color: $white
+        svg.azicon
+          fill: $white
+  .divider
+    margin: 16px 0
