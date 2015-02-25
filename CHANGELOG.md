@@ -1,3 +1,6 @@
+== 0.8.4
+  * Update colors codes
+
 == 0.8.3
   * Add utility to capitalize
   * Add turquoise and pink color
