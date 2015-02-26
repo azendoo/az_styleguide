@@ -6,7 +6,7 @@
   ---
 
   ```html_example
-  <div class="btn-group dropdown-menu-options">
+  <div class="btn-group dropdown dropdown-menu-options">
     <a href="javascript:void(0)" class="dropdown-toggle btn" data-toggle="dropdown">
       Menu
       <i class="fa fa-caret-square-o-down"></i>
@@ -30,6 +30,63 @@
         </a>
       </li>
     </ul>
+  </div>
+
+  <div class="btn-group dropdown dropdown-popover">
+    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
+      Menu with popover
+    </a>
+    <div class="dropdown-menu">
+      <div class="arrow"></div>
+      <div class="popover bottom">
+        <div class="popover-content">
+          <ul class="dropdown-menu dropdown-menu--list">
+            <li><a href="javascript:void(0)">Item 1</a></li>
+            <li><a href="javascript:void(0)">Item 2</a></li>
+            <li><a href="javascript:void(0)">Item 3</a></li>
+            <li><a href="javascript:void(0)">Item 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group dropdown dropdown-popover">
+    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
+      Menu with left popover
+    </a>
+    <div class="dropdown-menu left">
+      <div class="arrow"></div>
+      <div class="popover bottom">
+        <div class="popover-content">
+          <ul class="dropdown-menu dropdown-menu--list">
+            <li><a href="javascript:void(0)">Item 1</a></li>
+            <li><a href="javascript:void(0)">Item 2</a></li>
+            <li><a href="javascript:void(0)">Item 3</a></li>
+            <li><a href="javascript:void(0)">Item 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group dropdown dropdown-popover">
+    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
+      Menu with right popover
+    </a>
+    <div class="dropdown-menu right">
+      <div class="arrow"></div>
+      <div class="popover bottom">
+        <div class="popover-content">
+          <ul class="dropdown-menu dropdown-menu--list">
+            <li><a href="javascript:void(0)">Item 1</a></li>
+            <li><a href="javascript:void(0)">Item 2</a></li>
+            <li><a href="javascript:void(0)">Item 3</a></li>
+            <li><a href="javascript:void(0)">Item 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
   ```
 
@@ -112,3 +169,77 @@
           fill: $white
   .divider
     margin: 16px 0
+
+.dropdown-popover
+  > .dropdown-menu
+    pointer-events: none
+    left: 50%
+    padding: 0
+    border: none
+    box-shadow: none
+    background: none
+    min-width: 0
+
+    > .arrow
+      border-color: transparent
+      border-bottom-color: $popover-fallback-border-color
+      border-bottom-color: $popover-border-color
+      border-width: $popover-arrow-outer-width
+      border-top-width: 0
+      border-style: solid
+      position: absolute
+      top: 0
+      left: 0
+      display: block
+      width: 0
+      height: 0
+      margin-left: -$popover-arrow-width
+      &:after
+        content: " "
+        top: 1px
+        margin-left: -$popover-arrow-width
+        border-width: $popover-arrow-width
+        border-top-width: 0
+        border-color: transparent
+        border-bottom-color: $popover-bg
+        border-style: solid
+        display: block
+        width: 0
+        height: 0
+
+    > .popover
+      display: block
+      left: -50%
+      padding: 0
+      position: relative
+      pointer-events: all
+      width: 230px
+
+      > .popover-content
+        padding-left: 0
+        padding-right: 0
+
+    &.right,
+    &.left
+      position: initial
+      > .arrow
+        top: 100%
+        left: 50%
+      > .popover
+        position: absolute
+        top: 100%
+
+    &.right > .popover
+      left: 0
+      right: auto
+    &.left > .popover
+      right: 0
+      left: auto
+
+.dropdown-menu--list
+  display: block
+  padding: 0
+  border: none
+  box-shadow: none
+  position: initial
+  float: none
