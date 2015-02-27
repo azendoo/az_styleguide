@@ -1,2 +1,2 @@
 guard: guard -i
-rack: rackup
+rack: rackup -p 3001

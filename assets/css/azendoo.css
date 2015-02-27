@@ -490,11 +490,11 @@ a.text-primary:hover {
 
 /* line 5, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
-  color: #3c763d; }
+  color: #27AD8D; }
 
 /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-success:hover {
-  color: #2b542c; }
+  color: #1e836b; }
 
 /* line 5, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-info {
@@ -506,11 +506,11 @@ a.text-info:hover {
 
 /* line 5, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-warning {
-  color: #8a6d3b; }
+  color: #F68B38; }
 
 /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-warning:hover {
-  color: #66512c; }
+  color: #f06f0b; }
 
 /* line 5, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-danger {
@@ -2227,25 +2227,25 @@ select[multiple].input-lg,
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
-  color: #3c763d; }
+  color: #27AD8D; }
 /* line 21, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .form-control {
-  border-color: #3c763d;
+  border-color: #27AD8D;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .has-success .form-control:focus {
-    border-color: #2b542c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
+    border-color: #1e836b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #5fdbbd;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #5fdbbd; }
 /* line 31, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .input-group-addon {
-  color: #3c763d;
-  border-color: #3c763d;
+  color: #27AD8D;
+  border-color: #27AD8D;
   background-color: #dff0d8; }
 /* line 37, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-success .form-control-feedback {
-  color: #3c763d; }
+  color: #27AD8D; }
 
 /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .help-block,
@@ -2254,25 +2254,25 @@ select[multiple].input-lg,
 .has-warning .checkbox,
 .has-warning .radio-inline,
 .has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
-  color: #8a6d3b; }
+  color: #F68B38; }
 /* line 21, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .form-control {
-  border-color: #8a6d3b;
+  border-color: #F68B38;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
   .has-warning .form-control:focus {
-    border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
+    border-color: #f06f0b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #fac49a;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #fac49a; }
 /* line 31, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .input-group-addon {
-  color: #8a6d3b;
-  border-color: #8a6d3b;
+  color: #F68B38;
+  border-color: #F68B38;
   background-color: #fcf8e3; }
 /* line 37, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-warning .form-control-feedback {
-  color: #8a6d3b; }
+  color: #F68B38; }
 
 /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .has-error .help-block,
@@ -4189,13 +4189,13 @@ a.thumbnail.active {
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
-  color: #3c763d; }
+  color: #27AD8D; }
   /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-success hr {
     border-top-color: #c9e2b3; }
   /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-success .alert-link {
-    color: #2b542c; }
+    color: #1e836b; }
 
 /* line 60, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-info {
@@ -4213,13 +4213,13 @@ a.thumbnail.active {
 .alert-warning {
   background-color: #fcf8e3;
   border-color: #faebcc;
-  color: #8a6d3b; }
+  color: #F68B38; }
   /* line 8, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-warning hr {
     border-top-color: #f7e1b5; }
   /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_alerts.scss */
   .alert-warning .alert-link {
-    color: #66512c; }
+    color: #f06f0b; }
 
 /* line 66, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_alerts.scss */
 .alert-danger {
@@ -4429,24 +4429,24 @@ a.list-group-item {
 
 /* line 4, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
-  color: #3c763d;
+  color: #27AD8D;
   background-color: #dff0d8; }
 
 /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-success {
-  color: #3c763d; }
+  color: #27AD8D; }
   /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-success .list-group-item-heading {
     color: inherit; }
   /* line 18, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-success:hover, a.list-group-item-success:focus {
-    color: #3c763d;
+    color: #27AD8D;
     background-color: #d0e9c6; }
   /* line 23, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
     color: #fff;
-    background-color: #3c763d;
-    border-color: #3c763d; }
+    background-color: #27AD8D;
+    border-color: #27AD8D; }
 
 /* line 4, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-info {
@@ -4471,24 +4471,24 @@ a.list-group-item-info {
 
 /* line 4, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-warning {
-  color: #8a6d3b;
+  color: #F68B38;
   background-color: #fcf8e3; }
 
 /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 a.list-group-item-warning {
-  color: #8a6d3b; }
+  color: #F68B38; }
   /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-warning .list-group-item-heading {
     color: inherit; }
   /* line 18, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-warning:hover, a.list-group-item-warning:focus {
-    color: #8a6d3b;
+    color: #F68B38;
     background-color: #faf2cc; }
   /* line 23, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
   a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
     color: #fff;
-    background-color: #8a6d3b;
-    border-color: #8a6d3b; }
+    background-color: #F68B38;
+    border-color: #F68B38; }
 
 /* line 4, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-danger {
@@ -4808,7 +4808,7 @@ a.list-group-item-danger {
   border-color: #d6e9c6; }
   /* line 6, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-success > .panel-heading {
-    color: #3c763d;
+    color: #27AD8D;
     background-color: #dff0d8;
     border-color: #d6e9c6; }
     /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
@@ -4817,7 +4817,7 @@ a.list-group-item-danger {
     /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-success > .panel-heading .badge {
       color: #dff0d8;
-      background-color: #3c763d; }
+      background-color: #27AD8D; }
   /* line 20, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-success > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #d6e9c6; }
@@ -4846,7 +4846,7 @@ a.list-group-item-danger {
   border-color: #faebcc; }
   /* line 6, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-warning > .panel-heading {
-    color: #8a6d3b;
+    color: #F68B38;
     background-color: #fcf8e3;
     border-color: #faebcc; }
     /* line 11, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
@@ -4855,7 +4855,7 @@ a.list-group-item-danger {
     /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-warning > .panel-heading .badge {
       color: #fcf8e3;
-      background-color: #8a6d3b; }
+      background-color: #F68B38; }
   /* line 20, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-warning > .panel-footer + .panel-collapse > .panel-body {
     border-bottom-color: #faebcc; }
@@ -5232,21 +5232,21 @@ button.close {
   top: 0;
   right: 0;
   left: 0;
-  background-color: #000; }
+  background-color: #334149; }
   /* line 71, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.fade {
     opacity: 0;
     filter: alpha(opacity=0); }
   /* line 72, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.in {
-    opacity: 0.25;
-    filter: alpha(opacity=25); }
+    opacity: 0.8;
+    filter: alpha(opacity=80); }
 
 /* line 77, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
-  padding: 15px;
+  padding: 14px;
   border-bottom: 1px solid #e5e5e5;
-  min-height: 16.42857px; }
+  min-height: 15.42857px; }
 
 /* line 83, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header .close {
@@ -5260,11 +5260,11 @@ button.close {
 /* line 95, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
-  padding: 15px; }
+  padding: 14px; }
 
 /* line 101, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
-  padding: 15px;
+  padding: 14px;
   text-align: right;
   border-top: 1px solid #e5e5e5; }
   /* line 14, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -5306,7 +5306,7 @@ button.close {
 
   /* line 143, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-sm {
-    width: 300px; } }
+    width: 520px; } }
 @media (min-width: 992px) {
   /* line 147, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
@@ -5436,31 +5436,31 @@ button.close {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #ffffff;
   border-radius: 6px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal; }
   /* line 31, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.top {
-    margin-top: -10px; }
+    margin-top: -4px; }
   /* line 32, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.right {
-    margin-left: 10px; }
+    margin-left: 4px; }
   /* line 33, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.bottom {
-    margin-top: 10px; }
+    margin-top: 4px; }
   /* line 34, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.left {
-    margin-left: -10px; }
+    margin-left: -4px; }
 
 /* line 37, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover-title {
   margin: 0;
   padding: 8px 14px;
   font-size: 14px;
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #ebebeb;
+  background-color: #ffffff;
+  border-bottom: 1px solid #f2f2f2;
   border-radius: 5px 5px 0 0; }
 
 /* line 46, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
@@ -5478,73 +5478,73 @@ button.close {
 
 /* line 65, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover > .arrow {
-  border-width: 11px; }
+  border-width: 5px; }
 
 /* line 68, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover > .arrow:after {
-  border-width: 10px;
+  border-width: 4px;
   content: ""; }
 
 /* line 74, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.top > .arrow {
   left: 50%;
-  margin-left: -11px;
+  margin-left: -5px;
   border-bottom-width: 0;
   border-top-color: #999999;
-  border-top-color: rgba(0, 0, 0, 0.25);
-  bottom: -11px; }
+  border-top-color: rgba(0, 0, 0, 0.2);
+  bottom: -5px; }
   /* line 81, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.top > .arrow:after {
     content: " ";
     bottom: 1px;
-    margin-left: -10px;
+    margin-left: -4px;
     border-bottom-width: 0;
     border-top-color: #fff; }
 /* line 89, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.right > .arrow {
   top: 50%;
-  left: -11px;
-  margin-top: -11px;
+  left: -5px;
+  margin-top: -5px;
   border-left-width: 0;
   border-right-color: #999999;
-  border-right-color: rgba(0, 0, 0, 0.25); }
+  border-right-color: rgba(0, 0, 0, 0.2); }
   /* line 96, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.right > .arrow:after {
     content: " ";
     left: 1px;
-    bottom: -10px;
+    bottom: -4px;
     border-left-width: 0;
     border-right-color: #fff; }
 /* line 104, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.bottom > .arrow {
   left: 50%;
-  margin-left: -11px;
+  margin-left: -5px;
   border-top-width: 0;
   border-bottom-color: #999999;
-  border-bottom-color: rgba(0, 0, 0, 0.25);
-  top: -11px; }
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  top: -5px; }
   /* line 111, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.bottom > .arrow:after {
     content: " ";
     top: 1px;
-    margin-left: -10px;
+    margin-left: -4px;
     border-top-width: 0;
     border-bottom-color: #fff; }
 /* line 120, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
 .popover.left > .arrow {
   top: 50%;
-  right: -11px;
-  margin-top: -11px;
+  right: -5px;
+  margin-top: -5px;
   border-right-width: 0;
   border-left-color: #999999;
-  border-left-color: rgba(0, 0, 0, 0.25); }
+  border-left-color: rgba(0, 0, 0, 0.2); }
   /* line 127, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_popovers.scss */
   .popover.left > .arrow:after {
     content: " ";
     right: 1px;
     border-right-width: 0;
     border-left-color: #fff;
-    bottom: -10px; }
+    bottom: -4px; }
 
 /* line 7, ../../sass/vendor/bootstrap-sass-twbs/assets/stylesheets/bootstrap/_carousel.scss */
 .carousel {
@@ -5876,55 +5876,59 @@ p {
   font-size: 13px; }
 
 /* line 24, ../../sass/azendoo/base/_utilities.sass */
+.u-uppercase {
+  text-transform: uppercase; }
+
+/* line 27, ../../sass/azendoo/base/_utilities.sass */
 .u-text-large {
   font-size: 15px; }
 
-/* line 27, ../../sass/azendoo/base/_utilities.sass */
+/* line 30, ../../sass/azendoo/base/_utilities.sass */
 .u-bold {
   font-weight: 700; }
 
-/* line 30, ../../sass/azendoo/base/_utilities.sass */
+/* line 33, ../../sass/azendoo/base/_utilities.sass */
 .u-semibold {
   font-weight: 600; }
 
-/* line 33, ../../sass/azendoo/base/_utilities.sass */
+/* line 36, ../../sass/azendoo/base/_utilities.sass */
 .u-user-select-none {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
 
-/* line 36, ../../sass/azendoo/base/_utilities.sass */
+/* line 39, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-left {
   float: left !important; }
 
-/* line 39, ../../sass/azendoo/base/_utilities.sass */
+/* line 42, ../../sass/azendoo/base/_utilities.sass */
 .u-pull-right {
   float: right !important; }
 
-/* line 42, ../../sass/azendoo/base/_utilities.sass */
+/* line 45, ../../sass/azendoo/base/_utilities.sass */
 .panel--no-border {
   border: 0; }
 
-/* line 45, ../../sass/azendoo/base/_utilities.sass */
+/* line 48, ../../sass/azendoo/base/_utilities.sass */
 .margin-block-bottom {
   margin: 0 0 14px !important; }
 
-/* line 48, ../../sass/azendoo/base/_utilities.sass */
+/* line 51, ../../sass/azendoo/base/_utilities.sass */
 .dropdown-menu--no-border {
   border: 0; }
 
-/* line 51, ../../sass/azendoo/base/_utilities.sass */
+/* line 54, ../../sass/azendoo/base/_utilities.sass */
 .navbar-pills {
   margin-top: 9px;
   margin-bottom: 9px; }
 
-/* line 55, ../../sass/azendoo/base/_utilities.sass */
+/* line 58, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"],
 [class*=" icon-"] {
   line-height: inherit; }
 
-/* line 59, ../../sass/azendoo/base/_utilities.sass */
+/* line 62, ../../sass/azendoo/base/_utilities.sass */
 [class^="icon-"].pull-left, [class*=" icon-"].pull-left {
   margin-right: 0.6em;
   vertical-align: middle; }
@@ -5937,31 +5941,31 @@ p {
 .u-media:after {
   clear: both; }
 
-/* line 67, ../../sass/azendoo/base/_utilities.sass */
+/* line 70, ../../sass/azendoo/base/_utilities.sass */
 .u-media-body {
   display: table-cell;
   width: 10000px;
   vertical-align: top; }
 
-/* line 73, ../../sass/azendoo/base/_utilities.sass */
+/* line 76, ../../sass/azendoo/base/_utilities.sass */
 .media-body {
   width: 10000px; }
 
-/* line 76, ../../sass/azendoo/base/_utilities.sass */
+/* line 79, ../../sass/azendoo/base/_utilities.sass */
 .media:first-child {
   margin-top: 0; }
 
-/* line 80, ../../sass/azendoo/base/_utilities.sass */
+/* line 83, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .pull-left, .u-media > .u-pull-left {
   margin-right: 10px; }
-/* line 82, ../../sass/azendoo/base/_utilities.sass */
+/* line 85, ../../sass/azendoo/base/_utilities.sass */
 .u-media > .u-pull-right, .u-media > .pull-right {
   margin-left: 10px; }
 
-/* line 86, ../../sass/azendoo/base/_utilities.sass */
+/* line 89, ../../sass/azendoo/base/_utilities.sass */
 .u-media--sm > .pull-left, .u-media--sm > .u-pull-left {
   margin-right: 6px; }
-/* line 88, ../../sass/azendoo/base/_utilities.sass */
+/* line 91, ../../sass/azendoo/base/_utilities.sass */
 .u-media--sm > .u-pull-right, .u-media--sm > .pull-right {
   margin-left: 6px; }
 
@@ -5982,8 +5986,13 @@ svg.azicon.azicon--small {
   -webkit-font-smoothing: antialiased; }
 
 /* line 48, ../../sass/azendoo/components/_buttons.sass */
+.btn-default:not(.btn-lg):not(.btn-group-lg > .btn),
+.btn-default:not(.btn-sm):not(.btn-group-sm > .btn),
+.btn-default:not(.btn-xs):not(.btn-group-xs > .btn) {
+  padding: 7px 12px; }
+
+/* line 53, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-default {
-  padding: 7px 12px;
   border: 0;
   border-radius: 2px;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
@@ -5993,21 +6002,26 @@ svg.azicon.azicon--small {
   /* line 41, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-default, .btn.btn-default:active, .btn.btn-default:focus {
     outline: 0; }
-  /* line 55, ../../sass/azendoo/components/_buttons.sass */
+  /* line 59, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-default:hover, .open > .btn.btn-default.dropdown-toggle, .btn.btn-default:focus {
     background-color: #F7FAFC; }
-  /* line 57, ../../sass/azendoo/components/_buttons.sass */
+  /* line 61, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-default:active, .btn.btn-default.active {
     background-color: #F7FAFC;
     -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.2); }
 
-/* line 61, ../../sass/azendoo/components/_buttons.sass */
+/* line 65, ../../sass/azendoo/components/_buttons.sass */
+.btn-primary:not(.btn-lg):not(.btn-group-lg > .btn),
+.btn-primary:not(.btn-sm):not(.btn-group-sm > .btn),
+.btn-primary:not(.btn-xs):not(.btn-group-xs > .btn) {
+  padding: 7px 14px; }
+
+/* line 70, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-primary {
   border: 0;
   border-radius: 2px;
   color: #ffffff;
-  padding: 7px 14px;
   font-weight: 700;
   -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
@@ -6016,18 +6030,18 @@ svg.azicon.azicon--small {
   /* line 41, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-primary, .btn.btn-primary:active, .btn.btn-primary:focus {
     outline: 0; }
-  /* line 69, ../../sass/azendoo/components/_buttons.sass */
+  /* line 77, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-primary:hover, .open > .btn.btn-primary.dropdown-toggle, .btn.btn-primary:focus {
     background-image: linear-gradient(-180deg, #3fb2f0 0%, #1e8bc6 100%); }
-  /* line 71, ../../sass/azendoo/components/_buttons.sass */
+  /* line 79, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-primary:active, .btn.btn-primary.active {
     background-image: linear-gradient(0deg, #3fb2f0 0%, #1e8bc6 100%); }
-  /* line 73, ../../sass/azendoo/components/_buttons.sass */
+  /* line 81, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-primary.disabled, .btn.btn-primary[disabled] {
     opacity: 0.5;
     filter: alpha(opacity=50); }
 
-/* line 76, ../../sass/azendoo/components/_buttons.sass */
+/* line 84, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-danger {
   color: #ffffff;
   background-color: #AD1A26;
@@ -6051,7 +6065,7 @@ svg.azicon.azicon--small {
     color: #AD1A26;
     background-color: #ffffff; }
 
-/* line 79, ../../sass/azendoo/components/_buttons.sass */
+/* line 87, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-success {
   color: #ffffff;
   background-color: #27AD8D;
@@ -6075,7 +6089,7 @@ svg.azicon.azicon--small {
     color: #27AD8D;
     background-color: #ffffff; }
 
-/* line 82, ../../sass/azendoo/components/_buttons.sass */
+/* line 90, ../../sass/azendoo/components/_buttons.sass */
 .btn.btn-flat {
   background-color: transparent;
   -webkit-box-shadow: none;
@@ -6085,61 +6099,69 @@ svg.azicon.azicon--small {
   line-height: inherit;
   border: 1px solid transparent;
   font-weight: 400; }
-  /* line 91, ../../sass/azendoo/components/_buttons.sass */
+  /* line 99, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat, .btn.btn-flat:hover, .open > .btn.btn-flat.dropdown-toggle, .btn.btn-flat:focus, .btn.btn-flat:active, .btn.btn-flat.active {
     background-image: none; }
-  /* line 94, ../../sass/azendoo/components/_buttons.sass */
+  /* line 102, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-default {
     border-color: #535353;
     color: #535353; }
-    /* line 97, ../../sass/azendoo/components/_buttons.sass */
+    /* line 105, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-default:hover, .btn.btn-flat.btn-default:active, .btn.btn-flat.btn-default:focus {
       color: #535353;
       background-color: #ffffff; }
-  /* line 101, ../../sass/azendoo/components/_buttons.sass */
+  /* line 109, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-danger {
     border-color: #AD1A26;
     color: #AD1A26; }
-    /* line 104, ../../sass/azendoo/components/_buttons.sass */
+    /* line 112, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-danger:hover {
       color: #AD1A26;
       background-color: #ffffff; }
-  /* line 108, ../../sass/azendoo/components/_buttons.sass */
+  /* line 116, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-success {
     border-color: #27AD8D;
     color: #27AD8D; }
-    /* line 111, ../../sass/azendoo/components/_buttons.sass */
+    /* line 119, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-success:hover {
       color: #27AD8D;
       background-color: #ffffff; }
-  /* line 115, ../../sass/azendoo/components/_buttons.sass */
+  /* line 123, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-primary {
     border-color: #1E8BC6;
     color: #1E8BC6; }
-    /* line 118, ../../sass/azendoo/components/_buttons.sass */
+    /* line 126, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-primary:hover {
       color: #1E8BC6;
       background-color: #ffffff; }
-  /* line 122, ../../sass/azendoo/components/_buttons.sass */
+  /* line 130, ../../sass/azendoo/components/_buttons.sass */
   .btn.btn-flat.btn-white {
     border-color: #ffffff;
     color: #ffffff; }
-    /* line 125, ../../sass/azendoo/components/_buttons.sass */
+    /* line 133, ../../sass/azendoo/components/_buttons.sass */
     .btn.btn-flat.btn-white:hover {
       color: #313131;
       background-color: #ffffff; }
 
-/* line 129, ../../sass/azendoo/components/_buttons.sass */
+/* line 137, ../../sass/azendoo/components/_buttons.sass */
 .btn-full-width {
   width: 100%;
   line-height: 25px;
   text-align: left;
   font-size: 16px; }
-  /* line 134, ../../sass/azendoo/components/_buttons.sass */
+  /* line 142, ../../sass/azendoo/components/_buttons.sass */
   .btn-full-width i {
     margin-right: 0.5em; }
 
-/* line 38, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 146, ../../sass/azendoo/components/_buttons.sass */
+.btn svg.azicon {
+  display: inline-block;
+  float: left;
+  fill: #ffffff;
+  margin-top: -1px;
+  margin-right: 2px; }
+
+/* line 95, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle {
   font-weight: 600;
   border-radius: 4px;
@@ -6147,29 +6169,29 @@ svg.azicon.azicon--small {
   color: #535353;
   text-decoration: none;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); }
-  /* line 46, ../../sass/azendoo/components/_dropdowns.sass */
+  /* line 103, ../../sass/azendoo/components/_dropdowns.sass */
   .dropdown-menu-options .dropdown-toggle i {
     margin-left: 10px; }
-/* line 49, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 106, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-toggle:hover, .dropdown-menu-options.open .dropdown-toggle {
   color: #535353;
   background-color: rgba(0, 0, 0, 0.15); }
-/* line 53, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 110, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-options .dropdown-menu {
   max-width: 240px; }
-  /* line 56, ../../sass/azendoo/components/_dropdowns.sass */
+  /* line 113, ../../sass/azendoo/components/_dropdowns.sass */
   .dropdown-menu-options .dropdown-menu > li > a {
     word-break: break-word;
     white-space: normal; }
-    /* line 60, ../../sass/azendoo/components/_dropdowns.sass */
+    /* line 117, ../../sass/azendoo/components/_dropdowns.sass */
     .dropdown-menu-options .dropdown-menu > li > a.disabled {
       color: #666; }
-    /* line 63, ../../sass/azendoo/components/_dropdowns.sass */
+    /* line 120, ../../sass/azendoo/components/_dropdowns.sass */
     .dropdown-menu-options .dropdown-menu > li > a:hover, .dropdown-menu-options .dropdown-menu > li > a:focus {
       background-color: #1E8BC6;
       color: #ffffff; }
 
-/* line 68, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 125, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > li > a {
   display: block;
   padding: 3px 20px;
@@ -6179,18 +6201,125 @@ svg.azicon.azicon--small {
   color: #535353;
   white-space: nowrap; }
 
-/* line 78, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 135, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > li > a:hover, .dropdown-menu-subsection > li > a:focus {
   text-decoration: none;
   color: #ffffff;
   background-color: #1E8BC6; }
 
-/* line 85, ../../sass/azendoo/components/_dropdowns.sass */
+/* line 142, ../../sass/azendoo/components/_dropdowns.sass */
 .dropdown-menu-subsection > .active > a, .dropdown-menu-subsection > .active > a:hover, .dropdown-menu-subsection > .active > a:focus {
   color: #fff;
   text-decoration: none;
   outline: 0;
   background-color: #1E8BC6; }
+
+/* line 151, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu.dropdown-menu--large {
+  padding: 16px 0; }
+  /* line 153, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-menu.dropdown-menu--large > li > a {
+    padding: 5px 28px;
+    line-height: 24px; }
+    /* line 156, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-menu.dropdown-menu--large > li > a > svg.azicon {
+      float: left;
+      display: inline-block;
+      margin-left: -6px;
+      margin-right: 2px; }
+    /* line 162, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-menu.dropdown-menu--large > li > a.text-primary {
+      color: #1E8BC6; }
+      /* line 164, ../../sass/azendoo/components/_dropdowns.sass */
+      .dropdown-menu.dropdown-menu--large > li > a.text-primary svg.azicon {
+        fill: #1E8BC6; }
+      /* line 166, ../../sass/azendoo/components/_dropdowns.sass */
+      .dropdown-menu.dropdown-menu--large > li > a.text-primary:hover, .dropdown-menu.dropdown-menu--large > li > a.text-primary:active, .dropdown-menu.dropdown-menu--large > li > a.text-primary:focus {
+        color: #ffffff; }
+        /* line 168, ../../sass/azendoo/components/_dropdowns.sass */
+        .dropdown-menu.dropdown-menu--large > li > a.text-primary:hover svg.azicon, .dropdown-menu.dropdown-menu--large > li > a.text-primary:active svg.azicon, .dropdown-menu.dropdown-menu--large > li > a.text-primary:focus svg.azicon {
+          fill: #ffffff; }
+  /* line 170, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-menu.dropdown-menu--large .divider {
+    margin: 16px 0; }
+
+/* line 174, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-popover > .dropdown-menu {
+  pointer-events: none;
+  left: 50%;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: none;
+  min-width: 0; }
+  /* line 183, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-popover > .dropdown-menu > .arrow {
+    border-color: transparent;
+    border-bottom-color: #ccc;
+    border-bottom-color: #ffffff;
+    border-width: 5px;
+    border-top-width: 0;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -4px; }
+    /* line 197, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-popover > .dropdown-menu > .arrow:after {
+      content: " ";
+      top: 1px;
+      margin-left: -4px;
+      border-width: 4px;
+      border-top-width: 0;
+      border-color: transparent;
+      border-bottom-color: #fff;
+      border-style: solid;
+      display: block;
+      width: 0;
+      height: 0; }
+  /* line 210, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-popover > .dropdown-menu > .popover {
+    display: block;
+    left: -50%;
+    padding: 0;
+    position: relative;
+    pointer-events: all;
+    width: 230px; }
+    /* line 218, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-popover > .dropdown-menu > .popover > .popover-content {
+      padding-left: 0;
+      padding-right: 0; }
+  /* line 222, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-popover > .dropdown-menu.right, .dropdown-popover > .dropdown-menu.left {
+    position: initial; }
+    /* line 225, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-popover > .dropdown-menu.right > .arrow, .dropdown-popover > .dropdown-menu.left > .arrow {
+      top: 100%;
+      left: 50%; }
+    /* line 228, ../../sass/azendoo/components/_dropdowns.sass */
+    .dropdown-popover > .dropdown-menu.right > .popover, .dropdown-popover > .dropdown-menu.left > .popover {
+      position: absolute;
+      top: 100%; }
+  /* line 232, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-popover > .dropdown-menu.right > .popover {
+    left: 0;
+    right: auto; }
+  /* line 235, ../../sass/azendoo/components/_dropdowns.sass */
+  .dropdown-popover > .dropdown-menu.left > .popover {
+    right: 0;
+    left: auto; }
+
+/* line 239, ../../sass/azendoo/components/_dropdowns.sass */
+.dropdown-menu--list {
+  display: block;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  position: initial;
+  float: none; }
 
 /* line 25, ../../sass/azendoo/components/_badges.sass */
 .badge {
@@ -6297,6 +6426,23 @@ a.link--action {
   /* line 74, ../../sass/azendoo/components/_links.sass */
   .list-inline--actions > li:last-child {
     margin-right: -7px; }
+
+/* line 8, ../../sass/azendoo/components/_modals.sass */
+.modal-content {
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3); }
+
+/* line 13, ../../sass/azendoo/components/_modals.sass */
+.modal-header .close {
+  margin-top: -4px;
+  padding: 6px; }
+
+/* line 8, ../../sass/azendoo/components/_popovers.sass */
+.popover-title {
+  font-size: 18px;
+  text-transform: capitalize; }
 
 /* line 17, ../../sass/azendoo/components/_well.sass */
 .well {
@@ -6831,38 +6977,38 @@ hr {
 .page-form .pull-right .btn {
   border-radius: 0 3px 3px 0; }
 
-/* line 31, ../../sass/azendoo/azendoo.sass */
+/* line 33, ../../sass/azendoo/azendoo.sass */
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   line-height: 1.35; }
 
-/* line 37, ../../sass/azendoo/azendoo.sass */
+/* line 39, ../../sass/azendoo/azendoo.sass */
 input, textarea {
   outline: 0; }
 
-/* line 40, ../../sass/azendoo/azendoo.sass */
+/* line 42, ../../sass/azendoo/azendoo.sass */
 textarea {
   resize: none; }
 
-/* line 43, ../../sass/azendoo/azendoo.sass */
+/* line 45, ../../sass/azendoo/azendoo.sass */
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 48, ../../sass/azendoo/azendoo.sass */
+/* line 50, ../../sass/azendoo/azendoo.sass */
 a:focus {
   outline: none;
   outline-offset: 0; }
 
-/* line 52, ../../sass/azendoo/azendoo.sass */
+/* line 54, ../../sass/azendoo/azendoo.sass */
 h3 {
   font-size: 18px;
   line-height: 21px;
   font-weight: normal; }
 
-/* line 57, ../../sass/azendoo/azendoo.sass */
+/* line 59, ../../sass/azendoo/azendoo.sass */
 img {
   border: none; }

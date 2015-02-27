@@ -45,9 +45,13 @@
   border-bottom-width: 0
   -webkit-font-smoothing: antialiased
 
+.btn-default:not(.btn-lg),
+.btn-default:not(.btn-sm),
+.btn-default:not(.btn-xs)
+  padding: 7px 12px
+
 .btn.btn-default
   $active-color: #F7FAFC
-  padding: 7px 12px
   +button-variant-azendoo
   +box-shadow(inset 0px 0px 0px 1px rgba(0,0,0,0.20))
   background-color: $white
@@ -58,10 +62,14 @@
     background-color: $active-color
     +box-shadow(inset 0px 0px 0px 1px rgba(0,0,0,0.20), inset 0 1px 2px rgba(0,0,0,.2))
 
+.btn-primary:not(.btn-lg),
+.btn-primary:not(.btn-sm),
+.btn-primary:not(.btn-xs)
+  padding: 7px 14px
+
 .btn.btn-primary
   +button-variant-azendoo
   color: $white
-  padding: 7px 14px
   font-weight: $font-weight-bold
   +box-shadow(inset 0px 0px 0px 1px rgba(0,0,0,0.20), 0px 1px 1px 0px rgba(0,0,0,0.20))
   background-image: linear-gradient(-180deg, #279CDB 0%, $brand-primary 100%)
