@@ -5807,7 +5807,7 @@ button.close {
 
 /* line 78, ../../sass/azendoo/base/_colors.sass */
 .bg-purple {
-  background-color: #B86CFF; }
+  background-color: #847AB9; }
 
 /* line 30, ../../sass/azendoo/base/_brand.sass */
 .azendoo-mark {
@@ -6287,7 +6287,7 @@ svg.azicon.azicon--small {
     padding: 0;
     position: relative;
     pointer-events: all;
-    width: 230px; }
+    width: 300px; }
     /* line 218, ../../sass/azendoo/components/_dropdowns.sass */
     .dropdown-popover > .dropdown-menu > .popover > .popover-content {
       padding-left: 0;
