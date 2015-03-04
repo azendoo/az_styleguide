@@ -1,3 +1,6 @@
+== 0.8.6
+  * Enlarge dropdown with a popover style
+
 == 0.8.5
   * New dropdowns with a popover style
 
