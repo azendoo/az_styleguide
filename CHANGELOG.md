@@ -1,3 +1,6 @@
+== 0.8.8
+  * Fix alert style not imported
+
 == 0.8.7
   * New alert style for default
 
