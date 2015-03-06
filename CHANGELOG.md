@@ -1,3 +1,6 @@
+== 0.8.7
+  * New alert style for default
+
 == 0.8.6
   * Enlarge dropdown with a popover style
 
