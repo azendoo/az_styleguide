@@ -1,0 +1,102 @@
+#!/usr/bin/env node
+
+var exit = function(str) {
+  console.log(str);
+  process.exit(1);
+}
+
+var runGit = function(args) {
+  var gitProcess = childProcess.spawnSync('git', args, {encoding: 'utf-8'});
+  if (gitProcess.status !== 0)
+    exit('Problem occured when running `git ' + args.join(' ') + '`')
+  return gitProcess;
+};
+
+var isRepoClean = function() {
+  var gitProcess = runGit(['status', '--porcelain']);
+  if (!(/^\s*$/g).test(gitProcess.stdout))
+    exit('Run this command when your repo is clean');
+}
+
+var requiredNodeVersion = 'v0.12.0';
+if (process.version !== requiredNodeVersion)
+  exit('Please use node ' + requiredNodeVersion);
+
+if (process.argv.length < 3)
+  exit('Please provide a version as argument');
+
+var fs = require('fs');
+var childProcess = require('child_process');
+
+isRepoClean()
+runGit(['fetch']);
+runGit(['checkout', 'master']);
+runGit(['pull', 'origin', 'master']);
+var currentVersion = runGit(['describe']).stdout;
+var lastVersion = runGit(['describe', '--abbrev=0']).stdout;
+if (currentVersion === lastVersion)
+  exit('No commit since ' + lastVersion);
+isRepoClean();
+
+var hologram = childProcess.spawnSync('bundle', ['exec', 'hologram', 'hologram_config.yml'], {encoding: 'utf-8'});
+if (hologram.status !== 0)
+  exit('Problem occured when running `hologram`');
+
+var compass = childProcess.spawnSync('bundle', ['exec', 'compass', 'compile'], {encoding: 'utf-8'});
+if (compass.status !== 0)
+  exit('Problem occured when running `compass`');
+
+var tmpChangelogPath = '.current_changelog.md';
+var changeLogPath    = 'CHANGELOG.md';
+var bowerPath        = 'bower.json';
+var version = process.argv[2];
+
+var editor = childProcess.spawn(process.env.EDITOR, [tmpChangelogPath], {stdio: 'inherit'});
+
+editor.on('exit', function() {
+  var changeLog;
+  try {
+    changeLog = fs.readFileSync(tmpChangelogPath, {encoding: 'utf-8'});
+  } catch(err) {
+    exit('No changelog provided, now exiting...');
+  }
+  fs.unlinkSync(tmpChangelogPath);
+
+  var currentChangeLog = fs.readFileSync(changeLogPath, {encoding: 'utf-8'});
+
+  var appendChangeLog = '== ' + version + '\n';
+  var lines = changeLog.split('\n');
+
+  var changeLogEmpty = true;
+  for (var i = 0; i < lines.length; ++i) {
+    if ((/^\s*$/g).test(lines[i])) {
+      appendChangeLog += '\n';
+    } else {
+      changeLogEmpty = false;
+      appendChangeLog += '  ';
+      appendChangeLog += lines[i] + '\n'
+    }
+  }
+
+  if (changeLogEmpty)
+    exit('Nothing new to write in the changelog, now exiting...');
+
+  fs.writeFileSync(changeLogPath, appendChangeLog + currentChangeLog);
+
+  var bower = JSON.parse(fs.readFileSync(bowerPath, {encoding: 'utf-8'}));
+  bower.version = version;
+  fs.writeFileSync(bowerPath, JSON.stringify(bower));
+
+  runGit(['add', changeLogPath, bowerPath]);
+  runGit(['commit', '-a', '-m', '"bumped to version ' + version + '"']);
+  runGit(['tag', '-a', '-m', '"bumped to version ' + version + '"', version]);
+
+  runGit(['add', '--force', 'docs', 'assets']);
+  runGit(['commit', '-m', '"Compiled sources for ' + version + '"']);
+  runGit(['push', 'origin', '-f' + 'master:gh-pages']);
+  runGit(['reset', '--hard', 'HEAD~1']);
+  runGit(['push', 'origin', 'master']);
+  runGit(['push', 'origin', version]);
+
+  process.exit(0);
+});

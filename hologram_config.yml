@@ -8,15 +8,14 @@ source: ./sass
 destination: ./docs
 
 # Hologram theme
-documentation_assets: ./sass/vendor/Cortana
-custom_markdown: ./sass/vendor/Cortana/CortanaMarkdownRenderer.rb
+documentation_assets: ./doc_assets
+custom_markdown: ./doc_assets/CortanaMarkdownRenderer.rb
 
 # To have a custom index page build with your README.md
 index: index
 
 # List all css to include for the styleguide render examples (path from styleguide directory)
 css_include:
-  - '../assets/css/documentation.css'
   - '../assets/css/azendoo.css'
   - '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
 
