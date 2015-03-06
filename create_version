@@ -88,12 +88,12 @@ editor.on('exit', function() {
   fs.writeFileSync(bowerPath, JSON.stringify(bower));
 
   runGit(['add', changeLogPath, bowerPath]);
-  runGit(['commit', '-a', '-m', '"bumped to version ' + version + '"']);
-  runGit(['tag', '-a', '-m', '"bumped to version ' + version + '"', version]);
+  runGit(['commit', '-a', '-m', 'bumped to version ' + version]);
+  runGit(['tag', '-a', '-m', 'Bumped to version ' + version , version]);
 
   runGit(['add', '--force', 'docs', 'assets']);
-  runGit(['commit', '-m', '"Compiled sources for ' + version + '"']);
-  runGit(['push', 'origin', '-f' + 'master:gh-pages']);
+  runGit(['commit', '-m', 'Compiled sources for ' + version]);
+  runGit(['push', 'origin', '-f', 'master:gh-pages']);
   runGit(['reset', '--hard', 'HEAD~1']);
   runGit(['push', 'origin', 'master']);
   runGit(['push', 'origin', version]);
