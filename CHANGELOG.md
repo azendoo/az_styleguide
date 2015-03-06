@@ -1,3 +1,6 @@
+== 0.8.9
+  * Svg icon style for links
+
 == 0.8.8
   * Fix alert style not imported
 
