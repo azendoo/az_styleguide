@@ -1,3 +1,6 @@
+== 0.8.10
+  * Fix button size
+
 == 0.8.9
   * Svg icon style for links
 
