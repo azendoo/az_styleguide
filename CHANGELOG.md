@@ -1,3 +1,6 @@
+== 0.8.11
+  * add two spacing value, $spacing-xlg: 20px and $spacing-jumbo: 40px
+
 == 0.8.10
   * Fix button size
 
