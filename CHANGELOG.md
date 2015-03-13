@@ -1,3 +1,6 @@
+== 0.8.13
+  * Add style for icons in dropdowns
+
 == 0.8.12
   * Add auth form style
 
