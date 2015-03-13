@@ -157,7 +157,11 @@
       float: left
       display: inline-block
       margin-left: -6px
-      margin-right: 2px
+      margin-right: $spacing-md
+      fill: $gray-light
+    &:hover, &:active, &:focus
+      svg.azicon
+        fill: $white
 
     &.text-primary
       color: $brand-primary
