@@ -1,3 +1,6 @@
+== 0.8.14
+  * Fix button padding
+
 == 0.8.13
   * Add style for icons in dropdowns
 
