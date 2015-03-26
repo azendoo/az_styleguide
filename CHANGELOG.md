@@ -1,3 +1,6 @@
+== 0.8.15
+  Add icon size xsmall 
+
 == 0.8.14
   * Fix button padding
 
