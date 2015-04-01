@@ -1,3 +1,6 @@
+== 0.8.16
+  All buttons are now semibold
+
 == 0.8.15
   Add icon size xsmall 
 
