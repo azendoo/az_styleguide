@@ -1,3 +1,6 @@
+== 0.8.17
+  * Set the navbar height at 50px
+
 == 0.8.16
   All buttons are now semibold
 
