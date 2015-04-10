@@ -1,3 +1,6 @@
+== 0.8.18
+  * Fix blurry well shadow on retina screen
+
 == 0.8.17
   * Set the navbar height at 50px
 
