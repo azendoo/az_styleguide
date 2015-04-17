@@ -1,3 +1,6 @@
+== 0.8.19
+  Change blue and primary color
+
 == 0.8.18
   * Fix blurry well shadow on retina screen
 
