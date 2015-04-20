@@ -111,27 +111,26 @@
   background-size: $size
 
 .user-status-icon
+  +square(10px)
+  border-radius: 50%
+
+  &--inline
+    display: inline-block
+    margin-right: $spacing-sm
+
+  &.user-status-icon--active
+    background: $status-active-color
+
+  &.user-status-icon--away
+    background: $status-away-color
+
+  &.user-status-icon--disconnected
+    background: $status-disconnected-color
+
+.user > .user-status-icon
   position: absolute
   bottom: 1px
   right: 1px
-  $width: 8px
-  width: $width
-  height: $width
+  +square(7px)
   border: 1px solid $white
-  border-radius: 50%
-  box-shadow: 0 1px 0 rgba(0,0,0,.3)
-
-  &.user-status-icon--active
-    background: $green
-    background: linear-gradient(to bottom,$green 0,darken($green, 10%) 100%)
-    border-color: lighten($green, 50%)
-
-  &.user-status-icon--away
-    background: $yellow
-    background: linear-gradient(to bottom,$yellow 0,darken($yellow, 10%) 100%)
-    border-color: lighten($yellow, 50%)
-
-  &.user-status-icon--disconnected
-    background: $gray-lighter
-    background: linear-gradient(to bottom, $gray-lighter 0, darken($gray-lighter, 10%) 100%)
-    border-color: lighten($gray-lighter, 50%)
+  box-shadow: 0 1px 2px rgba(0,0,0,.2)
