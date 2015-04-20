@@ -1,3 +1,6 @@
+== 0.8.21
+  Change Default avatar size from 25 to 24 px
+
 == 0.8.20
   Upate User status icon color
 
