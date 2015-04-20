@@ -1,3 +1,6 @@
+== 0.8.20
+  Upate User status icon color
+
 == 0.8.19
   Change blue and primary color
 
