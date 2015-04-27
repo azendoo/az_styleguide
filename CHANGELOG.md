@@ -1,3 +1,6 @@
+== 0.8.22
+  Update primary button gradient
+
 == 0.8.21
   Change Default avatar size from 25 to 24 px
 
