@@ -1,3 +1,6 @@
+== 0.8.23
+  Merge Task Pilot style into styleguide
+
 == 0.8.22
   Update primary button gradient
 
