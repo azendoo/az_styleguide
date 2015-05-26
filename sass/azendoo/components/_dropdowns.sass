@@ -247,3 +247,47 @@
   box-shadow: none
   position: initial
   float: none
+
+.dropdown-menu-options .dropdown-menu > li.disabled > a,
+.dropdown-menu-options .dropdown-menu > li.disabled > a:hover,
+.dropdown-menu-options .dropdown-menu > li.disabled > a:focus
+  background: $white
+  color: $gray-light
+  fill: $gray-light
+
+.dropdown-validation-form
+  border-top: $brand-light solid 1px
+  padding: $spacing-md
+
+.dropdown--unrelative
+  position: static
+
+.dropdown-popover > .dropdown-menu > .popover > .popover-content
+  padding: $spacing-sm 0
+.dropdown-menu > li > a
+  padding: 12px
+
+.dropdown-menu > li > a > .azicon
+  margin-top: -3px
+  margin-left: -3px
+
+.dropdown-menu--datepicker
+  width: 240px
+  position: relative
+  padding: 0
+
+.dropdown-popover > .dropdown-menu > .popover.dropdown-menu--datepicker
+  width: 240px
+
+.dropdown-menu > li > a:hover .text-muted
+  color: $white
+
+.dropdown--unrelative > .dropdown-menu
+  top: initial
+  left: 6px
+  right: 6px
+
+  > .popover
+    left: initial
+    width: 100%
+    max-width: 100%

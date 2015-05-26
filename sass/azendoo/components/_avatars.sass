@@ -65,23 +65,26 @@
   width: 100%
   vertical-align: top
 
+.user-xxsmall
+  +square($user-avatar-xxsmall-size)
+
 .user-xsmall
-  +square(20px)
+  +square($user-avatar-xsmall-size)
 
 .user-small,
-  +square(24px)
+  +square($user-avatar-small-size)
 
 .user-base
-  +square(30px)
+  +square($user-avatar-base-size)
 
 .user-large
-  +square(38px)
+  +square($user-avatar-large-size)
 
 .user-xlarge
-  +square(90px)
+  +square($user-avatar-xlarge-size)
 
 .user-xxlarge
-  +square(120px)
+  +square($user-avatar-xxlarge-size)
 
 .user.is-clickable:hover
   opacity: .8
