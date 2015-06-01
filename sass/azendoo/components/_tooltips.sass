@@ -1,0 +1,35 @@
+//doc
+  ---
+  title: Tooltip
+  name: Tooltip
+  category: Azendoo - Components
+  ---
+
+
+$tooltip-bg: rgba(25,25,25,.9)
+$tooltip-arrow-color: $tooltip-bg
+
+.tooltip .tooltip-inner
+  background: $tooltip-bg
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.19)
+  font-size: $font-size-small
+  padding: 7px 15px
+  color: $white
+  border-radius: $border-radius-small
+  font-weight: 600
+
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow
+  border-top-color: $tooltip-arrow-color
+
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow
+  border-bottom-color: $tooltip-arrow-color
+
+.tooltip.left .tooltip-arrow
+  border-left-color: $tooltip-arrow-color
+
+.tooltip.right .tooltip-arrow
+  border-right-color: $tooltip-arrow-color
