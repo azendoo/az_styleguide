@@ -1,3 +1,6 @@
+== 0.8.24
+  Update Tooltip style
+
 == 0.8.23
   Merge Task Pilot style into styleguide
 
