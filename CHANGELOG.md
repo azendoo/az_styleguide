@@ -1,3 +1,6 @@
+== 0.8.25
+  Fix click on icon on Safari
+
 == 0.8.24
   Update Tooltip style
 
