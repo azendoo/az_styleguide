@@ -1,3 +1,6 @@
+== 0.8.26
+  * Add spacing-xmd and box-shadow-inset-gray as variables
+
 == 0.8.25
   Fix click on icon on Safari
 
