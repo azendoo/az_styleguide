@@ -1,3 +1,8 @@
+== 0.8.27
+  * Fix firefox icon problems
+  * Fix background utilities
+  * Add fill utilities
+
 == 0.8.26
   * Add spacing-xmd and box-shadow-inset-gray as variables
 
