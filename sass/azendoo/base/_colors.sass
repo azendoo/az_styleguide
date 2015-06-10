@@ -10,17 +10,17 @@
 
   <h3>Primary colors :</h3>
   <div class="row">
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-blue"></div>
+    <div class="col-xs-4 text-center">
+      <div class="bg-blue">&nbsp;</div>
       <code>bg-blue : #1e8bc6</code>
     </div>
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-white"></div>
+    <div class="col-xs-4 text-center">
+      <div class="bg-white">&nbsp;</div>
       <code>bg-white : #ffffff</code>
     </div>
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-midgrey"></div>
-      <code>bg-midgrey : #434343</code>
+    <div class="col-xs-4 text-center">
+      <div class="bg-brand-gray">&nbsp;</div>
+      <code>bg-brand-gray : #75848D</code>
     </div>
   </div>
 
@@ -28,52 +28,42 @@
 
   <h3>Secondary colors :</h3>
   <div class="row">
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-green"></div>
+    <div class="col-xs-4 text-center">
+      <div class="bg-green">&nbsp;</div>
       <code>bg-green : #27AD8D</code>
     </div>
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-red"></div>
+    <div class="col-xs-4 text-center">
+      <div class="bg-red">&nbsp;</div>
       <code>bg-red : #AD1A26</code>
     </div>
-    <div class="col-xs-4">
-      <div class="az-doc-bg-block bg-grey"></div>
-      <code>bg-grey : #666666</code>
+    <div class="col-xs-4 text-center">
+      <div class="bg-gray">&nbsp;</div>
+      <code>bg-gray : #666</code>
     </div>
   </div>
 
-.bg-blue
-  background-color: $brand-primary
+$colors: ()
+$colors: append($colors, ('brand-primary' $brand-primary))
+$colors: append($colors, ('brand-info' $brand-info))
+$colors: append($colors, ('red' $red))
+$colors: append($colors, ('red-bright' $red-bright))
+$colors: append($colors, ('blue' $blue))
+$colors: append($colors, ('blue-bright' $blue-bright))
+$colors: append($colors, ('blue-light' $blue-light))
+$colors: append($colors, ('green' $green))
+$colors: append($colors, ('green-bright' $green-bright))
+$colors: append($colors, ('orange' $orange))
+$colors: append($colors, ('white' $white))
+$colors: append($colors, ('brand-gray' $brand-gray))
+$colors: append($colors, ('gray' $gray))
+$colors: append($colors, ('gray-soft' $gray-soft))
+$colors: append($colors, ('gray-light' $gray-light))
+$colors: append($colors, ('turquoise' $turquoise))
+$colors: append($colors, ('purple' $purple))
 
-.bg-blue-bright
-  background-color: $blue-bright
+@each $color in $colors
+  .bg-#{nth($color, 1)}
+    background-color: nth($color, 2) !important
 
-.bg-blue-light
-  background-color: $blue-light
-
-.bg-white
-  background-color: $white
-
-.bg-whitesmoke
-  background-color: $gray-lighter
-
-.bg-midgrey
-  background-color: $gray-mid
-
-.bg-lightgrey
-  background-color: $gray-light
-
-.bg-dark
-  background-color: $gray-dark
-
-.bg-green
-  background-color: $green
-
-.bg-red
-  background-color: $red
-
-.bg-grey
-  background-color: $gray
-
-.bg-purple
-  background-color: $purple
+  .fill-#{nth($color, 1)}
+    fill: nth($color, 2) !important
