@@ -1,3 +1,6 @@
+== 0.8.29
+  Icons are inline-block
+
 == 0.8.28
   * Add special sizes for dropdown popover xs sm and md
 
