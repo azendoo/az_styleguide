@@ -7,28 +7,26 @@
 
   TODO : Examples
 
+.azicon-wrapper
+  display: inline-block
+
 svg.azicon
-  display: block
+  display: inline-block
   pointer-events: none
+  vertical-align: middle
   +square($icons-azendoo-size-base)
+  line-height: $icons-azendoo-size-base
 
 svg.azicon.azicon--small
   +square($icons-azendoo-size-small)
+  line-height: $icons-azendoo-size-small
 
 svg.azicon.azicon--xsmall
   +square($icons-azendoo-size-xsmall)
+  line-height: $icons-azendoo-size-xsmall
 
 svg.azicon--link
   fill: $brand-primary
-
-svg.azicon--inline
-  +square($icons-azendoo-size-base / 2)
-  display: inline
-  vertical-align: baseline
-  margin-bottom: -2px
-
-svg.azicon--inline-block
-  display: inline-block
 
 svg.azicon--rounded
   border-radius: $border-radius-base
