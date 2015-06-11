@@ -1,3 +1,6 @@
+== 0.8.28
+  * Add special sizes for dropdown popover xs sm and md
+
 == 0.8.27
   * Fix firefox icon problems
   * Fix background utilities
@@ -37,7 +40,7 @@
   All buttons are now semibold
 
 == 0.8.15
-  Add icon size xsmall 
+  Add icon size xsmall
 
 == 0.8.14
   * Fix button padding
