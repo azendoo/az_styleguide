@@ -1,3 +1,6 @@
+== 0.8.32
+  Revamp success button
+
 == 0.8.31
   Add yellow-bright as bg color
 
