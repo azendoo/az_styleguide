@@ -1,3 +1,6 @@
+== 0.8.31
+  Add yellow-bright as bg color
+
 == 0.8.30
   et fixed width for medium dropdown popover
 
