@@ -89,7 +89,20 @@
     +opacity(.5)
 
 .btn.btn-success
-  +button-variant($white, $green, darken($green, 5%))
+  +box-shadow(inset 0 0 0 1px rgba(0,0,0,.1))
+  font-weight: $font-weight-semibold
+  border: 0
+  background-color: $green-bright
+  background-image: linear-gradient(-180deg, $green-bright 0%, #A1D482 100%)
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2)
+  &:hover, .open > &.dropdown-toggle, &:focus
+    background-image: linear-gradient(-180deg, #A1D482 0%, $green-bright 100%)
+  &:active, &.active
+    background-image: linear-gradient(0deg, #A1D482 0%, $green-bright 100%)
+  &, &:active, &:visited, &:hover
+    color: $white
+  &.disabled, &[disabled]
+    +opacity(.5)
 
 .btn.btn-flat
   background-color: transparent
