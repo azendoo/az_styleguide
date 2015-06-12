@@ -1,3 +1,6 @@
+== 0.8.30
+  et fixed width for medium dropdown popover
+
 == 0.8.29
   Icons are inline-block
 
