@@ -1,3 +1,6 @@
+== 0.8.33
+  Input style to make it invisible
+
 == 0.8.32
   Revamp success button
 
