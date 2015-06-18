@@ -1,3 +1,6 @@
+== 0.8.34
+  Add color for icons inside dropdown
+
 == 0.8.33
   Input style to make it invisible
 
