@@ -256,6 +256,15 @@
   position: initial
   float: none
 
+// Dropdown menu icons
+.dropdown-menu
+  > li > a
+    svg.azicon
+      fill: $gray-light
+    &:hover, &:active, &:focus
+      svg.azicon
+        fill: $white
+
 .dropdown-menu-options .dropdown-menu > li.disabled > a,
 .dropdown-menu-options .dropdown-menu > li.disabled > a:hover,
 .dropdown-menu-options .dropdown-menu > li.disabled > a:focus
