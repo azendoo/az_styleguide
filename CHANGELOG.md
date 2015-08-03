@@ -1,3 +1,6 @@
+== 0.8.36
+  Fix dropdown on IE
+
 == 0.8.35
   Add icon rounded style
 
