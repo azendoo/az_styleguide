@@ -1,3 +1,6 @@
+== 0.8.35
+  Add icon rounded style
+
 == 0.8.34
   Add color for icons inside dropdown
 
