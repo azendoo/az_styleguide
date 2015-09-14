@@ -1,3 +1,6 @@
+== 0.8.37
+  Remove underline for active links
+
 == 0.8.36
   Fix dropdown on IE
 
