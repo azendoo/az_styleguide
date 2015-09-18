@@ -290,14 +290,24 @@
 
 .dropdown-menu--datepicker
   width: 240px
-  position: relative
   padding: 0
 
 .dropdown-popover > .dropdown-menu > .popover.dropdown-menu--datepicker
   width: 240px
 
-.dropdown-menu > li > a:hover .text-muted
+.dropdown-menu > li > a:hover .text-muted,
+.dropdown-menu > li > a:focus .text-muted
   color: $white
+
+.dropdown-menu
+  &--xs
+    min-width: 180px
+  &--sm
+    min-width: 220px
+  &--md
+    min-width: 240px
+  &--lg
+    min-width: 300px
 
 .dropdown--unrelative > .dropdown-menu
   top: initial
