@@ -89,7 +89,7 @@ editor.on('exit', function() {
 
   runGit(['add', changeLogPath, bowerPath]);
   runGit(['commit', '-a', '-m', 'bumped to version ' + version]);
-  runGit(['tag', '-a', '-m', 'Bumped to version ' + version , version]);
+  runGit(['tag', '-a', '-m', '"Bumped to version ' + version + '"', version]);
 
   runGit(['add', '--force', 'docs', 'assets']);
   runGit(['commit', '-m', 'Compiled sources for ' + version]);
