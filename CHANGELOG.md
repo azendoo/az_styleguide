@@ -1,3 +1,7 @@
+== 0.8.38
+  Update dropdown style
+  fix relase script
+
 == 0.8.37
   Remove underline for active links
 
