@@ -1,3 +1,6 @@
+== 0.8.39
+  Update dropdown style on hover
+
 == 0.8.38
   Update dropdown style
   fix relase script
