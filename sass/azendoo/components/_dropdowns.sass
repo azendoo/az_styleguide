@@ -117,10 +117,6 @@
       &.disabled
         color: $gray
 
-      &:hover, &:focus
-        background-color: $brand-primary
-        color: $white
-
 // reapply default dropdown-menu style to submenu
 .dropdown-menu-subsection > li > a
   display: block
@@ -261,7 +257,7 @@
   > li > a
     svg.azicon
       fill: $gray-light
-    &:hover, &:active, &:focus
+    &:focus
       svg.azicon
         fill: $white
 
@@ -318,3 +314,7 @@
     left: initial
     width: 100%
     max-width: 100%
+
+.dropdown-menu > li > a:focus
+  color: $white
+  background-color: $brand-primary
