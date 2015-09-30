@@ -1,3 +1,6 @@
+== 0.8.41
+  Clean and unpdate dropdowns
+
 == 0.8.40
   Fix dropdown hover style
 
