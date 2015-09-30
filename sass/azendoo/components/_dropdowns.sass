@@ -5,284 +5,58 @@
   category: Azendoo - Components
   ---
 
-  ```html_example
-  <div class="btn-group dropdown dropdown-menu-options">
-    <a href="javascript:void(0)" class="dropdown-toggle btn" data-toggle="dropdown">
-      Menu
-      <i class="fa fa-caret-square-o-down"></i>
-    </a>
+$padding-border-to-icon: $spacing-xmd
+$padding-border-to-text: 8px
+.dropdown-menu > li.has-icon-right > a
+  position: relative
+  padding-right: $icons-azendoo-size-base + $padding-border-to-icon + $padding-border-to-text
 
-    <ul class="dropdown-menu">
-      <li>
-        <a href="javascript:void(0)">
-          Print
-        </a>
-      </li>
-      <li>
-        <a href="javascript:void(0)">
-          Export to JSON
-        </a>
-      </li>
-      <li class="divider"></li>
-      <li>
-        <a href="javascript:void(0)" class="disabled">
-          Want to be awesome ? Go Premium !
-        </a>
-      </li>
-    </ul>
-  </div>
+.dropdown-menu > li.has-icon-left > a
+  position: relative
+  padding-left: $icons-azendoo-size-base + $padding-border-to-icon + $padding-border-to-text
 
-  <div class="btn-group dropdown dropdown-popover">
-    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
-      Menu with popover
-    </a>
-    <div class="dropdown-menu">
-      <div class="arrow"></div>
-      <div class="popover bottom">
-        <div class="popover-content">
-          <ul class="dropdown-menu dropdown-menu--list">
-            <li><a href="javascript:void(0)">Item 1</a></li>
-            <li><a href="javascript:void(0)">Item 2</a></li>
-            <li><a href="javascript:void(0)">Item 3</a></li>
-            <li><a href="javascript:void(0)">Item 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+.dropdown-menu > li > a > .is-icon-left
+  position: absolute
+  top: 9px
+  left: $padding-border-to-icon
 
-  <div class="btn-group dropdown dropdown-popover">
-    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
-      Menu with left popover
-    </a>
-    <div class="dropdown-menu left">
-      <div class="arrow"></div>
-      <div class="popover bottom">
-        <div class="popover-content">
-          <ul class="dropdown-menu dropdown-menu--list">
-            <li><a href="javascript:void(0)">Item 1</a></li>
-            <li><a href="javascript:void(0)">Item 2</a></li>
-            <li><a href="javascript:void(0)">Item 3</a></li>
-            <li><a href="javascript:void(0)">Item 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+.dropdown-menu > li > a > .is-icon-right
+  position: absolute
+  top: 9px
+  right: $padding-border-to-icon
 
-  <div class="btn-group dropdown dropdown-popover">
-    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle btn btn-default">
-      Menu with right popover
-    </a>
-    <div class="dropdown-menu right">
-      <div class="arrow"></div>
-      <div class="popover bottom">
-        <div class="popover-content">
-          <ul class="dropdown-menu dropdown-menu--list">
-            <li><a href="javascript:void(0)">Item 1</a></li>
-            <li><a href="javascript:void(0)">Item 2</a></li>
-            <li><a href="javascript:void(0)">Item 3</a></li>
-            <li><a href="javascript:void(0)">Item 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  ```
+.dropdown-menu > li.disabled > a:hover
+  cursor: default
+  svg.azicon
+    fill: $brand-gray
 
-.dropdown-menu-options
+.navbar-nav > li > .dropdown-menu
+  margin-top: 1px
+  border-top-right-radius: $border-radius-small
+  border-top-left-radius: $border-radius-small
 
-  .dropdown-toggle
-    font-weight: 600
-    border-radius: 4px
-    padding: 8px 13px
-    color: $gray-mid
-    text-decoration: none
-    text-shadow: 1px 1px 1px rgba(255,255,255,.5)
-
-    i
-      margin-left: 10px
-
-  .dropdown-toggle:hover, &.open .dropdown-toggle
-    color: $gray-mid
-    background-color: rgba(0,0,0,.15)
-
-  .dropdown-menu
-    max-width: 240px
-
-    > li > a
-      word-break: break-word
-      white-space: normal
-
-      &.disabled
-        color: $gray
-
-// reapply default dropdown-menu style to submenu
-.dropdown-menu-subsection > li > a
-  display: block
-  padding: 3px 20px
-  clear: both
-  font-weight: normal
-  line-height: $line-height-base
-  color: $dropdown-link-color
-  white-space: nowrap
-
-.dropdown-menu-subsection > li > a
-  &:hover,
-  &:focus
-    text-decoration: none
-    color: $dropdown-link-hover-color
-    background-color: $dropdown-link-hover-bg
-
-.dropdown-menu-subsection > .active > a
-  &,
-  &:hover,
-  &:focus
-    color: $dropdown-link-active-color
-    text-decoration: none
-    outline: 0
-    background-color: $dropdown-link-active-bg
-
-// Large dropdown
-.dropdown-menu.dropdown-menu--large
-  padding: 16px 0
-  > li > a
-    padding: 5px 28px
-    line-height: 24px
-    > svg.azicon
-      float: left
-      display: inline-block
-      margin-left: -6px
-      margin-right: $spacing-md
-      fill: $gray-light
-    &:hover, &:active, &:focus
-      svg.azicon
-        fill: $white
-
-    &.text-primary
-      color: $brand-primary
-      svg.azicon
-        fill: $brand-primary
-      &:hover, &:active, &:focus
-        color: $white
-        svg.azicon
-          fill: $white
-  .divider
-    margin: 16px 0
-
-.dropdown-popover
-  > .dropdown-menu
-    pointer-events: none
-    left: 50%
-    padding: 0
-    border: none
-    box-shadow: none
-    background: none
-    min-width: 0
-
-    > .arrow
-      border-color: transparent
-      border-bottom-color: $popover-fallback-border-color
-      border-bottom-color: $popover-border-color
-      border-width: $popover-arrow-outer-width
-      border-top-width: 0
-      border-style: solid
-      position: absolute
-      top: 0
-      left: 0
-      display: block
-      width: 0
-      height: 0
-      margin-left: -$popover-arrow-width
-      &:after
-        content: " "
-        top: 1px
-        margin-left: -$popover-arrow-width
-        border-width: $popover-arrow-width
-        border-top-width: 0
-        border-color: transparent
-        border-bottom-color: $popover-bg
-        border-style: solid
-        display: block
-        width: 0
-        height: 0
-
-    > .popover
-      display: block
-      left: -50%
-      padding: 0
-      position: relative
-      pointer-events: all
-
-      &--xs
-        min-width: 180px
-
-      &--sm
-        min-width: 220px
-
-      &--md
-        width: 300px
-
-      > .popover-content
-        padding-left: 0
-        padding-right: 0
-
-    &.right,
-    &.left
-      position: static
-      > .arrow
-        top: 100%
-        left: 50%
-      > .popover
-        position: absolute
-        top: 100%
-
-    &.right > .popover
-      left: 0
-      right: auto
-    &.left > .popover
-      right: 0
-      left: auto
-
-.dropdown-menu--list
-  display: block
-  padding: 0
-  border: none
-  box-shadow: none
-  position: static
-  float: none
-
-// Dropdown menu icons
 .dropdown-menu
+  margin: 1px 0 0
+  border-radius: $border-radius-small
   > li > a
+    padding: $spacing-xmd
     svg.azicon
       fill: $gray-light
     &:focus
+      color: $white
+      background-color: $brand-primary
+      .text-muted
+        color: $white
       svg.azicon
         fill: $white
 
-.dropdown-menu-options .dropdown-menu > li.disabled > a,
-.dropdown-menu-options .dropdown-menu > li.disabled > a:hover,
-.dropdown-menu-options .dropdown-menu > li.disabled > a:focus
-  background: $white
-  color: $gray-light
-  fill: $gray-light
+.dropdown-menu-item
+  min-width: 300px
+  white-space: normal
 
 .dropdown-validation-form
   border-top: $brand-light solid 1px
   padding: $spacing-md
-
-.dropdown--unrelative
-  position: static
-
-.dropdown-popover > .dropdown-menu > .popover > .popover-content
-  padding: $spacing-sm 0
-.dropdown-menu > li > a
-  padding: 12px
-
-.dropdown-menu > li > a > .azicon
-  margin-top: -3px
-  margin-left: -3px
 
 .dropdown-menu--datepicker
   width: 240px
@@ -290,9 +64,6 @@
 
 .dropdown-popover > .dropdown-menu > .popover.dropdown-menu--datepicker
   width: 240px
-
-.dropdown-menu > li > a:focus .text-muted
-  color: $white
 
 .dropdown-menu
   &--xs
@@ -304,16 +75,6 @@
   &--lg
     min-width: 300px
 
-.dropdown--unrelative > .dropdown-menu
-  top: initial
-  left: 6px
-  right: 6px
-
-  > .popover
-    left: initial
-    width: 100%
-    max-width: 100%
-
-.dropdown-menu > li > a:focus
-  color: $white
-  background-color: $brand-primary
+.dropdown-menu > .premium-dropdown-item > a
+  min-width: 350px
+  white-space: normal
