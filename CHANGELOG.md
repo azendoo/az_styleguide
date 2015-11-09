@@ -1,3 +1,6 @@
+== 0.8.42
+  * Add hebraic support for font
+
 == 0.8.41
   Clean and unpdate dropdowns
 
