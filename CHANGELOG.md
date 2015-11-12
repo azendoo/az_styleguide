@@ -1,3 +1,6 @@
+== 0.8.43
+  Add light font-weight
+
 == 0.8.42
   * Add hebraic support for font
 
