@@ -1,4 +1,7 @@
 == 0.8.43
+  Line height and font-size text utilities
+
+== 0.8.43
   Add light font-weight
 
 == 0.8.42
