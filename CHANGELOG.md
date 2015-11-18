@@ -1,3 +1,7 @@
+== 0.8.45
+  Link disabled style
+  Harmonize line-height variables
+
 == 0.8.44
   Line height and font size text utilities
 
