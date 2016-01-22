@@ -1,3 +1,6 @@
+== 0.8.46
+  * Remove outline for all elements
+
 == 0.8.45
   Link disabled style
   Harmonize line-height variables
