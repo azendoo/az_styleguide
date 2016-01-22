@@ -73,8 +73,11 @@ $font-size-small       : 13px
 $font-size-base        : 14px
 $font-size-base-plus   : 15px
 
-$line-height-smaller   : 1.167
-$line-height-small     : 1.154
+$line-height-smaller-computed : 14px
+$line-height-smaller          : $line-height-smaller-computed / $font-size-smaller
+$line-height-small-computed   : 15px
+$line-height-small            : $line-height-small-computed / $font-size-small
+$line-height-base             : 1.35
 
 $state-success-text    : $green
 $state-warning-text    : #F68B38 // orange
@@ -142,7 +145,6 @@ $page-navbar-padding : 3px
 
 $grid-gutter-width    : $spacing-lg
 $well-padding         : $spacing-lg
-$line-height-computed : $spacing-lg
 
 $icons-azendoo-size-base   : 24px
 $icons-azendoo-size-small  : 18px
