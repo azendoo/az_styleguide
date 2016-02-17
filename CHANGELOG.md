@@ -1,3 +1,6 @@
+== 0.8.47
+  Update Frame
+
 == 0.8.46
   * Remove outline for all elements
 
