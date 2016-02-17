@@ -37,14 +37,14 @@
 
 @mixin button-variant-azendoo
   border: 0
-  border-radius: $border-radius-small
+  border-radius: 4px
   &, &:active, &:focus
     outline: 0
 
 .btn
   border-bottom-width: 0
   -webkit-font-smoothing: antialiased
-  padding: 7px 14px
+  padding: 8px 16px
 
 .btn.btn-default
   $active-color: #F7FAFC
@@ -63,16 +63,15 @@
   +button-variant-azendoo
   color: $white
   font-weight: $font-weight-semibold
-  +box-shadow(inset 0px 0px 0px 1px rgba(0, 0, 0, .1))
-  background-image: linear-gradient(-180deg, #42AFE2 0%, #429AE2 100%)
-  text-shadow: 0 -1px 0 rgba(0,0,0,.2)
+  background: #0092CC
+  +box-shadow(0px 1px 2px 0px rgba(0,0,0,0.05), inset 0px 0px 0px 1px rgba(0,0,0,0.10))
+  border-radius: 4px
   &:hover, .open > &.dropdown-toggle, &:focus
-    background-image: linear-gradient(-180deg, #4CBAED 0%, #429AE2 100%)
+    +box-shadow(0px 1px 2px 0px rgba(0,0,0,0.05), inset 0px 0px 0px 1px rgba(0,0,0,0.20))
   &:active, &.active
-    background-image: linear-gradient(0deg, #42AFE2 0%, #429AE2 100%)
-    text-shadow: 0 1px 0 rgba(0,0,0,.2)
+    background: #008DC5
   &.disabled, &[disabled]
-    +opacity(.5)
+    +opacity(.2)
 
 .btn.btn-danger
   +box-shadow(inset 0 0 0 1px rgba(0,0,0,.1))
