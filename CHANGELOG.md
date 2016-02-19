@@ -1,3 +1,6 @@
+== 0.8.48
+  Add color yellow-star
+
 == 0.8.47
   Update Frame
 
