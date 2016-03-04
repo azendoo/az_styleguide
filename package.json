@@ -1,6 +1,6 @@
 {
   "name": "az_styleguide",
-  "version": "0.8.48",
+  "version": "0.9.0",
   "private": true,
   "description": "The aim is to provide a standard guide to be able to follow design rules among azendoo services.",
   "main": "index.js",

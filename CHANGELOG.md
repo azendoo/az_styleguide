@@ -1,3 +1,6 @@
+== 0.9.0
+  support npm
+
 == 0.8.48
   Add color yellow-star
 
