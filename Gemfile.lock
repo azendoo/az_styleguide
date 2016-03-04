@@ -63,7 +63,7 @@ GEM
     lumberjack (1.0.5)
     method_source (0.8.2)
     multi_json (1.9.3)
-    nio4r (1.0.0)
+    nio4r (1.2.1)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -96,3 +96,6 @@ DEPENDENCIES
   rack
   rack-livereload
   sass
+
+BUNDLED WITH
+   1.11.2

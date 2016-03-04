@@ -1,0 +1,20 @@
+{
+  "name": "az_styleguide",
+  "version": "0.8.48",
+  "private": true,
+  "description": "The aim is to provide a standard guide to be able to follow design rules among azendoo services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azendoo/az_styleguide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azendoo/az_styleguide/issues"
+  },
+  "homepage": "https://github.com/azendoo/az_styleguide#readme"
+}

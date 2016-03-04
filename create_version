@@ -18,10 +18,6 @@ var isRepoClean = function() {
     exit('Run this command when your repo is clean');
 }
 
-var requiredNodeVersion = 'v0.12.0';
-if (process.version !== requiredNodeVersion)
-  exit('Please use node ' + requiredNodeVersion);
-
 if (process.argv.length < 3)
   exit('Please provide a version as argument');
 
@@ -49,6 +45,7 @@ if (compass.status !== 0)
 var tmpChangelogPath = '.current_changelog.md';
 var changeLogPath    = 'CHANGELOG.md';
 var bowerPath        = 'bower.json';
+var packagePath      = 'package.json';
 var version = process.argv[2];
 
 var editor = childProcess.spawn(process.env.EDITOR, [tmpChangelogPath], {stdio: 'inherit'});
@@ -85,8 +82,11 @@ editor.on('exit', function() {
 
   var bower = JSON.parse(fs.readFileSync(bowerPath, {encoding: 'utf-8'}));
   bower.version = version;
-  fs.writeFileSync(bowerPath, JSON.stringify(bower));
+  fs.writeFileSync(bowerPath, JSON.stringify(bower, null, 2));
 
+  var package = JSON.parse(fs.readFileSync(packagePath, {encoding: 'utf-8'}));
+  package.version = version;
+  fs.writeFileSync(packagePath, JSON.stringify(package, null, 2));
   runGit(['add', changeLogPath, bowerPath]);
   runGit(['commit', '-a', '-m', 'bumped to version ' + version]);
   runGit(['tag', '-a', '-m', '"Bumped to version ' + version + '"', version]);

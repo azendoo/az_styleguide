@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/davidfournier/.nvm/versions/node/v5.3.0/bin/node',
+1 verbose cli   '/Users/davidfournier/.nvm/versions/node/v5.3.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/davidfournier/workspace/az_styleguide',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/davidfournier/.npm/az_styleguide/0.8.48/package.tgz not in flight; packing
+9 info lifecycle az_styleguide@0.8.48~prepublish: az_styleguide@0.8.48
+10 silly lifecycle az_styleguide@0.8.48~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/davidfournier/.npm/az_styleguide/0.8.48/package.tgz',
+11 verbose tar pack   '/Users/davidfournier/workspace/az_styleguide' ]
+12 verbose tarball /Users/davidfournier/.npm/az_styleguide/0.8.48/package.tgz
+13 verbose folder /Users/davidfournier/workspace/az_styleguide
+14 verbose addLocalTarball adding from inside cache /Users/davidfournier/.npm/az_styleguide/0.8.48/package.tgz
+15 silly cache afterAdd az_styleguide@0.8.48
+16 verbose afterAdd /Users/davidfournier/.npm/az_styleguide/0.8.48/package/package.json not in flight; writing
+17 verbose afterAdd /Users/davidfournier/.npm/az_styleguide/0.8.48/package/package.json written
+18 silly publish { name: 'az_styleguide',
+18 silly publish   version: '0.8.48',
+18 silly publish   private: true,
+18 silly publish   description: 'The aim is to provide a standard guide to be able to follow design rules among azendoo services.',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/azendoo/az_styleguide.git' },
+18 silly publish   author: '',
+18 silly publish   license: 'ISC',
+18 silly publish   bugs: { url: 'https://github.com/azendoo/az_styleguide/issues' },
+18 silly publish   homepage: 'https://github.com/azendoo/az_styleguide#readme',
+18 silly publish   readme: '## Azendoo Styleguides\n\nThe aim is to provide a standard guide to be able to follow design rules among\nazendoo services.\n\n## Setup\n\n    bundle install\n    foreman start\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '0e87c050bd0df1284b4c5ab075eb115707f83876',
+18 silly publish   _id: 'az_styleguide@0.8.48',
+18 silly publish   _shasum: '025b1e48078b4ec8a2737057b2ffd9bb317314f1',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 verbose stack Error: This package has been marked as private
+20 verbose stack Remove the 'private' field from the package.json to publish it.
+20 verbose stack     at publish_ (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/lib/publish.js:100:15)
+20 verbose stack     at Array.<anonymous> (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+20 verbose stack     at LOOP (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+20 verbose stack     at LOOP (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+20 verbose stack     at chain (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+20 verbose stack     at /Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/lib/publish.js:72:5
+20 verbose stack     at RES (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+20 verbose stack     at f (/Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/once/once.js:17:25)
+20 verbose stack     at /Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/lib/cache.js:361:16
+20 verbose stack     at /Users/davidfournier/.nvm/versions/node/v5.3.0/lib/node_modules/npm/node_modules/write-file-atomic/index.js:29:15
+21 verbose cwd /Users/davidfournier/workspace/az_styleguide
+22 error Darwin 15.3.0
+23 error argv "/Users/davidfournier/.nvm/versions/node/v5.3.0/bin/node" "/Users/davidfournier/.nvm/versions/node/v5.3.0/bin/npm" "publish"
+24 error node v5.3.0
+25 error npm  v3.3.12
+26 error This package has been marked as private
+26 error Remove the 'private' field from the package.json to publish it.
+27 error If you need help, you may report this error at:
+27 error     <https://github.com/npm/npm/issues>
+28 verbose exit [ 1, true ]
